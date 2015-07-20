@@ -1,0 +1,10 @@
+name: "OpenSwitch"
+description: "Open Switch Network OS"
+
+url: "www.openhalon.io"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+highlighter: true
