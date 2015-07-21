@@ -62,7 +62,7 @@ aside {
     padding: 50px 0;
 }
 
-.container {
+.main-container {
     padding-top: 60px;
 }
 
@@ -521,4 +521,14 @@ body {
 }
 .col-bottom {
   vertical-align: bottom;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  padding-top: 15px;
+  background-color: #e5e5e5;
 }

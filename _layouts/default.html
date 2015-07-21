@@ -1,10 +1,4 @@
 {% include header.html %}
-    <style>
-      hr {
-          max-width: auto;
-          border-color: #000000;
-      }
-    </style>
         <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
               <div class="navbar-header">
@@ -22,13 +16,23 @@
             </div>
           </nav>
 
-    <div class="container">
-
+    <div class="container main-container">
       {{ content }}
-
-      <hr>
-      <footer>
-        <p>&copy; OpenSwitch Project 2015</p>
-      </footer>
     </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-8 col-md-8">
+            <p>&copy; OpenSwitch Project 2015</p>
+          </div>
+          <div class="col-xs-4 col-md-4">
+            <p class="text-right">
+              <a href="http://openswitch.slack.com/"><i class="fa fa-slack fa-2x"></i></a>
+              <a href="http://github.com/open-switch"><i class="fa fa-github fa-2x"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
 {% include footer.html %}
