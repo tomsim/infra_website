@@ -7,3 +7,6 @@ paginate: 10
 
 permalink: pretty
 highlighter: true
+
+gems:
+  - jekyll-asciidoc
