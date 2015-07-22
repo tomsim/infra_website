@@ -64,6 +64,11 @@ aside {
 
 .main-container {
     padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.document-container {
+    padding-bottom: 50px;
 }
 
 .no-padding {
@@ -95,8 +100,8 @@ aside {
 .navbar-nav>li>div {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
   line-height: 20px;
   position: relative;
   display: block;
@@ -163,6 +168,11 @@ aside {
 .navbar-default .nav > li.active>div:hover,
 .navbar-default .nav>li.active>div:focus:hover {
     background-color: transparent;
+}
+
+.navbar-inverse.affix,
+.navbar-default.affix {
+    background-color: rgba(0,0,0,.9);;
 }
 
 @media(min-width:768px) {
@@ -585,6 +595,6 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  padding-top: 15px;
+  padding-top: 20px;
   background-color: #e5e5e5;
 }

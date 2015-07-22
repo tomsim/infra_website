@@ -1,0 +1,16 @@
+{% include header.html %}
+{% include navbar.html %}
+
+<div class="container-fuild main-container">
+  <div class="row-fluid">
+    <div class="hidden-xs hidden-sm col-md-3">
+        <div id="toc"></div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-9 document-container">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+{% include footbar.html %}
+{% include footer.html %}
