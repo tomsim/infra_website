@@ -94,7 +94,8 @@ aside {
 
 .navbar-logo {
     float: left;
-    height: 50px;
+    padding-top: 10px;
+    height: 40px;
 }
 
 .navbar-nav>li>div {
@@ -232,7 +233,7 @@ aside {
     .navbar-inverse.affix,
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: rgba(255,255,255,.9);;
+        background-color: rgba(0,0,0,.8);;
     }
 
     .navbar-inverse.affix .navbar-header .navbar-brand,
@@ -248,6 +249,7 @@ aside {
         color: #eb3812;
     }
 
+/*
     .navbar-inverse.affix .nav > li>a,
     .navbar-inverse.affix .nav>li>a:focus,
     .navbar-default.affix .nav > li>a,
@@ -258,6 +260,7 @@ aside {
     .navbar-default.affix .nav>li>div:focus {
         color: #222;
     }
+*/
 
     .navbar-inverse.affix .nav > li>a:hover,
     .navbar-inverse.affix .nav>li>a:focus:hover,
