@@ -5,8 +5,12 @@ url: "www.openhalon.io"
 
 paginate: 10
 
+markdown: kramdown
 permalink: pretty
 highlighter: true
+
+kramdown:
+  input: GFM
 
 gems:
   - jekyll-asciidoc
