@@ -1,0 +1,42 @@
+// (C) Copyright 2014-2015 Hewlett-Packard Development Company, L.P.
+$openswitch-fonts-path: 'fonts' !default;
+
+@font-face {
+  font-family: 'Exo';
+  src: url('#{$openswitch-fonts-path}/exo-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url('#{$openswitch-fonts-path}/exo-bold.woff') format('woff');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url('#{$openswitch-fonts-path}/exo-semibold.woff') format('woff');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url('#{$openswitch-fonts-path}/exo-light.woff') format('woff');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url('#{$openswitch-fonts-path}/exo-regular.woff') format('woff');
+}
+
+$brand-font-family: 'Exo', Arial, sans-serif;
+$brand-link-color: inherit;
+$brand-color: #eee;
+
+$brand-neutral-colors: (#3d8eff, #13c37f, #d06f3e, #9f309b);
+$brand-accent-colors: (#6539a4);
+
+$openswitch-text-color: #fff;
+
+$button-primary-text-color: $openswitch-text-color;
+$button-primary-background-color: #6539a4;

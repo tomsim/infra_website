@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>OpenSwitch - Website</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="shortcut icon" type="image/png" href="img/shortcut-icon.png" />
+  <link rel="apple-touch-icon" sizes="196x196" type="image/png" href="img/mobile-app-icon.png">
+  <style>
+  body.loading {margin: 0px; width: 100vw; height: 100vh;
+    background-image: radial-gradient(circle at 50% 15%, #fff, #fff 30%, #ccc);
+  }
+  body.loading #content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 0px;
+  }
+  body.loading #logo {
+    position: absolute; display: block; width: 140px; height: 140px;
+    top: calc(36vh - 120px); left: calc(53.5vw - 120px);
+  }
+  div.t {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0px;
+    width: 10vw;
+    height: 10vh;
+    background-color: #e2e2e2;
+  }
+  div.t.on {
+    -webkit-animation: pulse 3s infinite linear alternate;
+    -moz-animation: pulse 3s infinite linear alternate;
+    animation: pulse 3s infinite linear alternate;
+  }
+  div.t.on:hover {
+    -webkit-animation: none;
+    background-color: #ccc;
+  }
+  @-webkit-keyframes pulse {
+    100% { background-color: #fff; }
+  }
+  @-moz-keyframes pulse {
+    100% { background-color: #fff; }
+  }
+  @keyframes pulse {
+    100% { background-color: #fff; }
+  }
+  </style>
+</head>
+<body class="loading">
+  <div id="content">
+    <svg id="logo" version="1.1" viewBox="0 0 196.203 220" fill="none" stroke="#6539a4" width="120px">
+      <path stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="
+        M31.317,122.094l20.234-20.234l20.234,20.234 M51.551,190.888V101.86">
+        <animate attributeName="d" from="M31.317,161.094l20.234-20.234l20.234,20.234 M51.551,190.888v-44.514"
+          to="M31.317,122.094l20.234-20.234l20.234,20.234 M51.551,190.888V101.86" begin="0s" dur="0.5s" repeatCount="indefinite"/>
+      </path>
+      <path stroke-width="10" stroke-linecap="round" stroke-linejoin="round" begin="0s" d="
+        M124.418,122.094l20.234-20.234l20.234,20.234 M144.652,101.86v89.028">
+        <animate attributeName="d" from="M124.418,161.094l20.234-20.234l20.234,20.234 M144.652,153.03v37.858"
+          to="M124.418,122.094l20.234-20.234l20.234,20.234 M144.652,101.86v89.028" begin="0.1s" dur="0.5s" repeatCount="indefinite"/>
+      </path>
+      <path stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="
+        M77.868,159.357l20.234-20.234l20.234,20.234 M98.101,139.124V215">
+        <animate attributeName="d" from="M77.868,127.357l20.234-20.234l20.234,20.234 M98.101,107.874V215"
+          to="M77.868,159.357l20.234-20.234l20.234,20.234 M98.101,139.124V215" begin="0.2s" dur="0.5s" repeatCount="indefinite"/>
+      </path>
+      <path stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="M13.093,51.575L90.008,7.169
+        c5.008-2.892,11.179-2.892,16.187,0l76.914,44.407c5.008,2.892,8.093,8.235,8.093,14.018v88.813c0,5.783-3.085,11.127-8.093,14.018
+        l-76.914,44.407c-5.008,2.892-11.179,2.892-16.187,0l-76.914-44.407C8.085,165.533,5,160.19,5,154.407V65.593
+        C5,59.81,8.085,54.467,13.093,51.575z"/>
+      <circle stroke-width="10" cx="98.335" cy="69.923" r="20"/>
+    </svg>
+    <script>
+    var c = document.getElementById("content");
+    for (var i = 0; i < 100; i += 1) {
+      c.insertAdjacentHTML('beforeend', '<div class="t off"></div>');
+    }
+    var timer = setInterval(function () {
+      var again = false;
+      if (document.body.classList.contains('loading')) {
+        var ts = c.querySelectorAll('div.t.off');
+        var index = Math.floor(Math.random() * ts.length);
+        ts[index].classList.remove('off');
+        ts[index].classList.add('on');
+        if (ts.length > 1) {
+          again = true;
+        }
+      }
+      if (! again) {
+        clearInterval(timer);
+      }
+    }, 100);
+    </script>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
