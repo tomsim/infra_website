@@ -19,9 +19,9 @@ if (__DEV_MODE__) {
 var routes = (
   <Route name="openSwitch" path={rootPath} handler={OpenSwitch}>
     <Route name="home" path={rootPath} handler={Home} />
-    <Route name="documentation" handler={Documentation} />
     <Route name="community" handler={Community} />
     <Route name="develop" handler={Develop} />
+    {Documentation.routes()}
   </Route>
 );
 

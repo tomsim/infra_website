@@ -29,7 +29,7 @@ var Twitter = React.createClass({
     var logoTitleId = 'twitter-title-' + uuid.v1();
 
     return (
-      <svg className={classes.join(' ')} width="36px" viewBox="0 0 30 24.4"
+      <svg className={classes.join(' ')} width="30px" height="30px" viewBox="0 0 30 24.4"
         version="1.1" role="img" aria-labelledby={logoTitleId}>
         <title id={logoTitleId}>{this.getGrommetIntlMessage(this.props.a11yTitle)}</title>
         <path fill="#4999D4" d="M30,2.9c-1.1,0.5-2.3,0.8-3.5,1c1.3-0.8,2.2-2,2.7-3.4c-1.2,0.7-2.5,1.2-3.9,1.5C24.1,0.7,22.5,0,20.8,0

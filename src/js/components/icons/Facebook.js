@@ -29,7 +29,7 @@ var Facebook = React.createClass({
     var logoTitleId = 'facebook-title-' + uuid.v1();
 
     return (
-      <svg className={classes.join(' ')} width="15px" viewBox="0 0 14.3 27.5"
+      <svg className={classes.join(' ')} width="15px" height="30px" viewBox="0 0 14.3 27.5"
         version="1.1" role="img" aria-labelledby={logoTitleId}>
         <title id={logoTitleId}>{this.getGrommetIntlMessage(this.props.a11yTitle)}</title>
         <path fill="#2460AD" d="M9.3,27.5V15h4.2l0.6-4.9H9.3V6.9c0-1.4,0.4-2.4,2.4-2.4l2.6,0V0.2c-0.4-0.1-2-0.2-3.8-0.2

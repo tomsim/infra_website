@@ -1,5 +1,5 @@
 // (C) Copyright 2014-2015 Hewlett-Packard Development Company, L.P.
-$openswitch-fonts-path: 'fonts' !default;
+$openswitch-fonts-path: 'https://openswitchfonts.s3.amazonaws.com' !default;
 
 @font-face {
   font-family: 'Exo';
@@ -31,12 +31,13 @@ $openswitch-fonts-path: 'fonts' !default;
 
 $brand-font-family: 'Exo', Arial, sans-serif;
 $brand-link-color: inherit;
-$brand-color: #eee;
+$brand-color: #654199;
 
-$brand-neutral-colors: (#3d8eff, #13c37f, #d06f3e, #9f309b);
-$brand-accent-colors: (#6539a4);
+$brand-neutral-colors: (#432965, #724230, #3D7791, #CDCCCC);
+$brand-accent-colors: (#D0703E, #B2AA61, #6492A6);
 
 $openswitch-text-color: #fff;
 
 $button-primary-text-color: $openswitch-text-color;
-$button-primary-background-color: #6539a4;
+$button-primary-background-color: $brand-color;
+$border-radius: 8px;

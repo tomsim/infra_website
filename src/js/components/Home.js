@@ -61,7 +61,7 @@ var Home = React.createClass({
     return (
       <Article>
 
-        <Header className="home" float={true} />
+        <Header className="home" float={true} media="lap-and-up" />
 
         <HomeSection primary={true} full={true} className="openswitch-hero"
           backgroundImage={'url(img/openswitch-background.png)'}>
@@ -70,19 +70,19 @@ var Home = React.createClass({
           <Headline small={true}>
             OpenSwitch is the open source solution to orchestrating your network.
           </Headline>
-          <Menu direction="row" justify="center" pad="large">
+          <Menu direction="row">
             <Button label="Download OpenSwitch" onClick={this._onClick} primary={true} />
           </Menu>
           <p>or <b><a href="#" target="_blank">View Github Project</a></b></p>
         </HomeSection>
 
-        <HomeSection colorIndex="neutral-2">
+        <HomeSection colorIndex="accent-2">
           <Box direction="row">
             <Box pad="large" justify="center" align="center">
               <StoryIcon />
             </Box>
             <Box direction="column" justify="center" align="center">
-              <Headline small={true}>Every network has a story.</Headline>
+              <Headline strong={true}>Every network has a story.</Headline>
               <p>
                 Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
                 ultricies vehicula elit. Sed posuere consectetur est at lobortis.
@@ -96,13 +96,13 @@ var Home = React.createClass({
           </Box>
         </HomeSection>
 
-        <HomeSection colorIndex="neutral-3">
+        <HomeSection colorIndex="accent-1">
           <Box direction="row">
             <Box pad="large" justify="center" align="center">
               <ConsoleIcon />
             </Box>
             <Box direction="column" justify="center" align="center">
-              <Headline small={true}>You make it, it’s your network.</Headline>
+              <Headline strong={true}>You make it, it’s your network.</Headline>
               <p>
                 Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
                 ultricies vehicula elit. Sed posuere consectetur est at lobortis.
@@ -116,13 +116,13 @@ var Home = React.createClass({
           </Box>
         </HomeSection>
 
-        <HomeSection colorIndex="neutral-1">
+        <HomeSection colorIndex="neutral-2">
           <Box direction="row">
             <Box pad="large" justify="center" align="center">
               <CommunityIcon />
             </Box>
             <Box direction="column" justify="center" align="center">
-              <Headline small={true}>Let’s network together!</Headline>
+              <Headline strong={true}>Let’s network together!</Headline>
               <p>
                 Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
                 ultricies vehicula elit. Sed posuere consectetur est at lobortis.
@@ -136,9 +136,9 @@ var Home = React.createClass({
           </Box>
         </HomeSection>
 
-        <HomeSection colorIndex="neutral-4" direction="row">
+        <HomeSection colorIndex="neutral-3" direction="row">
             <Box separator="right" pad="large">
-              <Headline small={true}>
+              <Headline small={true} strong={true}>
                 Designed to work with any hardware and platform.
               </Headline>
               <p>
@@ -173,7 +173,7 @@ var Home = React.createClass({
               </Tiles>
             </Box>
             <Box pad="large">
-              <Headline small={true}>Experience our live network OS solution.</Headline>
+              <Headline small={true} strong={true}>Experience our live network OS solution.</Headline>
               <p>
                 Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
                 ultricies vehicula elit. Sed posuere consectetur est at lobortis.
@@ -212,23 +212,23 @@ var Home = React.createClass({
         </HomeSection>
 
         <Section full={true} backgroundImage={'url(img/network-background.png)'}
-          appCentered={true} justify="start" align="start" pad={{vertical: "large"}}>
-          <Headline small={true}>Your NOS social network</Headline>
+          appCentered={true} justify="start" align="start">
+          <Headline small={true} strong={true}>Your NOS social network</Headline>
           <p>
             OpenSwitch is the open source solution to orchestrating your network.
           </p>
           <Menu direction="row" pad={{vertical: "small"}}>
             <Button label="The OpenSwitch Blog" onClick={this._onClick} primary={true} />
           </Menu>
-          <div className="icon-tile">
+          <Menu direction="row" responsive={false} pad={{ vertical: "small" }}>
             <TwitterIcon />
             <FacebookIcon />
             <SlackIcon />
             <YoutubeIcon />
-          </div>
+          </Menu>
         </Section>
 
-        <Footer />
+        <Footer float={true} />
       </Article>
     );
   }

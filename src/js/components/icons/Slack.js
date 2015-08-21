@@ -30,7 +30,7 @@ var Slack = React.createClass({
 
     return (
       <svg className={classes.join(' ')} viewBox="0 0 30 30"
-        width="30px" version="1.1" role="img" aria-labelledby={logoTitleId}>
+        width="30px" height="30px" version="1.1" role="img" aria-labelledby={logoTitleId}>
         <title id={logoTitleId}>{this.getGrommetIntlMessage(this.props.a11yTitle)}</title>
         <path fill="#84356D" d="M27.5,18.8h-3.8v-7.5h3.8c1.4,0,2.5-1.1,2.5-2.5s-1.1-2.5-2.5-2.5h-3.8V2.5c0-1.4-1.1-2.5-2.5-2.5
   c-1.4,0-2.5,1.1-2.5,2.5v3.8h-7.5V2.5c0-1.4-1.1-2.5-2.5-2.5C7.4,0,6.2,1.1,6.2,2.5v3.8H2.5C1.1,6.2,0,7.4,0,8.8s1.1,2.5,2.5,2.5

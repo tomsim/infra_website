@@ -13,7 +13,7 @@ var Header = React.createClass({
 
   render: function() {
     return (
-      <GrommetHeader {...this.props} fixed={false}
+      <GrommetHeader {...this.props} media={this.props.media} fixed={false}
         float={this.props.float} large={true}
         appCentered={true} justify="between">
         <Title responsive={false}>
@@ -24,7 +24,7 @@ var Header = React.createClass({
             <b>Open</b>Switch
           </Link>
         </Title>
-        <Menu direction="row" responsive={false}>
+        <Menu direction="row" responsive={false} media={this.props.menuMedia}>
           <Link to="documentation">{this.getGrommetIntlMessage('Documentation')}</Link>
           <Link to="develop">{this.getGrommetIntlMessage('Develop')}</Link>
           <Link to="community">{this.getGrommetIntlMessage('Community')}</Link>

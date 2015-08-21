@@ -17,7 +17,7 @@ var Develop = React.createClass({
     return (
       <Article>
 
-        <Header colorIndex="neutral-1" />
+        <Header colorIndex="neutral-1" menuMedia="lap-and-up" />
 
         <Section appCentered={true}>
           <h1>{this.getGrommetIntlMessage('Develop')}</h1>

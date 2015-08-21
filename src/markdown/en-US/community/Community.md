@@ -8,6 +8,6 @@ This is a simple content created using markdown format
 
 * test: this parameter is mandatory
 
-[Go to Home Page](/)
+[Go to Home Page](/open-switch/)
 
-[Go to Documetation](/documentation)
+[Go to Documetation](/open-switch/documentation)

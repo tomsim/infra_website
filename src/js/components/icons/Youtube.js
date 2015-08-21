@@ -30,7 +30,7 @@ var Youtube = React.createClass({
 
     return (
       <svg className={classes.join(' ')} viewBox="0 0 35 24.6"
-        width="35px" version="1.1" role="img" aria-labelledby={logoTitleId}>
+        width="35px" height="30px" version="1.1" role="img" aria-labelledby={logoTitleId}>
         <title id={logoTitleId}>{this.getGrommetIntlMessage(this.props.a11yTitle)}</title>
         <path fill="#EF4025" d="M34.7,5.3c0,0-0.3-2.4-1.4-3.5c-1.3-1.4-2.8-1.4-3.5-1.5C24.9,0,17.5,0,17.5,0h0c0,0-7.3,0-12.2,0.4
       C4.6,0.4,3.1,0.4,1.7,1.8c-1,1.1-1.4,3.5-1.4,3.5S0,8.1,0,11v2.7c0,2.8,0.4,5.7,0.4,5.7s0.3,2.4,1.4,3.5c1.3,1.4,3.1,1.4,3.9,1.5
