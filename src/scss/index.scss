@@ -70,4 +70,29 @@ header {
     padding: 0;
     padding-top: $inuit-base-spacing-unit;
   }
+
+  table {
+    @extend .table;
+
+    @extend .table_table;
+  }
+
+  pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+  }
+
+  blockquote {
+    border-left: 4px solid nth($brand-neutral-colors, 1);
+    background-color: #f8f8f8;
+    padding: 1px $inuit-base-spacing-unit - 4px;
+    display: flex;
+  }
+
+  .hljs.ascii-art {
+    border: 0;
+    background: none;
+  }
 }

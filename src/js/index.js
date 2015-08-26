@@ -1,4 +1,5 @@
 require('../scss/index.scss');
+require("!style!css!highlight.js/styles/github.css");
 
 var React = require('react');
 var Router = require('react-router');
@@ -11,7 +12,7 @@ var Community = require('./components/Community');
 var Develop = require('./components/Develop');
 var Locale = require('grommet/utils/Locale');
 
-var rootPath = '/';
+var rootPath = '/open-switch/';
 if (__DEV_MODE__) {
   rootPath = '/'; // webpack-dev-server
 }

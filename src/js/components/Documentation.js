@@ -2,7 +2,6 @@ var React = require('react');
 var Router = require('react-router');
 var Route = Router.Route;
 var RouteHandler = Router.RouteHandler;
-var NotFoundRoute = Router.NotFoundRoute;
 
 var Article = require('grommet/components/Article');
 var Section = require('grommet/components/Section');
@@ -59,22 +58,9 @@ var Documentation = React.createClass({
 });
 
 Documentation.routes = function () {
-  var DefaultRedirect = React.createClass({
-    statics: {
-      willTransitionTo: function(transition, params) {
-        console.log(documentationContents[0].route);
-        transition.redirect(documentationContents[0].route, params);
-      }
-    },
-    render: function () {}
-  });
-
-  var routes = RoutedMenuUtils.createContentRoutes(documentationContents);
+  var routes = RoutedMenuUtils.getRoutes(documentationContents);
   return [
-    <Route key="docs" name="documentation" path='/documentation' handler={Documentation}>
-      <Route path="" handler={DefaultRedirect} />
-      <Route path="/" handler={DefaultRedirect} />
-      <NotFoundRoute handler={DefaultRedirect}/>
+    <Route key="docs" name="documentation" path='documentation' handler={Documentation}>
       {routes}
     </Route>
   ];

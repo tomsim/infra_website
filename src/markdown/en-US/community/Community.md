@@ -1,7 +1,9 @@
 This is a simple content created using markdown format
 
-```
+```javascript
   var test = require('test');
+
+  console.log(test);
 ```
 
 #### Options

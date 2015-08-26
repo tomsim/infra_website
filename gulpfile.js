@@ -13,6 +13,27 @@ String.prototype.capitalize = function() {
   return words.join(' ');
 };
 
+var marked = require('marked');
+var hljs = require('highlight.js/lib/highlight');
+hljs.configure({useBR: true});
+hljs.registerLanguage('bash', require('highlight.js/lib/languages/bash'));
+hljs.registerLanguage('xml', require('highlight.js/lib/languages/xml'));
+hljs.registerLanguage('javascript', require('highlight.js/lib/languages/javascript'));
+hljs.registerLanguage('python', require('highlight.js/lib/languages/python'));
+hljs.registerLanguage('scss', require('highlight.js/lib/languages/scss'));
+var renderer = new marked.Renderer();
+
+renderer.code = function(code, language){
+  var lang = language || 'nohighlight';
+
+  if (language && language !== 'nohighlight' && language !== 'ascii-art') {
+    code = hljs.highlight(lang, code).value;
+  }
+
+  return '<pre><code class="hljs ' + lang + '">' +
+    code.replace(/\n/g, '<br />') + '</code></pre>';
+};
+
 var opts = {
   copyAssets: [
     'src/index.html',
@@ -42,6 +63,9 @@ var opts = {
           loader: 'babel!imports?React=react!html-jsx-loader!markdown-loader'
         }
       ]
+    },
+    markdownLoader: {
+      renderer: renderer
     }
   },
   sync: {

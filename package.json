@@ -36,7 +36,8 @@
     "gulp-file": "^0.2.0",
     "mkdirp": "^0.5.1",
     "node-uuid": "^1.4.0",
-    "grommet": "https://github.com/HewlettPackard/grommet.git#stable"
+    "grommet": "https://github.com/HewlettPackard/grommet.git#stable",
+    "highlight.js": "^8.5.0"
   },
   "devDependencies": {
     "del": "^1.1.1",
@@ -88,7 +89,8 @@
     "selenium-standalone": "^4.2.2",
     "webdriverio": "^2.4.5",
     "html-jsx-loader": "^0.1.12",
-    "markdown-loader": "^0.1.6"
+    "markdown-loader": "^0.1.6",
+    "marked": "^0.3.5"
   },
   "engines": {
     "node": ">= 0.9"

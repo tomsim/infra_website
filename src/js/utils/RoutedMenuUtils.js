@@ -2,6 +2,7 @@ var React = require('react');
 var Router = require('react-router');
 var Link = Router.Link;
 var Route = Router.Route;
+var NotFoundRoute = Router.NotFoundRoute;
 
 var Empty = React.createClass({
   render: function () {
@@ -74,5 +75,22 @@ module.exports = {
       }
     }.bind(this));
     return result;
+  },
+  getRoutes: function (contents) {
+
+    var DefaultRedirect = React.createClass({
+      statics: {
+        willTransitionTo: function(transition, params) {
+          transition.redirect(contents[0].route, params);
+        }
+      },
+      render: function () {}
+    });
+
+    var results = [<Route path="" handler={DefaultRedirect} />];
+    results.push(<Route path="/" handler={DefaultRedirect} />);
+    results.push(<NotFoundRoute handler={DefaultRedirect}/>);
+
+    return results.concat(this.createContentRoutes(contents));
   }
 };
