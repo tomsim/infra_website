@@ -1,5 +1,6 @@
 module.exports = {
   'Documentation': 'Documentation',
   'Community': 'Community',
-  'Develop': 'Develop'
+  'Develop': 'Develop',
+  'Software':'Software'
 };

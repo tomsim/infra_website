@@ -26,8 +26,10 @@ var Header = React.createClass({
         </Title>
         <Menu direction="row" responsive={false} media={this.props.menuMedia}>
           <Link to="documentation">{this.getGrommetIntlMessage('Documentation')}</Link>
-          <Link to="develop">{this.getGrommetIntlMessage('Develop')}</Link>
           <Link to="community">{this.getGrommetIntlMessage('Community')}</Link>
+          <Link to="develop">{this.getGrommetIntlMessage('Develop')}</Link>
+          <Link to="software">{this.getGrommetIntlMessage('Software')}</Link>
+
         </Menu>
       </GrommetHeader>
     );
@@ -35,4 +37,3 @@ var Header = React.createClass({
 });
 
 module.exports = Header;
-

@@ -116,6 +116,26 @@ var Home = React.createClass({
           </Box>
         </HomeSection>
 
+        <HomeSection colorIndex="accent-1">
+          <Box direction="row">
+            <Box pad="large" justify="center" align="center">
+              <ConsoleIcon />
+            </Box>
+            <Box direction="column" justify="center" align="center">
+              <Headline strong={true}>You make it, it’s your network.</Headline>
+              <p>
+                Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
+                ultricies vehicula elit. Sed posuere consectetur est at lobortis.
+              </p>
+              <Menu direction="row">
+                <Link to="software">
+                  <Button label="Software" onClick={this._onClick} primary={true} />
+                </Link>
+              </Menu>
+            </Box>
+          </Box>
+        </HomeSection>
+
         <HomeSection colorIndex="neutral-2">
           <Box direction="row">
             <Box pad="large" justify="center" align="center">

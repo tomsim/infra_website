@@ -11,6 +11,7 @@ var Documentation = require('./components/Documentation');
 var Community = require('./components/Community');
 var Develop = require('./components/Develop');
 var Locale = require('grommet/utils/Locale');
+var Software = require('./components/Software');
 
 var rootPath = '/open-switch/';
 if (__DEV_MODE__) {
@@ -22,6 +23,7 @@ var routes = (
     <Route name="home" path={rootPath} handler={Home} />
     <Route name="community" handler={Community} />
     <Route name="develop" handler={Develop} />
+      <Route name="software" handler={Software} />
     {Documentation.routes()}
   </Route>
 );
