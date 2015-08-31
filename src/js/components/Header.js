@@ -25,11 +25,9 @@ var Header = React.createClass({
           </Link>
         </Title>
         <Menu direction="row" responsive={false} media={this.props.menuMedia}>
-          <Link to="documentation">{this.getGrommetIntlMessage('Documentation')}</Link>
-          <Link to="community">{this.getGrommetIntlMessage('Community')}</Link>
+          <Link to="use">{this.getGrommetIntlMessage('Use')}</Link>
           <Link to="develop">{this.getGrommetIntlMessage('Develop')}</Link>
-          <Link to="software">{this.getGrommetIntlMessage('Software')}</Link>
-
+          <Link to="participate">{this.getGrommetIntlMessage('Participate')}</Link>
         </Menu>
       </GrommetHeader>
     );
