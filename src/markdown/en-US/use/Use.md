@@ -1,4 +1,4 @@
-# Getting Started For Windows
+# Using OpenSwitch
 
 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 
@@ -16,4 +16,7 @@ Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id
 
 
 
-[Visit GitHub!](UseSecond)
+[Use 2!](UseSecond)
+
+Other Docs
+[How to Contribute](/develop/howtoContribute)

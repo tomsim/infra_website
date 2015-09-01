@@ -14,7 +14,6 @@ var IntlMixin = require('grommet/mixins/GrommetIntlMixin');
 var OpenSwitchLogo = require('./icons/OpenSwitchLogo');
 var StoryIcon = require('./icons/Story');
 var ConsoleIcon = require('./icons/Console');
-var CommunityIcon = require('./icons/Community');
 var ServersIcon = require('./icons/Servers');
 var DatabaseIcon = require('./icons/Database');
 var Storage = require('./icons/Storage');
@@ -88,7 +87,7 @@ var Home = React.createClass({
                 ultricies vehicula elit. Sed posuere consectetur est at lobortis.
               </p>
               <Menu direction="row">
-                <Link to="documentation">
+                <Link to="develop">
                   <Button label="Read Documentation" onClick={this._onClick} primary={true} />
                 </Link>
               </Menu>
@@ -110,26 +109,6 @@ var Home = React.createClass({
               <Menu direction="row">
                 <Link to="develop">
                   <Button label="Start Development" onClick={this._onClick} primary={true} />
-                </Link>
-              </Menu>
-            </Box>
-          </Box>
-        </HomeSection>
-
-        <HomeSection colorIndex="accent-1">
-          <Box direction="row">
-            <Box pad="large" justify="center" align="center">
-              <ConsoleIcon />
-            </Box>
-            <Box direction="column" justify="center" align="center">
-              <Headline strong={true}>You make it, it’s your network.</Headline>
-              <p>
-                Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
-                ultricies vehicula elit. Sed posuere consectetur est at lobortis.
-              </p>
-              <Menu direction="row">
-                <Link to="software">
-                  <Button label="Software" onClick={this._onClick} primary={true} />
                 </Link>
               </Menu>
             </Box>
@@ -170,26 +149,6 @@ var Home = React.createClass({
               <Menu direction="row">
                 <Link to="use">
                   <Button label="Use" onClick={this._onClick} primary={true} />
-                </Link>
-              </Menu>
-            </Box>
-          </Box>
-        </HomeSection>
-
-        <HomeSection colorIndex="neutral-2">
-          <Box direction="row">
-            <Box pad="large" justify="center" align="center">
-              <CommunityIcon />
-            </Box>
-            <Box direction="column" justify="center" align="center">
-              <Headline strong={true}>Let’s network together!</Headline>
-              <p>
-                Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
-                ultricies vehicula elit. Sed posuere consectetur est at lobortis.
-              </p>
-              <Menu direction="row">
-                <Link to="community">
-                  <Button label="Join the Community" onClick={this._onClick} primary={true} />
                 </Link>
               </Menu>
             </Box>
