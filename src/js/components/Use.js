@@ -1,14 +1,19 @@
 var React = require('react');
+var Router = require('react-router');
+var Route = Router.Route;
+var RouteHandler = Router.RouteHandler;
+
 
 var Article = require('grommet/components/Article');
 var Header = require('./Header');
 var Section = require('grommet/components/Section');
-
+var RoutedMenuUtils = require('../utils/RoutedMenuUtils');
 var IntlMixin = require('grommet/mixins/GrommetIntlMixin');
 
 var Footer = require('./Footer');
 
-var UseBody = require('./MarkdownContentsMap').use[0].component;
+
+var useContents = require('./MarkdownContentsMap').use;
 
 var Use = React.createClass({
 
@@ -22,7 +27,7 @@ var Use = React.createClass({
 
         <Section appCentered={true}>
           <h1>{this.getGrommetIntlMessage('Use')}</h1>
-          <UseBody />
+          <RouteHandler />
         </Section>
 
         <Footer />
@@ -30,5 +35,15 @@ var Use = React.createClass({
     );
   }
 });
+
+Use.routes = function () {
+  var routes = RoutedMenuUtils.getRoutes(useContents);
+  console.log(routes);
+  return [
+    <Route key="docs" name="use" path='use' handler={Use}>
+      {routes}
+    </Route>
+  ];
+};
 
 module.exports = Use;

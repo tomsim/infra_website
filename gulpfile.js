@@ -31,8 +31,12 @@ renderer.code = function(code, language){
   }
 
   return '<pre><code class="hljs ' + lang + '">' +
-    code.replace(/\n/g, '<br />') + '</code></pre>';
+    code.replace(/\n/g, '<br />').replace(/{/g, "{'{'}").replace(/^'}/g, "{'}'}") + '</code></pre>';
 };
+
+renderer.paragraph = function (text) {
+  return text.replace(/{/g, "{'{'}").replace(/^'}/g, "{'}'}");
+}
 
 var opts = {
   copyAssets: [
@@ -77,6 +81,10 @@ var opts = {
   devPreprocess: ['create-markdown-content-map']
 };
 
+function cleanRoute(route) {
+  return route.replace(/\.md/, '').replace(/[0-9]+\./, '').toLowerCase();
+}
+
 function processPages(baseDir, location, pageSection) {
   var pageSectionTitle = pageSection.capitalize();
   var currentLocation = path.join(baseDir, location, pageSection);
@@ -88,8 +96,8 @@ function processPages(baseDir, location, pageSection) {
     var pageTitle = pageFolderName.replace(/[0-9]+\./g, '');
 
     var prefix = location.indexOf('/') !== -1 ? location.split('/')[1] : '';
-    var routePath = path.join(prefix, location === '' ? '': pageSection, page).replace(/[0-9]+\.|\.md$/g, '').toLowerCase();
-    var routeName = path.join(location, pageSection, page).replace(/[0-9]+\.|\.md$/g, '').replace(/\//g, '_').toLowerCase();
+    var routePath = cleanRoute(path.join(prefix, location === '' ? '': pageSection, page));
+    var routeName = cleanRoute(path.join(location, pageSection, page));
 
     if (fs.statSync(path.join(currentLocation, page)).isDirectory()) {
 
