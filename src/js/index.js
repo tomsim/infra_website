@@ -10,7 +10,7 @@ var Locale = require('grommet/utils/Locale');
 var OpenSwitch = require('./OpenSwitch');
 var Home = require('./components/Home');
 var Use = require('./components/UseBody')('use');
-var Participate = require('./components/GeneralBody')('participate');
+var Participate = require('./components/ParticipateBody')('participate');
 var Develop = require('./components/DevelopBody')('develop');
 var Documents = require('./components/GeneralBody')('documents');
 
