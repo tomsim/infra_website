@@ -12,6 +12,7 @@ var Home = require('./components/Home');
 var Use = require('./components/UseBody')('use');
 var Participate = require('./components/GeneralBody')('participate');
 var Develop = require('./components/GeneralBody')('develop');
+var Documents = require('./components/GeneralBody')('documents');
 
 var rootPath = '/open-switch/';
 if (__DEV_MODE__) {
@@ -24,6 +25,7 @@ var routes = (
     {Develop.routes}
     {Participate.routes}
     {Use.routes}
+    {Documents.routes}
   </Route>
 );
 

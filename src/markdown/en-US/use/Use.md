@@ -9,4 +9,4 @@ High level discussion about compatibility with ONIE, CLI, REST API, Declarative 
 [Use 2!](UseSecond)
 
 Other Docs
-[How to Contribute](/develop/howtoContribute)
+[How to Contribute](/documents/howtoContribute)

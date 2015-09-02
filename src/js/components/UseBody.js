@@ -88,8 +88,8 @@ module.exports = function (path, includeMenu) {
                   High level discussion on installation methods, link to hardware compatibility and links to pages on ONIE and containers
                 </p>
                 <Menu direction="row">
-                  <Link to="develop/howtocontribute">
-                    <Button label="Read Documentation" onClick={this._onClick} primary={true} />
+                  <Link to="documents/installing">
+                    <Button label="Read Installation" onClick={this._onClick} primary={true} />
                   </Link>
                 </Menu>
               </Box>
@@ -108,8 +108,8 @@ module.exports = function (path, includeMenu) {
                   ultricies vehicula elit. Sed posuere consectetur est at lobortis.
                 </p>
                 <Menu direction="row">
-                  <Link to="develop">
-                    <Button label="Start Development" onClick={this._onClick} primary={true} />
+                  <Link to="documents/feature">
+                    <Button label="Read Features" onClick={this._onClick} primary={true} />
                   </Link>
                 </Menu>
               </Box>
@@ -127,8 +127,8 @@ module.exports = function (path, includeMenu) {
                   High level discussion on installation methods, link to hardware compatibility and links to pages on ONIE and containers
                 </p>
                 <Menu direction="row">
-                  <Link to="develop">
-                    <Button label="Read Documentation" onClick={this._onClick} primary={true} />
+                  <Link to="documents/references">
+                    <Button label="References" onClick={this._onClick} primary={true} />
                   </Link>
                 </Menu>
               </Box>
@@ -147,8 +147,8 @@ module.exports = function (path, includeMenu) {
                   ultricies vehicula elit. Sed posuere consectetur est at lobortis.
                 </p>
                 <Menu direction="row">
-                  <Link to="develop">
-                    <Button label="Start Development" onClick={this._onClick} primary={true} />
+                  <Link to="documents/downloads">
+                    <Button label="Downloads" onClick={this._onClick} primary={true} />
                   </Link>
                 </Menu>
               </Box>
