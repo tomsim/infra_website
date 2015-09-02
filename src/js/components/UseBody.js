@@ -54,7 +54,7 @@ module.exports = function (path, includeMenu) {
           <Header colorIndex="neutral-1" menuMedia="lap-and-up" />
 
           <HomeSection primary={true} full={true} className="openswitch-hero"
-            backgroundImage={'url(img/black-background.png)'}>
+            backgroundImage={'url(/img/black-background.png)'}>
             <OpenSwitchLogo a11yTitle=""/>
             <Headline large={true}><b>Open</b>Switch</Headline>
             <Headline small={true}>
