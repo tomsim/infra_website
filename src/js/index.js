@@ -14,7 +14,7 @@ var Participate = require('./components/GeneralBody')('participate');
 var Develop = require('./components/GeneralBody')('develop');
 var Documents = require('./components/GeneralBody')('documents');
 
-var rootPath = '/open-switch/';
+var rootPath = '/';
 if (__DEV_MODE__) {
   rootPath = '/'; // webpack-dev-server
 }
