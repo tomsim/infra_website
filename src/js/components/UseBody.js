@@ -1,7 +1,7 @@
 var React = require('react');
 var Router = require('react-router');
 var Route = Router.Route;
-var RouteHandler = Router.RouteHandler;
+
 var Link = require('react-router').Link;
 
 var Article = require('grommet/components/Article');
@@ -21,6 +21,7 @@ var Headline = require('grommet/components/Headline');
 var Button = require('grommet/components/Button');
 var Box = require('grommet/components/Box');
 var ConsoleIcon = require('./icons/Console');
+var OpenSwitchLogo = require('./icons/OpenSwitchLogo');
 
 module.exports = function (path, includeMenu) {
 
@@ -48,34 +49,27 @@ module.exports = function (path, includeMenu) {
 
     render: function() {
 
-      var menu = RoutedMenuUtils.getMenuItems(contents, this.context.router);
+    
 
-      var documentationBody = (
-        <Section appCentered={true} direction="row" className="document__body">
-          <RouteHandler />
-        </Section>
-      );
-
-      if (includeMenu) {
-        documentationBody = (
-          <Section appCentered={true} direction="row">
-            <Box>
-              <Menu>
-                {menu}
-              </Menu>
-            </Box>
-            <Box pad={{vertical: 'small', horizontal: 'large'}} className="document__body">
-              <RouteHandler />
-            </Box>
-          </Section>
-        );
-      }
       return (
         <Article>
 
           <Header colorIndex="neutral-1" menuMedia="lap-and-up" />
 
-          {documentationBody}
+          <HomeSection primary={true} full={true} className="openswitch-hero"
+            backgroundImage={'url(img/openswitch-background.png)'}>
+            <OpenSwitchLogo a11yTitle=""/>
+            <Headline large={true}><b>Open</b>Switch</Headline>
+            <Headline small={true}>
+              Using OpenSwitch.
+            </Headline>
+            <Menu direction="row">
+              <Link to="documents/introduction">
+                <Button label="Instroduction" onClick={this._onClick} primary={true} />
+                </Link>
+
+            </Menu>
+          </HomeSection>
 
           <HomeSection colorIndex="accent-2">
             <Box direction="row">
@@ -156,7 +150,6 @@ module.exports = function (path, includeMenu) {
           </HomeSection>
 
           <Footer />
-
         </Article>
       );
     }
