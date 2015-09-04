@@ -21,7 +21,6 @@ var Headline = require('grommet/components/Headline');
 var Button = require('grommet/components/Button');
 var Box = require('grommet/components/Box');
 var ConsoleIcon = require('./icons/Console');
-var OpenSwitchLogo = require('./icons/OpenSwitchLogo');
 
 module.exports = function (path, includeMenu) {
 
@@ -53,19 +52,24 @@ module.exports = function (path, includeMenu) {
 
           <Header colorIndex="neutral-1" menuMedia="lap-and-up" />
 
-          <HomeSection primary={true} full={true} className="openswitch-hero"
-            backgroundImage={'url(img/black-background.png)'}>
-            <OpenSwitchLogo a11yTitle=""/>
-            <Headline large={true}><b>Open</b>Switch</Headline>
-            <Headline small={true}>
-              Participate.
-            </Headline>
-            <Menu direction="row">
-              <Link to="documents/how-to-participate">
-                <Button label="How to Participate?" onClick={this._onClick} primary={true} />
-                </Link>
-
-            </Menu>
+          <HomeSection colorIndex="accent-1">
+            <Box direction="row">
+              <Box pad="large" justify="center" align="center">
+                <ConsoleIcon />
+              </Box>
+              <Box direction="column" justify="center" align="center">
+                <Headline strong={true}>How to Participate?.</Headline>
+                <p>
+                  Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
+                  ultricies vehicula elit. Sed posuere consectetur est at lobortis.
+                </p>
+                <Menu direction="row">
+                  <Link to="documents/how-to-participate">
+                    <Button label="How to Participate?" onClick={this._onClick} primary={true} />
+                  </Link>
+                </Menu>
+              </Box>
+            </Box>
           </HomeSection>
 
           <HomeSection colorIndex="accent-2">
