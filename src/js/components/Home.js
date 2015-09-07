@@ -75,7 +75,7 @@ var Home = React.createClass({
           <p>or <b><a href="#" target="_blank">View Github Project</a></b></p>
         </HomeSection>
 
-        <HomeSection colorIndex="accent-2">
+        <HomeSection colorIndex="neutral-1">
           <Box direction="row">
             <Box pad="large" justify="center" align="center">
               <StoryIcon />
@@ -95,27 +95,7 @@ var Home = React.createClass({
           </Box>
         </HomeSection>
 
-        <HomeSection colorIndex="accent-1">
-          <Box direction="row">
-            <Box pad="large" justify="center" align="center">
-              <ConsoleIcon />
-            </Box>
-            <Box direction="column" justify="center" align="center">
-              <Headline strong={true}>You make it, it’s your network.</Headline>
-              <p>
-                Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
-                ultricies vehicula elit. Sed posuere consectetur est at lobortis.
-              </p>
-              <Menu direction="row">
-                <Link to="develop">
-                  <Button label="Start Development" onClick={this._onClick} primary={true} />
-                </Link>
-              </Menu>
-            </Box>
-          </Box>
-        </HomeSection>
-
-        <HomeSection colorIndex="accent-1">
+        <HomeSection colorIndex="neutral-2">
           <Box direction="row">
             <Box pad="large" justify="center" align="center">
               <ConsoleIcon />
@@ -135,27 +115,27 @@ var Home = React.createClass({
           </Box>
         </HomeSection>
 
-        <HomeSection colorIndex="accent-1">
+        <HomeSection colorIndex="neutral-3">
           <Box direction="row">
             <Box pad="large" justify="center" align="center">
               <ConsoleIcon />
             </Box>
             <Box direction="column" justify="center" align="center">
-              <Headline strong={true}>You make it, it’s your network.</Headline>
+              <Headline strong={true}>Let's network together</Headline>
               <p>
                 Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
                 ultricies vehicula elit. Sed posuere consectetur est at lobortis.
               </p>
               <Menu direction="row">
-                <Link to="use">
-                  <Button label="Use" onClick={this._onClick} primary={true} />
+                <Link to="participate">
+                  <Button label="Participate" onClick={this._onClick} primary={true} />
                 </Link>
               </Menu>
             </Box>
           </Box>
         </HomeSection>
 
-        <HomeSection colorIndex="neutral-3" direction="row">
+        <HomeSection colorIndex="neutral-4" direction="row">
             <Box separator="right" pad="large">
               <Headline small={true} strong={true}>
                 Designed to work with any hardware and platform.
