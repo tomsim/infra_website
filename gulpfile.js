@@ -14,14 +14,14 @@ String.prototype.capitalize = function() {
 };
 
 var marked = require('marked');
-var hljs = require('highlight.js/lib/highlight');
-hljs.configure({useBR: true});
-hljs.registerLanguage('bash', require('highlight.js/lib/languages/bash'));
-hljs.registerLanguage('xml', require('highlight.js/lib/languages/xml'));
-hljs.registerLanguage('javascript', require('highlight.js/lib/languages/javascript'));
-hljs.registerLanguage('python', require('highlight.js/lib/languages/python'));
-hljs.registerLanguage('scss', require('highlight.js/lib/languages/scss'));
+var hljs = require('highlight.js/lib/index');
 var renderer = new marked.Renderer();
+marked.setOptions({
+  breaks: true,
+  sanitize: true,
+  smartLists: true,
+  smartypants: true
+});
 
 renderer.code = function(code, language){
   var lang = language || 'nohighlight';
@@ -89,9 +89,25 @@ function processPages(baseDir, location, pageSection) {
   var pageSectionTitle = pageSection.capitalize();
   var currentLocation = path.join(baseDir, location, pageSection);
   var pageSectionCode = [];
+  var processedPages = 0;
 
   var pages = fs.readdirSync(currentLocation);
   pages.forEach(function (page, pageIndex) {
+    // Skip hidden files
+    if (page.match(/^\..*/)) {
+        return;
+    }
+    // Skip non-md files
+    if (! fs.statSync(path.join(currentLocation, page)).isDirectory()) {
+      if (! page.match(/^.*\.md$/)) {
+        return;
+      }
+    } else {
+      if (page == "images") {
+        return;
+      }
+    }
+
     var pageFolderName = page.replace(/\.md$/g, '');
     var pageTitle = pageFolderName.replace(/[0-9]+\./g, '');
 
@@ -99,8 +115,12 @@ function processPages(baseDir, location, pageSection) {
     var routePath = cleanRoute(path.join(prefix, location === '' ? '': pageSection, page));
     var routeName = cleanRoute(path.join(location, pageSection, page));
 
-    if (fs.statSync(path.join(currentLocation, page)).isDirectory()) {
+    if (processedPages != 0) {
+      pageSectionCode.push(',');
+    }
+    processedPages++;
 
+    if (fs.statSync(path.join(currentLocation, page)).isDirectory()) {
       var pageHome = page + '.md';
 
       if (!fs.existsSync(path.join(currentLocation, pageHome))) {
@@ -115,21 +135,12 @@ function processPages(baseDir, location, pageSection) {
       pageSectionCode.push("contents: [");
       pageSectionCode.push(processPages(baseDir, path.join(location, pageSection), page));
       pageSectionCode.push("]}");
-
-      if (++pageIndex < pages.length - 1) {
-        pageSectionCode.push(',');
-      }
-
     } else if (!fs.existsSync(path.join(currentLocation, pageFolderName))) {
 
       pageSectionCode.push("{route: '" + routeName  + "', " +
         "label: '" + pageTitle.replace(/-/g, ' ') + "', " +
         "routePath: '" + routePath + "', " +
         "component: getComponent('" + path.join(location, pageSection) + "', '"+ page + "')}");
-
-      if (pageIndex < pages.length - 1) {
-        pageSectionCode.push(',');
-      }
     }
   });
 

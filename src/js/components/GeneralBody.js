@@ -5,8 +5,6 @@ var RouteHandler = Router.RouteHandler;
 
 var Article = require('grommet/components/Article');
 var Section = require('grommet/components/Section');
-var Box = require('grommet/components/Box');
-var Menu = require('grommet/components/Menu');
 
 var IntlMixin = require('grommet/mixins/GrommetIntlMixin');
 
@@ -28,29 +26,12 @@ module.exports = function (path, includeMenu) {
     mixins: [IntlMixin],
 
     render: function() {
-
-      var menu = RoutedMenuUtils.getMenuItems(contents, this.context.router);
-
       var documentationBody = (
         <Section appCentered={true} direction="row" className="document__body">
           <RouteHandler />
         </Section>
       );
 
-      if (includeMenu) {
-        documentationBody = (
-          <Section appCentered={true} direction="row">
-            <Box>
-              <Menu>
-                {menu}
-              </Menu>
-            </Box>
-            <Box pad={{vertical: 'small', horizontal: 'large'}} className="document__body">
-              <RouteHandler />
-            </Box>
-          </Section>
-        );
-      }
       return (
         <Article>
 

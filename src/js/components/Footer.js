@@ -5,18 +5,12 @@ var Menu = require('grommet/components/Menu');
 
 var IntlMixin = require('grommet/mixins/GrommetIntlMixin');
 
-var TwitterIcon = require('./icons/Twitter');
-var FacebookIcon = require('./icons/Facebook');
-var SlackIcon = require('./icons/Slack');
-var YoutubeIcon = require('./icons/Youtube');
-
-
 var Footer = React.createClass({
 
   mixins: [IntlMixin],
 
   render: function() {
-    var colorIndex = 'accent-2';
+    var colorIndex = 'neutral-3';
     if (this.props.float) {
       colorIndex += '-a';
     }
@@ -28,10 +22,10 @@ var Footer = React.createClass({
           <p>This work is licensed under the <b><a href="http://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution 4.0 International License</a></b>.</p>
         </Box>
         <Menu direction="row" align="end" responsive={false} pad={{ vertical: "small" }}>
-            <a href="http://openswitch.slack.com" target="_blank"><SlackIcon /></a>
-            <a href="#" target="_blank"><FacebookIcon /></a>
-            <a href="#" target="_blank"><TwitterIcon /></a>
-            <a href="#" target="_blank"><YoutubeIcon /></a>
+            <a href="http://git.openswitch.net/" target="_blank"><i className="fa fa-git fa-2x"></i></a>
+            <a href="http://github.com/open-switch" target="_blank"><i className="fa fa-github fa-2x"></i></a>
+            <a href="https://tree.taiga.io/project/openswitch/issues" target="_blank"><i className="fa fa-bug fa-2x"></i></a>
+            <a href="http://openswitch.slack.com" target="_blank"><i className="fa fa-slack fa-2x"></i></a>
         </Menu>
       </GrommetFooter>
     );
