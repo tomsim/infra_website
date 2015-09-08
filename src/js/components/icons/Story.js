@@ -9,11 +9,11 @@ var CLASS_ROOT = "story-icon";
 
 var Story = React.createClass({
 
-  mixins: [IntlMixin],
-
   propTypes: {
     a11yTitle: React.PropTypes.string
   },
+
+  mixins: [IntlMixin],
 
   getDefaultProps: function() {
     return { a11yTitle: 'Story' };

@@ -6,11 +6,11 @@ var IntlMixin = require('grommet/mixins/GrommetIntlMixin');
 
 var OpenSwitch = React.createClass({
 
-  mixins: [IntlMixin],
-
   contextTypes: {
     router: React.PropTypes.func.isRequired
   },
+
+  mixins: [IntlMixin],
 
   render: function() {
     return (

@@ -9,11 +9,11 @@ var CLASS_ROOT = "server-cluster-icon";
 
 var ServerCluster = React.createClass({
 
-  mixins: [IntlMixin],
-
   propTypes: {
     a11yTitle: React.PropTypes.string
   },
+
+  mixins: [IntlMixin],
 
   getDefaultProps: function() {
     return { a11yTitle: 'Server Cluster' };

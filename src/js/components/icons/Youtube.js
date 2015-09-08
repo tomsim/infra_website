@@ -9,11 +9,11 @@ var CLASS_ROOT = "Youtube-icon";
 
 var Youtube = React.createClass({
 
-  mixins: [IntlMixin],
-
   propTypes: {
     a11yTitle: React.PropTypes.string
   },
+
+  mixins: [IntlMixin],
 
   getDefaultProps: function() {
     return { a11yTitle: 'Youtube' };

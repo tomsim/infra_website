@@ -7,12 +7,12 @@ var IntlMixin = require('grommet/mixins/GrommetIntlMixin');
 
 var Grommet = React.createClass({
 
-  mixins: [IntlMixin],
-
   propTypes: {
     small: React.PropTypes.bool,
     a11yTitle: React.PropTypes.string
   },
+
+  mixins: [IntlMixin],
 
   getDefaultProps: function() {
     return { a11yTitle: 'Open Switch' };

@@ -9,11 +9,11 @@ var CLASS_ROOT = "console-icon";
 
 var Console = React.createClass({
 
-  mixins: [IntlMixin],
-
   propTypes: {
     a11yTitle: React.PropTypes.string
   },
+
+  mixins: [IntlMixin],
 
   getDefaultProps: function() {
     return { a11yTitle: 'Console' };

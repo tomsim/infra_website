@@ -14,6 +14,7 @@ var IntlMixin = require('grommet/mixins/GrommetIntlMixin');
 var OpenSwitchLogo = require('./icons/OpenSwitchLogo');
 var StoryIcon = require('./icons/Story');
 var ConsoleIcon = require('./icons/Console');
+var CommunityIcon = require('./icons/Community');
 var ServersIcon = require('./icons/Servers');
 var DatabaseIcon = require('./icons/Database');
 var Storage = require('./icons/Storage');
@@ -22,12 +23,11 @@ var MonitorIcon = require('./icons/Monitor');
 var HostIcon = require('./icons/Host');
 var AppIcon = require('./icons/App');
 var ServerClusterIcon = require('./icons/ServerCluster');
-var ThreeParIcon = require('./icons/ThreePar');
 var IntelIcon = require('./icons/Intel');
 var HPEIcon = require('./icons/HPE');
-var ArubaIcon = require('./icons/Aruba');
-var NetworkIcon = require('./icons/Network');
-var CasioIcon = require('./icons/Casio');
+var AcctonIcon = require('./icons/Accton');
+var VMwareIcon = require('./icons/Vmware');
+var BroadcomIcon = require('./icons/Broadcom');
 var TwitterIcon = require('./icons/Twitter');
 var FacebookIcon = require('./icons/Facebook');
 var SlackIcon = require('./icons/Slack');
@@ -67,28 +67,31 @@ var Home = React.createClass({
           <OpenSwitchLogo a11yTitle=""/>
           <Headline large={true}><b>Open</b>Switch</Headline>
           <Headline small={true}>
-            OpenSwitch is the open source solution to orchestrating your network.
+            The first truly Open Source Network Operating System.
           </Headline>
           <Menu direction="row">
             <Button label="Download OpenSwitch" onClick={this._onClick} primary={true} />
           </Menu>
-          <p>or <b><a href="#" target="_blank">View Github Project</a></b></p>
+          <p>or <b><a href="https://github.com/open-switch" target="_blank">View Github Project</a></b></p>
         </HomeSection>
 
         <HomeSection colorIndex="neutral-1">
           <Box direction="row">
             <Box pad="large" justify="center" align="center">
-              <StoryIcon />
+              <CommunityIcon />
             </Box>
             <Box direction="column" justify="center" align="center">
-              <Headline strong={true}>Every network has a story.</Headline>
+              <Headline strong={true}>Open Source, Open Community.</Headline>
               <p>
-                Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
-                ultricies vehicula elit. Sed posuere consectetur est at lobortis.
+                All the source code is available under Open Source licenses.
+              </p>
+              <p>
+                Developers can join, contribute and guide the direction of the
+                OpenSwitch community.
               </p>
               <Menu direction="row">
                 <Link to="develop">
-                  <Button label="Read Documentation" onClick={this._onClick} primary={true} />
+                  <Button label="Participate" onClick={this._onClick} primary={true} />
                 </Link>
               </Menu>
             </Box>
@@ -98,17 +101,17 @@ var Home = React.createClass({
         <HomeSection colorIndex="neutral-2">
           <Box direction="row">
             <Box pad="large" justify="center" align="center">
-              <ConsoleIcon />
+              <StoryIcon />
             </Box>
             <Box direction="column" justify="center" align="center">
-              <Headline strong={true}>You make it, it’s your network.</Headline>
+              <Headline strong={true}>Modern and Consistent.</Headline>
               <p>
-                Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
-                ultricies vehicula elit. Sed posuere consectetur est at lobortis.
+                Versatile support for traditional and cloud networking
+                environments.
               </p>
               <Menu direction="row">
                 <Link to="participate">
-                  <Button label="Participate" onClick={this._onClick} primary={true} />
+                  <Button label="Learn more" onClick={this._onClick} primary={true} />
                 </Link>
               </Menu>
             </Box>
@@ -121,14 +124,14 @@ var Home = React.createClass({
               <ConsoleIcon />
             </Box>
             <Box direction="column" justify="center" align="center">
-              <Headline strong={true}>Let's network together</Headline>
+              <Headline strong={true}>Fully Featured NOS.</Headline>
               <p>
-                Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
-                ultricies vehicula elit. Sed posuere consectetur est at lobortis.
+                Fully featured L2/L3 control plane stack, traditional and
+                programmatic, declarative control plane.
               </p>
               <Menu direction="row">
                 <Link to="participate">
-                  <Button label="Participate" onClick={this._onClick} primary={true} />
+                  <Button label="Learn more." onClick={this._onClick} primary={true} />
                 </Link>
               </Menu>
             </Box>
@@ -184,28 +187,25 @@ var Home = React.createClass({
         </HomeSection>
 
         <HomeSection>
-          <Headline large={true}>Our partner networks.</Headline>
+          <Headline large={true}>Contributing Members.</Headline>
           <p>
-            Nullam id dolor ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. <b><a href="#">See all...</a></b>
+            OpenSwitch is supported by key players in the networking industry. <b><a href="#">See all...</a></b>
           </p>
           <Tiles fill={true} flush={false}>
             <Tile justify="center" align="center" pad={{"vertical": "small"}}>
-              <ThreeParIcon />
+              <HPEIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad={{"vertical": "small"}}>
+              <BroadcomIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad={{"vertical": "small"}}>
+              <AcctonIcon />
             </Tile>
             <Tile justify="center" align="center" pad={{"vertical": "small"}}>
               <IntelIcon />
             </Tile>
             <Tile justify="center" align="center" pad={{"vertical": "small"}}>
-              <HPEIcon />
-            </Tile>
-            <Tile justify="center" align="center" pad={{"vertical": "small"}}>
-              <ArubaIcon />
-            </Tile>
-            <Tile justify="center" align="center" pad={{"vertical": "small"}}>
-              <NetworkIcon />
-            </Tile>
-            <Tile justify="center" align="center" pad={{"vertical": "small"}}>
-              <CasioIcon />
+              <VMwareIcon />
             </Tile>
           </Tiles>
         </HomeSection>
