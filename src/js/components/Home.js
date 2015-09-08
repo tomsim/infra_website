@@ -15,23 +15,12 @@ var OpenSwitchLogo = require('./icons/OpenSwitchLogo');
 var StoryIcon = require('./icons/Story');
 var ConsoleIcon = require('./icons/Console');
 var CommunityIcon = require('./icons/Community');
-var ServersIcon = require('./icons/Servers');
-var DatabaseIcon = require('./icons/Database');
-var Storage = require('./icons/Storage');
-var LaptopIcon = require('./icons/Laptop');
-var MonitorIcon = require('./icons/Monitor');
-var HostIcon = require('./icons/Host');
-var AppIcon = require('./icons/App');
-var ServerClusterIcon = require('./icons/ServerCluster');
 var IntelIcon = require('./icons/Intel');
 var HPEIcon = require('./icons/HPE');
 var AcctonIcon = require('./icons/Accton');
 var VMwareIcon = require('./icons/Vmware');
 var BroadcomIcon = require('./icons/Broadcom');
-var TwitterIcon = require('./icons/Twitter');
-var FacebookIcon = require('./icons/Facebook');
 var SlackIcon = require('./icons/Slack');
-var YoutubeIcon = require('./icons/Youtube');
 
 var Header = require('./Header');
 var Footer = require('./Footer');
@@ -144,44 +133,22 @@ var Home = React.createClass({
                 Designed to work with any hardware and platform.
               </Headline>
               <p>
-                Nullam id dolor ultricies vehicula ut id elit.
+                OpenSwitch is designed to support any hardware platform.
+
+                The initial target is OCP white-boxes, but can be ported to
+                other platforms.
               </p>
               <p><b><a href="#" target="_blank">View Compatibility List...</a></b></p>
-              <Tiles small={true} fill={true} flush={true}>
-                <Tile justify="center" align="center">
-                  <ServersIcon />
-                </Tile>
-                <Tile justify="center" align="center" pad={{"vertical": "small"}}>
-                  <DatabaseIcon />
-                </Tile>
-                <Tile justify="center" align="center" pad={{"vertical": "small"}}>
-                  <Storage />
-                </Tile>
-                <Tile justify="center" align="center" pad={{"vertical": "small"}}>
-                  <LaptopIcon />
-                </Tile>
-                <Tile justify="center" align="center" pad={{"vertical": "small"}}>
-                  <MonitorIcon />
-                </Tile>
-                <Tile justify="center" align="center" pad={{"vertical": "small"}}>
-                  <HostIcon />
-                </Tile>
-                <Tile justify="center" align="center" pad={{"vertical": "small"}}>
-                  <AppIcon />
-                </Tile>
-                <Tile justify="center" align="center" pad={{"vertical": "small"}}>
-                  <ServerClusterIcon />
-                </Tile>
-              </Tiles>
             </Box>
             <Box pad="large">
-              <Headline small={true} strong={true}>Experience our live network OS solution.</Headline>
-              <p>
-                Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
-                ultricies vehicula elit. Sed posuere consectetur est at lobortis.
-              </p>
-              <Menu direction="row" justify="center" pad="large">
-                <Button label="Launch OpenSwitch" onClick={this._onClick} />
+              <Headline small={true} strong={true}>State of the Art Software Architecture.</Headline>
+                <ul>
+                 <li>Enhanced stability and resiliency with isolated fault domains</li>
+                 <li>Extensible features and portable code</li>
+                 <li>Fast development and test cycles</li>
+                </ul>
+              <Menu direction="row" justify="center" pad="small">
+                <Button label="Learn more" onClick={this._onClick} />
               </Menu>
             </Box>
         </HomeSection>
@@ -212,18 +179,15 @@ var Home = React.createClass({
 
         <Section full={true} backgroundImage={'url(img/network-background.png)'}
           appCentered={true} justify="start" align="start">
-          <Headline small={true} strong={true}>Your NOS social network</Headline>
+          <Headline small={true} strong={true}>Help create the networks of the future.</Headline>
           <p>
-            OpenSwitch is the open source solution to orchestrating your network.
+            Learn more about OpenSwitch latest news...
           </p>
           <Menu direction="row" pad={{vertical: "small"}}>
             <Button label="The OpenSwitch Blog" onClick={this._onClick} primary={true} />
           </Menu>
           <Menu direction="row" responsive={false} pad={{ vertical: "small" }}>
-            <TwitterIcon />
-            <FacebookIcon />
             <SlackIcon />
-            <YoutubeIcon />
           </Menu>
         </Section>
 
