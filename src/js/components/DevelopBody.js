@@ -122,7 +122,7 @@ module.exports = function (path, includeMenu) {
                   High level discussion on installation methods, link to hardware compatibility and links to pages on ONIE and containers
                 </p>
                 <Menu direction="row">
-                  <Link to="documents/porting">
+                  <Link to="documents/dev/porting">
                     <Button label="Porting" onClick={this._onClick} primary={true} />
                   </Link>
                 </Menu>
