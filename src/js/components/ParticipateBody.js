@@ -64,7 +64,7 @@ module.exports = function (path, includeMenu) {
                   ultricies vehicula elit. Sed posuere consectetur est at lobortis.
                 </p>
                 <Menu direction="row">
-                  <Link to="documents/how-to-participate">
+                  <Link to="documents/dev/how-to-participate">
                     <Button label="How to Participate?" onClick={this._onClick} primary={true} />
                   </Link>
                 </Menu>
@@ -83,7 +83,7 @@ module.exports = function (path, includeMenu) {
                   High level discussion on installation methods, link to hardware compatibility and links to pages on ONIE and containers
                 </p>
                 <Menu direction="row">
-                  <Link to="documents/governance">
+                  <Link to="documents/dev/governance">
                     <Button label="Governance" onClick={this._onClick} primary={true} />
                   </Link>
                 </Menu>
@@ -103,7 +103,7 @@ module.exports = function (path, includeMenu) {
                   ultricies vehicula elit. Sed posuere consectetur est at lobortis.
                 </p>
                 <Menu direction="row">
-                  <Link to="documents/members">
+                  <Link to="documents/dev/members">
                     <Button label="Members" onClick={this._onClick} primary={true} />
                   </Link>
                 </Menu>
@@ -122,7 +122,7 @@ module.exports = function (path, includeMenu) {
                   High level discussion on installation methods, link to hardware compatibility and links to pages on ONIE and containers
                 </p>
                 <Menu direction="row">
-                  <Link to="documents/communication">
+                  <Link to="documents/dev/communication">
                     <Button label="Communication" onClick={this._onClick} primary={true} />
                   </Link>
                 </Menu>

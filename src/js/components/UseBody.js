@@ -64,7 +64,7 @@ module.exports = function (path, includeMenu) {
                   ultricies vehicula elit. Sed posuere consectetur est at lobortis.
                 </p>
                 <Menu direction="row">
-                  <Link to="documents/introduction">
+                  <Link to="documents/dev/introduction">
                     <Button label="Read Introduction" onClick={this._onClick} primary={true} />
                   </Link>
                 </Menu>
@@ -83,7 +83,7 @@ module.exports = function (path, includeMenu) {
                   High level discussion on installation methods, link to hardware compatibility and links to pages on ONIE and containers
                 </p>
                 <Menu direction="row">
-                  <Link to="documents/installing">
+                  <Link to="documents/dev/installing">
                     <Button label="Read Installation" onClick={this._onClick} primary={true} />
                   </Link>
                 </Menu>
@@ -103,7 +103,7 @@ module.exports = function (path, includeMenu) {
                   ultricies vehicula elit. Sed posuere consectetur est at lobortis.
                 </p>
                 <Menu direction="row">
-                  <Link to="documents/feature">
+                  <Link to="documents/dev/feature">
                     <Button label="Read Features" onClick={this._onClick} primary={true} />
                   </Link>
                 </Menu>
@@ -122,7 +122,7 @@ module.exports = function (path, includeMenu) {
                   High level discussion on installation methods, link to hardware compatibility and links to pages on ONIE and containers
                 </p>
                 <Menu direction="row">
-                  <Link to="documents/references">
+                  <Link to="documents/dev/references">
                     <Button label="References" onClick={this._onClick} primary={true} />
                   </Link>
                 </Menu>
@@ -142,7 +142,7 @@ module.exports = function (path, includeMenu) {
                   ultricies vehicula elit. Sed posuere consectetur est at lobortis.
                 </p>
                 <Menu direction="row">
-                  <Link to="documents/downloads">
+                  <Link to="documents/dev/downloads">
                     <Button label="Downloads" onClick={this._onClick} primary={true} />
                   </Link>
                 </Menu>
