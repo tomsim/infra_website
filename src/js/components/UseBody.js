@@ -26,18 +26,6 @@ module.exports = function (path, includeMenu) {
 
   var contents = require('./MarkdownContentsMap')[path];
 
-  var HomeSection = React.createClass({
-    render: function () {
-      return (
-        <Section {...this.props}
-          appCentered={true} justify="center" align="center"
-          textCentered={true} pad={{vertical: "large"}}>
-          {this.props.children}
-        </Section>
-      );
-    }
-  });
-
   var GeneralBody = React.createClass({
 
     contextTypes: {
@@ -46,109 +34,153 @@ module.exports = function (path, includeMenu) {
 
     mixins: [IntlMixin],
 
+    _onClick: function () {
+      //no-op
+    },
+
     render: function() {
       return (
         <Article>
 
-          <Header colorIndex="neutral-1" menuMedia="lap-and-up" />
+          <Header float={true} menuMedia="lap-and-up" />
 
-          <HomeSection colorIndex="accent-1">
-            <Box direction="row">
-              <Box pad="large" justify="center" align="center">
-                <ConsoleIcon />
-              </Box>
-              <Box direction="column" justify="center" align="center">
-                <Headline strong={true}>Introduction.</Headline>
-                <p>
-                  Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
-                  ultricies vehicula elit. Sed posuere consectetur est at lobortis.
-                </p>
-                <Menu direction="row">
-                  <Link to="documents/dev/introduction">
-                    <Button label="Read Introduction" onClick={this._onClick} primary={true} />
-                  </Link>
-                </Menu>
+          <Section backgroundImage={'url(img/openswitch-menu-background.png)'}
+          appCentered={true} justify="center" align="center"
+          textCentered={true} pad={{vertical: "medium"}}>
+          <p></p>
+          </Section>
+
+          <Section colorIndex="neutral-3"
+          appCentered={true} align="end"
+          textCentered={true} pad={{vertical: "none"}}>
+          <Menu direction="row" align="end" responsive={false} >
+            <p><i className="fa fa-caret-right"></i><a href="#introduction" className="scroll">Introduction</a></p>
+            <p><i className="fa fa-caret-right"></i><a href="#installing" className="scroll">Installing</a></p>
+            <p><i className="fa fa-caret-right"></i><a href="#features" className="scroll">Features</a></p>
+            <p><i className="fa fa-caret-right"></i><a href="#references" className="scroll">References</a></p>
+            <p><i className="fa fa-caret-right"></i><a href="#downloads" className="scroll">Downloads</a></p>
+          </Menu>
+          </Section>
+
+          <Section align="start" justify="left" appCentered={true} pad={{vertical: "medium"}}>
+            <a name="introduction"/>
+            <Headline>Using OpenSwitch</Headline>
+            <p>
+              Welcome to OpenSwitch, here you will learn how to use OpenSwitch.
+            </p>
+          </Section>
+
+          <Section colorIndex="neutral-6" justify="left" appCentered={true} pad={{vertical: "medium"}}>
+            <a name="installing"/>
+            <Box direction="column">
+              <Headline>Installing</Headline>
+              <p>
+                High level discussion on installation methods, link to hardware compatibility and links to pages on ONIE and containers
+              </p>
+              <b>More Information</b>
+              <Box direction="row" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Installing on ONIE Switch</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Running a container</Link>
+                </Box>
               </Box>
             </Box>
-          </HomeSection>
+          </Section>
 
-          <HomeSection colorIndex="accent-2">
-            <Box direction="row">
-              <Box pad="large" justify="center" align="center">
-                <StoryIcon />
+          <Section justify="left" appCentered={true} pad={{vertical: "medium"}}>
+            <a name="features"/>
+            <Box direction="column">
+              <Headline>Features</Headline>
+              <p>
+                "How-to" detailed usage/configuration instructions
+              </p>
+              <b>More Information</b>
+              <Box direction="row">
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Life Cycle</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Out-of-band connectivity</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Logging</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Switch interfaces</Link>
+                </Box>
               </Box>
-              <Box direction="column" justify="center" align="center">
-                <Headline strong={true}>Installing.</Headline>
-                <p>
-                  High level discussion on installation methods, link to hardware compatibility and links to pages on ONIE and containers
-                </p>
-                <Menu direction="row">
-                  <Link to="documents/dev/installing">
-                    <Button label="Read Installation" onClick={this._onClick} primary={true} />
-                  </Link>
-                </Menu>
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>VLANs</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Rounting</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>BGP</Link>
+                </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>LLDP</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>DHCP Server</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>TFTP Server</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>BGP</Link>
+                </Box>
+              </Box>
               </Box>
             </Box>
-          </HomeSection>
+          </Section>
 
-          <HomeSection colorIndex="accent-1">
-            <Box direction="row">
-              <Box pad="large" justify="center" align="center">
-                <ConsoleIcon />
-              </Box>
-              <Box direction="column" justify="center" align="center">
-                <Headline strong={true}>Features.</Headline>
-                <p>
-                  Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
-                  ultricies vehicula elit. Sed posuere consectetur est at lobortis.
-                </p>
-                <Menu direction="row">
-                  <Link to="documents/dev/feature">
-                    <Button label="Read Features" onClick={this._onClick} primary={true} />
-                  </Link>
-                </Menu>
+          <Section colorIndex="neutral-6" justify="left" appCentered={true} pad={{vertical: "medium"}}>
+            <a name="references"/>
+            <Box direction="column">
+              <Headline>References</Headline>
+              <p>
+                Reference documentation
+              </p>
+              <b>More Information</b>
+              <Box direction="row" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>CLI Reference</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>REST API Reference</Link>
+                </Box>
               </Box>
             </Box>
-          </HomeSection>
+          </Section>
 
-          <HomeSection colorIndex="accent-2">
-            <Box direction="row">
-              <Box pad="large" justify="center" align="center">
-                <StoryIcon />
-              </Box>
-              <Box direction="column" justify="center" align="center">
-                <Headline strong={true}>References.</Headline>
-                <p>
-                  High level discussion on installation methods, link to hardware compatibility and links to pages on ONIE and containers
-                </p>
-                <Menu direction="row">
-                  <Link to="documents/dev/references">
-                    <Button label="References" onClick={this._onClick} primary={true} />
-                  </Link>
-                </Menu>
+          <Section justify="left" appCentered={true} pad={{vertical: "medium"}}>
+            <a name="downloads"/>
+            <Box direction="column">
+              <Headline>Downloads</Headline>
+              <p>
+                Downloads
+              </p>
+              <b>More Information</b>
+              <Box direction="row" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Downloads for AS5712</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Downloads for Simulation</Link>
+                </Box>
               </Box>
             </Box>
-          </HomeSection>
-
-          <HomeSection colorIndex="accent-1">
-            <Box direction="row">
-              <Box pad="large" justify="center" align="center">
-                <ConsoleIcon />
-              </Box>
-              <Box direction="column" justify="center" align="center">
-                <Headline strong={true}>Downloads.</Headline>
-                <p>
-                  Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
-                  ultricies vehicula elit. Sed posuere consectetur est at lobortis.
-                </p>
-                <Menu direction="row">
-                  <Link to="documents/dev/downloads">
-                    <Button label="Downloads" onClick={this._onClick} primary={true} />
-                  </Link>
-                </Menu>
-              </Box>
-            </Box>
-          </HomeSection>
+          </Section>
 
           <Footer />
         </Article>

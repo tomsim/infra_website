@@ -16,11 +16,10 @@ var StoryIcon = require('./icons/Story');
 var ConsoleIcon = require('./icons/Console');
 var CommunityIcon = require('./icons/Community');
 var IntelIcon = require('./icons/Intel');
-var HPEIcon = require('./icons/HPE');
+var HPIcon = require('./icons/HP');
 var AcctonIcon = require('./icons/Accton');
 var VMwareIcon = require('./icons/Vmware');
 var BroadcomIcon = require('./icons/Broadcom');
-var SlackIcon = require('./icons/Slack');
 
 var Header = require('./Header');
 var Footer = require('./Footer');
@@ -64,7 +63,7 @@ var Home = React.createClass({
           <p>or <b><a href="https://github.com/open-switch" target="_blank">View Github Project</a></b></p>
         </HomeSection>
 
-        <HomeSection colorIndex="neutral-1">
+        <HomeSection colorIndex="neutral-3">
           <Box direction="row">
             <Box pad="large" justify="center" align="center">
               <CommunityIcon />
@@ -87,7 +86,7 @@ var Home = React.createClass({
           </Box>
         </HomeSection>
 
-        <HomeSection colorIndex="neutral-2">
+        <HomeSection>
           <Box direction="row">
             <Box pad="large" justify="center" align="center">
               <StoryIcon />
@@ -99,7 +98,7 @@ var Home = React.createClass({
                 environments.
               </p>
               <Menu direction="row">
-                <Link to="participate">
+                <Link to="documents/dev/introduction">
                   <Button label="Learn more" onClick={this._onClick} primary={true} />
                 </Link>
               </Menu>
@@ -107,7 +106,7 @@ var Home = React.createClass({
           </Box>
         </HomeSection>
 
-        <HomeSection colorIndex="neutral-3">
+        <HomeSection colorIndex="neutral-6">
           <Box direction="row">
             <Box pad="large" justify="center" align="center">
               <ConsoleIcon />
@@ -127,51 +126,25 @@ var Home = React.createClass({
           </Box>
         </HomeSection>
 
-        <HomeSection colorIndex="neutral-4" direction="row">
-            <Box separator="right" pad="large">
-              <Headline small={true} strong={true}>
-                Designed to work with any hardware and platform.
-              </Headline>
-              <p>
-                OpenSwitch is designed to support any hardware platform.
-
-                The initial target is OCP white-boxes, but can be ported to
-                other platforms.
-              </p>
-              <p><b><a href="#" target="_blank">View Compatibility List...</a></b></p>
-            </Box>
-            <Box pad="large">
-              <Headline small={true} strong={true}>State of the Art Software Architecture.</Headline>
-                <ul>
-                 <li>Enhanced stability and resiliency with isolated fault domains</li>
-                 <li>Extensible features and portable code</li>
-                 <li>Fast development and test cycles</li>
-                </ul>
-              <Menu direction="row" justify="center" pad="small">
-                <Button label="Learn more" onClick={this._onClick} />
-              </Menu>
-            </Box>
-        </HomeSection>
-
         <HomeSection>
-          <Headline large={true}>Contributing Members.</Headline>
+          <Headline large={true}>Founding Members.</Headline>
           <p>
             OpenSwitch is supported by key players in the networking industry. <b><a href="#">See all...</a></b>
           </p>
-          <Tiles fill={true} flush={false}>
-            <Tile justify="center" align="center" pad={{"vertical": "small"}}>
-              <HPEIcon />
+          <Tiles fill={true} flush={false} small={true}>
+            <Tile justify="center" align="center" pad="small">
+              <HPIcon />
             </Tile>
-            <Tile justify="center" align="center" pad={{"vertical": "small"}}>
+            <Tile justify="center" align="center" pad="small">
               <BroadcomIcon />
             </Tile>
-            <Tile justify="center" align="center" pad={{"vertical": "small"}}>
+            <Tile justify="center" align="center" pad="small">
               <AcctonIcon />
             </Tile>
-            <Tile justify="center" align="center" pad={{"vertical": "small"}}>
+            <Tile justify="center" align="center" pad="small">
               <IntelIcon />
             </Tile>
-            <Tile justify="center" align="center" pad={{"vertical": "small"}}>
+            <Tile justify="center" align="center" pad="small">
               <VMwareIcon />
             </Tile>
           </Tiles>
@@ -187,7 +160,6 @@ var Home = React.createClass({
             <Button label="The OpenSwitch Blog" onClick={this._onClick} primary={true} />
           </Menu>
           <Menu direction="row" responsive={false} pad={{ vertical: "small" }}>
-            <SlackIcon />
           </Menu>
         </Section>
 

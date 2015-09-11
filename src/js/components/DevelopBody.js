@@ -26,18 +26,6 @@ module.exports = function (path, includeMenu) {
 
   var contents = require('./MarkdownContentsMap')[path];
 
-  var HomeSection = React.createClass({
-    render: function () {
-      return (
-        <Section {...this.props}
-          appCentered={true} justify="center" align="center"
-          textCentered={true} pad={{vertical: "large"}}>
-          {this.props.children}
-        </Section>
-      );
-    }
-  });
-
   var GeneralBody = React.createClass({
 
     contextTypes: {
@@ -50,105 +38,103 @@ module.exports = function (path, includeMenu) {
       return (
         <Article>
 
-          <Header colorIndex="neutral-1" menuMedia="lap-and-up" />
+        <Header float={true} menuMedia="lap-and-up" />
 
-          <HomeSection colorIndex="accent-1">
-            <Box direction="row">
-              <Box pad="large" justify="center" align="center">
-                <ConsoleIcon />
+        <Section backgroundImage={'url(img/openswitch-menu-background.png)'}
+        appCentered={true} justify="center" align="center"
+        textCentered={true} pad={{vertical: "medium"}}>
+        <p></p>
+        </Section>
+
+        <Section colorIndex="neutral-3"
+        appCentered={true} align="end"
+        textCentered={true} pad={{vertical: "none"}}>
+        <Menu direction="row" align="end" responsive={false} >
+          <p><i className="fa fa-caret-right"></i><a href="#basics" className="scroll">Basics</a></p>
+          <p><i className="fa fa-caret-right"></i><a href="#architecture" className="scroll">Architecture</a></p>
+          <p><i className="fa fa-caret-right"></i><a href="#porting" className="scroll">Porting</a></p>
+          <p><i className="fa fa-caret-right"></i><a href="#testing" className="scroll">Testing</a></p>
+        </Menu>
+        </Section>
+
+        <Section justify="left" appCentered={true} pad={{vertical: "medium"}}>
+          <a name="basics"/>
+          <Box direction="column">
+            <Headline>Basics</Headline>
+            <p>
+              High level landing page explain the contents of Getting started section with appropriate links
+            </p>
+            <b>More Information</b>
+            <Box direction="row" align="start" responsive={true}>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Developer Environment</Link>
               </Box>
-              <Box direction="column" justify="center" align="center">
-                <Headline strong={true}>How do I Contribute?.</Headline>
-                <p>
-                  Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
-                  ultricies vehicula elit. Sed posuere consectetur est at lobortis.
-                </p>
-                <Menu direction="row">
-                  <Link to="documents/dev/howtocontribute">
-                    <Button label="How do I Contribute?" onClick={this._onClick} primary={true} />
-                  </Link>
-                </Menu>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Debugging</Link>
+              </Box>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Commiting Code</Link>
               </Box>
             </Box>
-          </HomeSection>
+          </Box>
+        </Section>
 
-          <HomeSection colorIndex="accent-2">
-            <Box direction="row">
-              <Box pad="large" justify="center" align="center">
-                <StoryIcon />
+        <Section colorIndex="neutral-6" justify="left" appCentered={true} pad={{vertical: "medium"}}>
+          <a name="architecture"/>
+          <Box direction="column">
+            <Headline>Architecture</Headline>
+            <p>
+              High-level architecture, components, detailed feature & design information
+            </p>
+            <b>More Information</b>
+            <Box direction="row" align="start" responsive={true}>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Component 1 Architecture</Link>
               </Box>
-              <Box direction="column" justify="center" align="center">
-                <Headline strong={true}>Basic.</Headline>
-                <p>
-                  High level discussion on installation methods, link to hardware compatibility and links to pages on ONIE and containers
-                </p>
-                <Menu direction="row">
-                  <Link to="documents/dev/basic">
-                    <Button label="Basic" onClick={this._onClick} primary={true} />
-                  </Link>
-                </Menu>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Component 2 Architecture</Link>
               </Box>
             </Box>
-          </HomeSection>
+          </Box>
+        </Section>
 
-          <HomeSection colorIndex="accent-1">
-            <Box direction="row">
-              <Box pad="large" justify="center" align="center">
-                <ConsoleIcon />
+        <Section justify="left" appCentered={true} pad={{vertical: "medium"}}>
+          <a name="porting"/>
+          <Box direction="column">
+            <Headline>Porting</Headline>
+            <p>
+              Lorem ipsum.
+            </p>
+            <b>More Information</b>
+            <Box direction="row" align="start" responsive={true}>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Porting to a new platform</Link>
               </Box>
-              <Box direction="column" justify="center" align="center">
-                <Headline strong={true}>Architecture.</Headline>
-                <p>
-                  Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
-                  ultricies vehicula elit. Sed posuere consectetur est at lobortis.
-                </p>
-                <Menu direction="row">
-                  <Link to="documents/dev/architecture">
-                    <Button label="Architecture" onClick={this._onClick} primary={true} />
-                  </Link>
-                </Menu>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Porting to a new ASIC</Link>
               </Box>
             </Box>
-          </HomeSection>
+          </Box>
+        </Section>
 
-          <HomeSection colorIndex="accent-2">
-            <Box direction="row">
-              <Box pad="large" justify="center" align="center">
-                <StoryIcon />
+        <Section colorIndex="neutral-6" justify="left" appCentered={true} pad={{vertical: "medium"}}>
+          <a name="testing"/>
+          <Box direction="column">
+            <Headline>Testing</Headline>
+            <p>
+              Testing
+            </p>
+            <b>More Information</b>
+            <Box direction="row" align="start" responsive={true}>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Testing Framework</Link>
               </Box>
-              <Box direction="column" justify="center" align="center">
-                <Headline strong={true}>Porting.</Headline>
-                <p>
-                  High level discussion on installation methods, link to hardware compatibility and links to pages on ONIE and containers
-                </p>
-                <Menu direction="row">
-                  <Link to="documents/dev/porting">
-                    <Button label="Porting" onClick={this._onClick} primary={true} />
-                  </Link>
-                </Menu>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>CIT</Link>
               </Box>
             </Box>
-          </HomeSection>
-
-          <HomeSection colorIndex="accent-1">
-            <Box direction="row">
-              <Box pad="large" justify="center" align="center">
-                <ConsoleIcon />
-              </Box>
-              <Box direction="column" justify="center" align="center">
-                <Headline strong={true}>Testing.</Headline>
-                <p>
-                  Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
-                  ultricies vehicula elit. Sed posuere consectetur est at lobortis.
-                </p>
-                <Menu direction="row">
-                  <Link to="documents/dev/testing">
-                    <Button label="Testing" onClick={this._onClick} primary={true} />
-                  </Link>
-                </Menu>
-              </Box>
-            </Box>
-          </HomeSection>
+          </Box>
+        </Section>
 
           <Footer />
         </Article>

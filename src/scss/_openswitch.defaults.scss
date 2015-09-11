@@ -32,12 +32,17 @@ $openswitch-fonts-path: 'https://openswitchfonts.s3.amazonaws.com' !default;
 $brand-font-family: 'Exo', Arial, sans-serif;
 $brand-link-color: inherit;
 $brand-color: #FF6F3E;
+$link-color: #3B7690;
 
-$brand-neutral-colors: (#6539A4, #422965, #3B7690, #D39A42, #CCCCCC);
+$brand-neutral-colors: (#6539A4, #422965, #3B7690, #D39A42, #CCCCCC, #F2F2F2);
 $brand-accent-colors: (#3D8D99, #FF6F3E, #924D18);
 
 $openswitch-text-color: #fff;
-
 $button-primary-text-color: $openswitch-text-color;
 $button-primary-background-color: $brand-color;
+$colored-button-text-color: $openswitch-text-color;
+$colored-button-background-color: $brand-color;
+$colored-button-primary-text-color: $openswitch-text-color;
+$colored-button-primary-background-color: $brand-color;
+$button-background-color: $brand-color;
 $border-radius: 8px;

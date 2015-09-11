@@ -19,13 +19,14 @@ var Footer = React.createClass({
       <GrommetFooter appCentered={true} align="start" float={this.props.float}
          pad={{ vertical: "none", horizontal: "large" }} justify="between" colorIndex={colorIndex}>
         <Box direction="row">
-          <p>This work is licensed under the <b><a href="http://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution 4.0 International License</a></b>.</p>
+          
         </Box>
         <Menu direction="row" align="end" responsive={false} pad={{ vertical: "small" }}>
-            <a href="http://git.openswitch.net/" target="_blank"><i className="fa fa-git fa-2x"></i></a>
-            <a href="http://github.com/open-switch" target="_blank"><i className="fa fa-github fa-2x"></i></a>
+            <a href="https://groups.google.com/forum/#!forum/openswitch" target="_blank"><i className="fa fa-envelope fa-2x"></i></a>
             <a href="https://tree.taiga.io/project/openswitch/issues" target="_blank"><i className="fa fa-bug fa-2x"></i></a>
             <a href="http://openswitch.slack.com" target="_blank"><i className="fa fa-slack fa-2x"></i></a>
+            <a href="http://git.openswitch.net/" target="_blank"><i className="fa fa-git fa-2x"></i></a>
+            <a href="http://github.com/open-switch" target="_blank"><i className="fa fa-github fa-2x"></i></a>
         </Menu>
       </GrommetFooter>
     );
