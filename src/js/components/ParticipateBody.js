@@ -97,13 +97,13 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
             <Box direction="column" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="/"><i className="fa fa-angle-right"></i>Mailing lists</Link>
+                <a href="https://groups.google.com/forum/#!forum/openswitch" target="_blank"><i className="fa fa-angle-right"></i>Mailing lists</a>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="/"><i className="fa fa-angle-right"></i>GitHub Discussions</Link>
+                <a href="https://github.com/open-switch" target="_blank"><i className="fa fa-angle-right"></i>GitHub Discussions</a>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="/"><i className="fa fa-angle-right"></i>Slack</Link>
+                <a href="https://openswitch.slack.com/" target="_blank"><i className="fa fa-angle-right"></i>Slack</a>
               </Box>
 
             </Box>

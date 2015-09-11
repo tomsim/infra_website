@@ -80,7 +80,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/onie-install"><i className="fa fa-angle-right"></i>Installing on ONIE Switch</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>Running a container</Link>
+                  <Link to="documents/user/setup-containers"><i className="fa fa-angle-right"></i>Running a container</Link>
                 </Box>
               </Box>
             </Box>

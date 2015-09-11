@@ -64,10 +64,10 @@ module.exports = function (path, includeMenu) {
             <b>More Information</b>
             <Box direction="row" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="/"><i className="fa fa-angle-right"></i>Developer Environment</Link>
+                <Link to="documents/dev/development-environment"><i className="fa fa-angle-right"></i>Developer Environment</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="/"><i className="fa fa-angle-right"></i>Debugging</Link>
+                <Link to="documents/dev/how-to-debug"><i className="fa fa-angle-right"></i>Debugging</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
                 <Link to="/"><i className="fa fa-angle-right"></i>Commiting Code</Link>
