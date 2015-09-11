@@ -59,7 +59,7 @@ module.exports = function (path, includeMenu) {
           </Menu>
           </Section>
 
-          <Section align="start" justify="left" appCentered={true} pad={{vertical: "medium"}}>
+          <Section align="start" justify="start" appCentered={true} pad={{vertical: "medium"}}>
             <a name="introduction"/>
             <Headline>Using OpenSwitch</Headline>
             <p>
@@ -67,7 +67,7 @@ module.exports = function (path, includeMenu) {
             </p>
           </Section>
 
-          <Section colorIndex="neutral-6" justify="left" appCentered={true} pad={{vertical: "medium"}}>
+          <Section colorIndex="neutral-6" justify="start" appCentered={true} pad={{vertical: "medium"}}>
             <a name="installing"/>
             <Box direction="column">
               <Headline>Installing</Headline>
@@ -77,16 +77,16 @@ module.exports = function (path, includeMenu) {
               <b>More Information</b>
               <Box direction="row" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Installing on ONIE Switch</Link>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Installing on ONIE Switch</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Running a container</Link>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Running a container</Link>
                 </Box>
               </Box>
             </Box>
           </Section>
 
-          <Section justify="left" appCentered={true} pad={{vertical: "medium"}}>
+          <Section justify="start" appCentered={true} pad={{vertical: "medium"}}>
             <a name="features"/>
             <Box direction="column">
               <Headline>Features</Headline>
@@ -97,51 +97,51 @@ module.exports = function (path, includeMenu) {
               <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Life Cycle</Link>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Life Cycle</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Out-of-band connectivity</Link>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Out-of-band connectivity</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Logging</Link>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Logging</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Switch interfaces</Link>
-                </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>VLANs</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Rounting</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>BGP</Link>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Switch interfaces</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>LLDP</Link>
+                  <Link to="/"><i className="fa fa-angle-right"></i>VLANs</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>DHCP Server</Link>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>TFTP Server</Link>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Rounting</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>BGP</Link>
+                  <Link to="/"><i className="fa fa-angle-right"></i>BGP</Link>
+                </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>LLDP</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>DHCP Server</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>TFTP Server</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>BGP</Link>
                 </Box>
               </Box>
               </Box>
             </Box>
           </Section>
 
-          <Section colorIndex="neutral-6" justify="left" appCentered={true} pad={{vertical: "medium"}}>
+          <Section colorIndex="neutral-6" justify="start" appCentered={true} pad={{vertical: "medium"}}>
             <a name="references"/>
             <Box direction="column">
               <Headline>References</Headline>
@@ -151,16 +151,16 @@ module.exports = function (path, includeMenu) {
               <b>More Information</b>
               <Box direction="row" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>CLI Reference</Link>
+                  <Link to="/"><i className="fa fa-angle-right"></i>CLI Reference</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>REST API Reference</Link>
+                  <Link to="/"><i className="fa fa-angle-right"></i>REST API Reference</Link>
                 </Box>
               </Box>
             </Box>
           </Section>
 
-          <Section justify="left" appCentered={true} pad={{vertical: "medium"}}>
+          <Section justify="start" appCentered={true} pad={{vertical: "medium"}}>
             <a name="downloads"/>
             <Box direction="column">
               <Headline>Downloads</Headline>
@@ -170,10 +170,10 @@ module.exports = function (path, includeMenu) {
               <b>More Information</b>
               <Box direction="row" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Downloads for AS5712</Link>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Downloads for AS5712</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Downloads for Simulation</Link>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Downloads for Simulation</Link>
                 </Box>
               </Box>
             </Box>

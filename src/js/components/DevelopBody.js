@@ -54,7 +54,7 @@ module.exports = function (path, includeMenu) {
         </Menu>
         </Section>
 
-        <Section justify="left" appCentered={true} pad={{vertical: "medium"}}>
+        <Section justify="start" appCentered={true} pad={{vertical: "medium"}}>
           <a name="basics"/>
           <Box direction="column">
             <Headline>Basics</Headline>
@@ -64,19 +64,19 @@ module.exports = function (path, includeMenu) {
             <b>More Information</b>
             <Box direction="row" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Developer Environment</Link>
+                <Link to="/"><i className="fa fa-angle-right"></i>Developer Environment</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Debugging</Link>
+                <Link to="/"><i className="fa fa-angle-right"></i>Debugging</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Commiting Code</Link>
+                <Link to="/"><i className="fa fa-angle-right"></i>Commiting Code</Link>
               </Box>
             </Box>
           </Box>
         </Section>
 
-        <Section colorIndex="neutral-6" justify="left" appCentered={true} pad={{vertical: "medium"}}>
+        <Section colorIndex="neutral-6" justify="start" appCentered={true} pad={{vertical: "medium"}}>
           <a name="architecture"/>
           <Box direction="column">
             <Headline>Architecture</Headline>
@@ -86,16 +86,16 @@ module.exports = function (path, includeMenu) {
             <b>More Information</b>
             <Box direction="row" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Component 1 Architecture</Link>
+                <Link to="/"><i className="fa fa-angle-right"></i>Component 1 Architecture</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Component 2 Architecture</Link>
+                <Link to="/"><i className="fa fa-angle-right"></i>Component 2 Architecture</Link>
               </Box>
             </Box>
           </Box>
         </Section>
 
-        <Section justify="left" appCentered={true} pad={{vertical: "medium"}}>
+        <Section justify="start" appCentered={true} pad={{vertical: "medium"}}>
           <a name="porting"/>
           <Box direction="column">
             <Headline>Porting</Headline>
@@ -105,16 +105,16 @@ module.exports = function (path, includeMenu) {
             <b>More Information</b>
             <Box direction="row" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Porting to a new platform</Link>
+                <Link to="/"><i className="fa fa-angle-right"></i>Porting to a new platform</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Porting to a new ASIC</Link>
+                <Link to="/"><i className="fa fa-angle-right"></i>Porting to a new ASIC</Link>
               </Box>
             </Box>
           </Box>
         </Section>
 
-        <Section colorIndex="neutral-6" justify="left" appCentered={true} pad={{vertical: "medium"}}>
+        <Section colorIndex="neutral-6" justify="start" appCentered={true} pad={{vertical: "medium"}}>
           <a name="testing"/>
           <Box direction="column">
             <Headline>Testing</Headline>
@@ -124,10 +124,10 @@ module.exports = function (path, includeMenu) {
             <b>More Information</b>
             <Box direction="row" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>Testing Framework</Link>
+                <Link to="/"><i className="fa fa-angle-right"></i>Testing Framework</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/installing"><i className="fa fa-angle-right"></i>CIT</Link>
+                <Link to="/"><i className="fa fa-angle-right"></i>CIT</Link>
               </Box>
             </Box>
           </Box>

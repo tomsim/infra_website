@@ -98,7 +98,7 @@ var Home = React.createClass({
                 environments.
               </p>
               <Menu direction="row">
-                <Link to="documents/dev/introduction">
+                <Link to="use">
                   <Button label="Learn more" onClick={this._onClick} primary={true} />
                 </Link>
               </Menu>
