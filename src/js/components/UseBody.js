@@ -16,11 +16,8 @@ var Footer = require('./Footer');
 
 var RoutedMenuUtils = require('../utils/RoutedMenuUtils');
 
-var StoryIcon = require('./icons/Story');
 var Headline = require('grommet/components/Headline');
-var Button = require('grommet/components/Button');
 var Box = require('grommet/components/Box');
-var ConsoleIcon = require('./icons/Console');
 
 module.exports = function (path, includeMenu) {
 
