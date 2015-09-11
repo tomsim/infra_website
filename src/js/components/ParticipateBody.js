@@ -52,7 +52,7 @@ module.exports = function (path, includeMenu) {
 
         <Header float={true} menuMedia="lap-and-up" />
 
-        <Section backgroundImage={'url(img/openswitch-menu-background.png)'}
+        <Section backgroundImage={'url(/img/openswitch-menu-background.png)'}
         appCentered={true} justify="center" align="center"
         textCentered={true} pad={{vertical: "medium"}}>
         <p></p>
