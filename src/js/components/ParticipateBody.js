@@ -16,27 +16,12 @@ var Footer = require('./Footer');
 
 var RoutedMenuUtils = require('../utils/RoutedMenuUtils');
 
-var StoryIcon = require('./icons/Story');
 var Headline = require('grommet/components/Headline');
-var Button = require('grommet/components/Button');
 var Box = require('grommet/components/Box');
-var ConsoleIcon = require('./icons/Console');
 
 module.exports = function (path, includeMenu) {
 
   var contents = require('./MarkdownContentsMap')[path];
-
-  var HomeSection = React.createClass({
-    render: function () {
-      return (
-        <Section {...this.props}
-          appCentered={true} justify="center" align="center"
-          textCentered={true} pad={{vertical: "large"}}>
-          {this.props.children}
-        </Section>
-      );
-    }
-  });
 
   var GeneralBody = React.createClass({
 

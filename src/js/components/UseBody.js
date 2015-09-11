@@ -77,7 +77,7 @@ module.exports = function (path, includeMenu) {
               <b>More Information</b>
               <Box direction="row" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>Installing on ONIE Switch</Link>
+                  <Link to="documents/user/onie-install"><i className="fa fa-angle-right"></i>Installing on ONIE Switch</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="/"><i className="fa fa-angle-right"></i>Running a container</Link>
@@ -151,10 +151,10 @@ module.exports = function (path, includeMenu) {
               <b>More Information</b>
               <Box direction="row" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>CLI Reference</Link>
+                  <Link to="documents/user/cli-reference"><i className="fa fa-angle-right"></i>CLI Reference</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>REST API Reference</Link>
+                  <Link to="documents/user/rest-api-reference"><i className="fa fa-angle-right"></i>REST API Reference</Link>
                 </Box>
               </Box>
             </Box>
