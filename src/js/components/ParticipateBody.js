@@ -58,84 +58,85 @@ module.exports = function (path, includeMenu) {
         <p></p>
         </Section>
 
-          <HomeSection colorIndex="accent-1">
-            <Box direction="row">
-              <Box pad="large" justify="center" align="center">
-                <ConsoleIcon />
-              </Box>
-              <Box direction="column" justify="center" align="center">
-                <Headline strong={true}>How to Participate?.</Headline>
-                <p>
-                  Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
-                  ultricies vehicula elit. Sed posuere consectetur est at lobortis.
-                </p>
-                <Menu direction="row">
-                  <Link to="documents/dev/how-to-participate">
-                    <Button label="How to Participate?" onClick={this._onClick} primary={true} />
-                  </Link>
-                </Menu>
+        <Section colorIndex="neutral-3"
+        appCentered={true} align="end"
+        textCentered={true} pad={{vertical: "none"}}>
+        <Menu direction="row" align="end" responsive={false} >
+          <p><i className="fa fa-caret-right"></i><a href="#governance" className="scroll">Introduction</a></p>
+          <p><i className="fa fa-caret-right"></i><a href="#members" className="scroll">Installing</a></p>
+          <p><i className="fa fa-caret-right"></i><a href="#communication" className="scroll">Features</a></p>
+        </Menu>
+        </Section>
+
+        <Section justify="start" appCentered={true} pad={{vertical: "medium"}}>
+          <a name="governance"/>
+          <Box direction="column">
+            <Headline>Governance</Headline>
+            <p>
+              How the community governs itself
+            </p>
+            <b>More Information</b>
+            <Box direction="row" align="start" responsive={true}>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="/"><i className="fa fa-angle-right"></i>Documentation</Link>
               </Box>
             </Box>
-          </HomeSection>
+          </Box>
+        </Section>
 
-          <HomeSection colorIndex="accent-2">
-            <Box direction="row">
-              <Box pad="large" justify="center" align="center">
-                <StoryIcon />
-              </Box>
-              <Box direction="column" justify="center" align="center">
-                <Headline strong={true}>Governance.</Headline>
-                <p>
-                  High level discussion on installation methods, link to hardware compatibility and links to pages on ONIE and containers
-                </p>
-                <Menu direction="row">
-                  <Link to="documents/dev/governance">
-                    <Button label="Governance" onClick={this._onClick} primary={true} />
-                  </Link>
-                </Menu>
+        <Section colorIndex="neutral-6" justify="start" appCentered={true} pad={{vertical: "medium"}}>
+          <a name="members"/>
+          <Box direction="column">
+            <Headline>Members</Headline>
+            <p>
+              Founding companies & partners.
+            </p>
+            <b>More Information</b>
+            <Box direction="row" align="start" responsive={true}>
+
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="/"><i className="fa fa-angle-right"></i>Members</Link>
               </Box>
             </Box>
-          </HomeSection>
+          </Box>
+        </Section>
 
-          <HomeSection colorIndex="accent-1">
+        <Section justify="start" appCentered={true} pad={{vertical: "medium"}}>
+          <a name="communication"/>
+          <Box direction="column">
+            <Headline>Communication</Headline>
+            <p>
+              Communication
+            </p>
+            <b>More Information</b>
             <Box direction="row">
-              <Box pad="large" justify="center" align="center">
-                <ConsoleIcon />
+            <Box direction="column" align="start" responsive={true}>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="/"><i className="fa fa-angle-right"></i>Mailing lists</Link>
               </Box>
-              <Box direction="column" justify="center" align="center">
-                <Headline strong={true}>Members.</Headline>
-                <p>
-                  Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh
-                  ultricies vehicula elit. Sed posuere consectetur est at lobortis.
-                </p>
-                <Menu direction="row">
-                  <Link to="documents/dev/members">
-                    <Button label="Members" onClick={this._onClick} primary={true} />
-                  </Link>
-                </Menu>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="/"><i className="fa fa-angle-right"></i>GitHub Discussions</Link>
               </Box>
-            </Box>
-          </HomeSection>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="/"><i className="fa fa-angle-right"></i>Slack</Link>
+              </Box>
 
-          <HomeSection colorIndex="accent-2">
-            <Box direction="row">
-              <Box pad="large" justify="center" align="center">
-                <StoryIcon />
-              </Box>
-              <Box direction="column" justify="center" align="center">
-                <Headline strong={true}>Communication.</Headline>
-                <p>
-                  High level discussion on installation methods, link to hardware compatibility and links to pages on ONIE and containers
-                </p>
-                <Menu direction="row">
-                  <Link to="documents/dev/communication">
-                    <Button label="Communication" onClick={this._onClick} primary={true} />
-                  </Link>
-                </Menu>
-              </Box>
             </Box>
-          </HomeSection>
+            <Box direction="column" align="start" responsive={true}>
+            <Box pad={{ horizontal: "small" }}>
+              <Link to="/"><i className="fa fa-angle-right"></i>IRC Webchat</Link>
+            </Box>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="/"><i className="fa fa-angle-right"></i>News</Link>
+              </Box>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="/"><i className="fa fa-angle-right"></i>Blogs</Link>
+              </Box>
 
+            </Box>
+            </Box>
+          </Box>
+        </Section>
           <Footer />
         </Article>
       );
