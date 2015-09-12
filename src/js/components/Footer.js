@@ -19,7 +19,7 @@ var Footer = React.createClass({
       <GrommetFooter appCentered={true} align="start" float={this.props.float}
          pad={{ vertical: "none", horizontal: "large" }} justify="between" colorIndex={colorIndex}>
         <Box direction="row">
-          
+
         </Box>
         <Menu direction="row" align="end" responsive={false} pad={{ vertical: "small" }}>
             <a href="https://groups.google.com/forum/#!forum/openswitch" target="_blank"><i className="fa fa-envelope fa-2x"></i></a>
@@ -31,6 +31,6 @@ var Footer = React.createClass({
       </GrommetFooter>
     );
   }
-});
+}); 
 
 module.exports = Footer;
