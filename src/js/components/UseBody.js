@@ -170,10 +170,10 @@ module.exports = function (path, includeMenu) {
               <b>More Information</b>
               <Box direction="row" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>Downloads for AS5712</Link>
+                  <Link to="documents/user/downloads"><i className="fa fa-angle-right"></i>Downloads for AS5712</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>Downloads for Simulation</Link>
+                  <Link to="documents/user/download-simulation"><i className="fa fa-angle-right"></i>Downloads for Simulation</Link>
                 </Box>
               </Box>
             </Box>
