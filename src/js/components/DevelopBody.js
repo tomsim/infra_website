@@ -70,7 +70,7 @@ module.exports = function (path, includeMenu) {
                 <Link to="documents/dev/how-to-debug"><i className="fa fa-angle-right"></i>Debugging</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="/"><i className="fa fa-angle-right"></i>Commiting Code</Link>
+                <Link to="documents/dev/commit-code"><i className="fa fa-angle-right"></i>Commiting Code</Link>
               </Box>
             </Box>
           </Box>
@@ -86,10 +86,10 @@ module.exports = function (path, includeMenu) {
             <b>More Information</b>
             <Box direction="row" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="/"><i className="fa fa-angle-right"></i>Component 1 Architecture</Link>
+                <Link to="documents/dev/component-1-architecture"><i className="fa fa-angle-right"></i>Component 1 Architecture</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="/"><i className="fa fa-angle-right"></i>Component 2 Architecture</Link>
+                <Link to="documents/dev/component-2-architecture"><i className="fa fa-angle-right"></i>Component 2 Architecture</Link>
               </Box>
             </Box>
           </Box>
@@ -105,10 +105,10 @@ module.exports = function (path, includeMenu) {
             <b>More Information</b>
             <Box direction="row" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="/"><i className="fa fa-angle-right"></i>Porting to a new platform</Link>
+                <Link to="documents/dev/porting-new-platform"><i className="fa fa-angle-right"></i>Porting to a new platform</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="/"><i className="fa fa-angle-right"></i>Porting to a new ASIC</Link>
+                <Link to="documents/dev/porting-new-asic"><i className="fa fa-angle-right"></i>Porting to a new ASIC</Link>
               </Box>
             </Box>
           </Box>
@@ -124,10 +124,10 @@ module.exports = function (path, includeMenu) {
             <b>More Information</b>
             <Box direction="row" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="/"><i className="fa fa-angle-right"></i>Testing Framework</Link>
+                <Link to="documents/dev/testing-framework"><i className="fa fa-angle-right"></i>Testing Framework</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="/"><i className="fa fa-angle-right"></i>CIT</Link>
+                <Link to="documents/dev/cit"><i className="fa fa-angle-right"></i>CIT</Link>
               </Box>
             </Box>
           </Box>
