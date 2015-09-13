@@ -63,7 +63,7 @@ module.exports = function (path, includeMenu) {
             <b>More Information</b>
             <Box direction="row" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="/"><i className="fa fa-angle-right"></i>Documentation</Link>
+                <a href="http://governance.openswitch.net/" target="_blank"><i className="fa fa-angle-right"></i>Documentation</a>
               </Box>
             </Box>
           </Box>
@@ -80,7 +80,7 @@ module.exports = function (path, includeMenu) {
             <Box direction="row" align="start" responsive={true}>
 
               <Box pad={{ horizontal: "small" }}>
-                <Link to="/"><i className="fa fa-angle-right"></i>Members</Link>
+                <Link to="documents/user/members"><i className="fa fa-angle-right"></i>Members</Link>
               </Box>
             </Box>
           </Box>
@@ -109,13 +109,13 @@ module.exports = function (path, includeMenu) {
             </Box>
             <Box direction="column" align="start" responsive={true}>
             <Box pad={{ horizontal: "small" }}>
-              <Link to="/"><i className="fa fa-angle-right"></i>IRC Webchat</Link>
+              <a href="http://webchat.freenode.net/?channels=#openswitch" target="_blank"><i className="fa fa-angle-right"></i>IRC Webchat</a>
             </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="/"><i className="fa fa-angle-right"></i>News</Link>
+                <Link to="documents/user/news"><i className="fa fa-angle-right"></i>News</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="/"><i className="fa fa-angle-right"></i>Blogs</Link>
+                <Link to="documents/user/blogs"><i className="fa fa-angle-right"></i>Blogs</Link>
               </Box>
 
             </Box>
