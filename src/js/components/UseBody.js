@@ -94,44 +94,44 @@ module.exports = function (path, includeMenu) {
               <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>Life Cycle</Link>
+                  <Link to="documents/user/feature"><i className="fa fa-angle-right"></i>Life Cycle</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>Out-of-band connectivity</Link>
+                  <Link to="documents/user/feature"><i className="fa fa-angle-right"></i>Out-of-band connectivity</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>Logging</Link>
+                  <Link to="documents/user/feature"><i className="fa fa-angle-right"></i>Logging</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>Switch interfaces</Link>
-                </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>VLANs</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>Rounting</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>BGP</Link>
+                  <Link to="documents/user/feature"><i className="fa fa-angle-right"></i>Switch interfaces</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>LLDP</Link>
+                  <Link to="documents/user/feature"><i className="fa fa-angle-right"></i>VLANs</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>DHCP Server</Link>
+                  <Link to="documents/user/feature"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>TFTP Server</Link>
+                  <Link to="documents/user/feature"><i className="fa fa-angle-right"></i>Rounting</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/"><i className="fa fa-angle-right"></i>BGP</Link>
+                  <Link to="documents/user/feature"><i className="fa fa-angle-right"></i>BGP</Link>
+                </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/feature"><i className="fa fa-angle-right"></i>LLDP</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/feature"><i className="fa fa-angle-right"></i>DHCP Server</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/feature"><i className="fa fa-angle-right"></i>TFTP Server</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/feature"><i className="fa fa-angle-right"></i>BGP</Link>
                 </Box>
               </Box>
               </Box>
