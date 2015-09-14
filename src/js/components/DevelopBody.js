@@ -95,15 +95,79 @@ module.exports = function (path, includeMenu) {
               High-level architecture, components, detailed feature & design information
             </p>
             <b>More Information</b>
-            <Box direction="row" align="start" responsive={true}>
-              <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/component-1-architecture"><i className="fa fa-angle-right"></i>Component 1 Architecture</Link>
+            <Box direction="row">
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Projects configuration (gerrit, zuul, jenkins, etc)</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Puppet Gerrit Module</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Puppet Iptables Module</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Puppet Jenkins Module</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Puppet SSH Module</Link>
+                </Box>
               </Box>
-              <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/component-2-architecture"><i className="fa fa-angle-right"></i>Component 2 Architecture</Link>
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Infrastructure System Configuration</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>AAA</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>ARP Manager Daemon</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Configuration files for AS5712</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Buffer Monitor Daemon</Link>
+                </Box>
               </Box>
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Configuration Daemon</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>CLI daemon</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Library to read config yaml files</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Dhcp and tftp server</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Fan Daemon</Link>
+                </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Feature Test Framework</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>CLI daemon</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>OpenHalon Governance</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>OpenHalon Utility Library</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="/"><i className="fa fa-angle-right"></i>Interface Daemon</Link>
+                </Box>
+              </Box>
+
+             </Box>
             </Box>
-          </Box>
+
         </Section>
 
         <Section justify="start" appCentered={true} pad={{vertical: "medium"}}>
