@@ -73,6 +73,17 @@ module.exports = function (path, includeMenu) {
                 <Link to="documents/dev/commit-code"><i className="fa fa-angle-right"></i>Commiting Code</Link>
               </Box>
             </Box>
+            <Box direction="row" align="start" responsive={true}>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="documents/dev/quick-start"><i className="fa fa-angle-right"></i>Vagrant</Link>
+              </Box>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="documents/dev/linux-setup"><i className="fa fa-angle-right"></i>Custom Linux</Link>
+              </Box>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>Code Repository</Link>
+              </Box>
+            </Box>
           </Box>
         </Section>
 
