@@ -63,29 +63,30 @@ module.exports = function (path, includeMenu) {
             </p>
             <b>More Information</b>
             <Box direction="row">
-            <Box direction="column" align="start" responsive={true}>
-              <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/development-environment"><i className="fa fa-angle-right"></i>Developer Environment</Link>
-              </Box>
-              <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/how-to-debug"><i className="fa fa-angle-right"></i>Debugging</Link>
-              </Box>
-              <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/commit-code"><i className="fa fa-angle-right"></i>Commiting Code</Link>
-              </Box>
+              <Box direction="column" align="start" responsive={true}>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/quick-start"><i className="fa fa-angle-right"></i>Quick Start Guide</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/development-environment"><i className="fa fa-angle-right"></i>Ubuntu Developers Environment</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/linux-setup"><i className="fa fa-angle-right"></i>Custom Linux Developers Environment</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>Code Repository</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/how-to-debug"><i className="fa fa-angle-right"></i>Debugging</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>Contributing code</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/defect-management"><i className="fa fa-angle-right"></i>Defect Management</Link>
+                  </Box>
+                </Box>
             </Box>
-            <Box direction="column" align="start" responsive={true}>
-              <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/quick-start"><i className="fa fa-angle-right"></i>Vagrant</Link>
-              </Box>
-              <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/linux-setup"><i className="fa fa-angle-right"></i>Custom Linux</Link>
-              </Box>
-              <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>Code Repository</Link>
-              </Box>
-            </Box>
-          </Box>
           </Box>
         </Section>
 
@@ -256,10 +257,10 @@ module.exports = function (path, includeMenu) {
             <b>More Information</b>
             <Box direction="row" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/porting-new-platform"><i className="fa fa-angle-right"></i>Porting to a new platform</Link>
+                <Link to="documents/dev/porting-new-platform"><i className="fa fa-angle-right"></i>Platform</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/porting-new-asic"><i className="fa fa-angle-right"></i>Porting to a new ASIC</Link>
+                <Link to="documents/dev/porting-new-asic"><i className="fa fa-angle-right"></i>ASIC</Link>
               </Box>
             </Box>
           </Box>
