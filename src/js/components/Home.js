@@ -57,10 +57,7 @@ var Home = React.createClass({
           <Headline small={true}>
             The first truly Open Source Network Operating System.
           </Headline>
-          <Menu direction="row">
-            <Button label="Download OpenSwitch" onClick={this._onClick} primary={true} />
-          </Menu>
-          <p>or <b><a href="https://github.com/open-switch" target="_blank">View Github Project</a></b></p>
+
         </HomeSection>
 
         <HomeSection colorIndex="neutral-3">
@@ -70,16 +67,14 @@ var Home = React.createClass({
             </Box>
             <Box direction="column" justify="center" align="center">
               <Headline strong={true}>Open Source, Open Community.</Headline>
+              <p><strong>
+                Become a part of the data center and networking revolution.</strong></p>
               <p>
-                All the source code is available under Open Source licenses.
-              </p>
-              <p>
-                Developers can join, contribute and guide the direction of the
-                OpenSwitch community.
+                Ready to join a truly open community with standards that are modern and consistent? OpenSwitch provides versatile support for both traditional and cloud networking environments. We are excited to start working with you.
               </p>
               <Menu direction="row">
-                <Link to="develop">
-                  <Button label="Participate" onClick={this._onClick} primary={true} />
+                <Link to="participate/participatehome">
+                  <Button label="Join the community today." onClick={this._onClick} primary={true} />
                 </Link>
               </Menu>
             </Box>
@@ -92,14 +87,14 @@ var Home = React.createClass({
               <StoryIcon />
             </Box>
             <Box direction="column" justify="center" align="center">
-              <Headline strong={true}>Modern and Consistent.</Headline>
-              <p>
-                Versatile support for traditional and cloud networking
-                environments.
+              <Headline strong={true}>Developers Welcome!</Headline>
+              <p><strong>
+                Ready to help drive the future or Networking?</strong></p>
+              <p>OpenSwitch is a truly open and collaborative environment that helps developers innovate and produce modern and modular code. If you’re ready to be the innovator of the future (or maybe just want to tinker with the source code), get started today.
               </p>
               <Menu direction="row">
-                <Link to="use">
-                  <Button label="Learn more" onClick={this._onClick} primary={true} />
+                <Link to="documents/dev/getting-started">
+                  <Button label="Get started Here" onClick={this._onClick} primary={true} />
                 </Link>
               </Menu>
             </Box>
@@ -112,14 +107,15 @@ var Home = React.createClass({
               <ConsoleIcon />
             </Box>
             <Box direction="column" justify="center" align="center">
-              <Headline strong={true}>Fully Featured NOS.</Headline>
-              <p>
-                Fully featured L2/L3 control plane stack, traditional and
-                programmatic, declarative control plane.
+              <Headline strong={true}>Go Ahead, Use It…</Headline>
+              <p><strong>Introducing the open source NOS that tips traditional networking on its side.
+              </strong></p>
+              <p>OpenSwitch provides a fully-featured L2/L3 control plane stack, traditional and programmatic, declarative control plane.</p>
+              <p>The 24x7 nature of global digital economy and the explosion of data have changed how we think about data center networking. It’s time for the separation of switch hardware and software—delivered through an open environment based on open source established practices and true community involvement from developers and users.
               </p>
               <Menu direction="row">
-                <Link to="participate">
-                  <Button label="Learn more." onClick={this._onClick} primary={true} />
+                <Link to="use/usehome">
+                  <Button label="Start Using OpenSwitch Today" onClick={this._onClick} primary={true} />
                 </Link>
               </Menu>
             </Box>
@@ -152,10 +148,6 @@ var Home = React.createClass({
 
         <Section full={true} backgroundImage={'url(img/network-background.png)'}
           appCentered={true} justify="start" align="start">
-          <Headline small={true} strong={true}>Help create the networks of the future.</Headline>
-          <p>
-            Learn more about OpenSwitch latest news...
-          </p>
           <Menu direction="row" pad={{vertical: "small"}}>
             <Button label="The OpenSwitch Blog" onClick={this._onClick} primary={true} />
           </Menu>
