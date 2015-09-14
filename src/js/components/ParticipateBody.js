@@ -58,12 +58,13 @@ module.exports = function (path, includeMenu) {
           <Box direction="column">
             <Headline>How to Participate</Headline>
             <p>
-              How the community governs itself
+              Learn how to join the community and become more involved.
             </p>
             <b>More Information</b>
             <Box direction="row" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <a href="http://governance.openswitch.net/" target="_blank"><i className="fa fa-angle-right"></i>Documentation</a>
+                <Link to="documents/user/participatehome"><i className="fa fa-angle-right"></i>Getting Started</Link>
+                <a href="http://governance.openswitch.net/" target="_blank"><i className="fa fa-angle-right"></i>Governance Documentation</a>
               </Box>
             </Box>
           </Box>
