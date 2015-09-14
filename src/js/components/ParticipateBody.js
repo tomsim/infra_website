@@ -47,16 +47,16 @@ module.exports = function (path, includeMenu) {
         appCentered={true} align="end"
         textCentered={true} pad={{vertical: "none"}}>
         <Menu direction="row" align="end" responsive={false} >
-          <p><i className="fa fa-caret-right"></i><a href="#governance" className="scroll">Introduction</a></p>
-          <p><i className="fa fa-caret-right"></i><a href="#members" className="scroll">Installing</a></p>
-          <p><i className="fa fa-caret-right"></i><a href="#communication" className="scroll">Features</a></p>
+          <p><i className="fa fa-caret-right"></i><a href="#participate" className="scroll">Participate</a></p>
+          <p><i className="fa fa-caret-right"></i><a href="#members" className="scroll">Members</a></p>
+          <p><i className="fa fa-caret-right"></i><a href="#communication" className="scroll">Communication</a></p>
         </Menu>
         </Section>
 
         <Section justify="start" appCentered={true} pad={{vertical: "medium"}}>
-          <a name="governance"/>
+          <a name="participate"/>
           <Box direction="column">
-            <Headline>Governance</Headline>
+            <Headline>How to Participate</Headline>
             <p>
               How the community governs itself
             </p>
@@ -74,7 +74,7 @@ module.exports = function (path, includeMenu) {
           <Box direction="column">
             <Headline>Members</Headline>
             <p>
-              Founding companies & partners.
+              OpenSwitch is supported by key players in the networking industry.
             </p>
             <b>More Information</b>
             <Box direction="row" align="start" responsive={true}>
@@ -97,10 +97,13 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
             <Box direction="column" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <a href="https://groups.google.com/forum/#!forum/openswitch" target="_blank"><i className="fa fa-angle-right"></i>Mailing lists</a>
+                  <Link to="documents/user/openswitch_overview"><i className="fa fa-angle-right"></i>Overview</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <a href="https://github.com/open-switch" target="_blank"><i className="fa fa-angle-right"></i>GitHub Discussions</a>
+                  <Link to="documents/user/openswitch_faq"><i className="fa fa-angle-right"></i>FAQ</Link>
+              </Box>
+              <Box pad={{ horizontal: "small" }}>
+                <a href="https://groups.google.com/forum/#!forum/openswitch" target="_blank"><i className="fa fa-angle-right"></i>Mailing lists</a>
               </Box>
               <Box pad={{ horizontal: "small" }}>
                 <a href="https://openswitch.slack.com/" target="_blank"><i className="fa fa-angle-right"></i>Slack</a>
@@ -116,6 +119,9 @@ module.exports = function (path, includeMenu) {
               </Box>
               <Box pad={{ horizontal: "small" }}>
                 <Link to="documents/user/blogs"><i className="fa fa-angle-right"></i>Blogs</Link>
+              </Box>
+              <Box pad={{ horizontal: "small" }}>
+                <a href="https://github.com/open-switch" target="_blank"><i className="fa fa-angle-right"></i>GitHub Discussions</a>
               </Box>
 
             </Box>

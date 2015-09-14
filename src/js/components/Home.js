@@ -89,7 +89,7 @@ var Home = React.createClass({
             <Box direction="column" justify="center" align="center">
               <Headline strong={true}>Developers Welcome!</Headline>
               <p><strong>
-                Ready to help drive the future or Networking?</strong></p>
+                Ready to help drive the future of Networking?</strong></p>
               <p>OpenSwitch is a truly open and collaborative environment that helps developers innovate and produce modern and modular code. If you’re ready to be the innovator of the future (or maybe just want to tinker with the source code), get started today.
               </p>
               <Menu direction="row">
@@ -107,7 +107,7 @@ var Home = React.createClass({
               <ConsoleIcon />
             </Box>
             <Box direction="column" justify="center" align="center">
-              <Headline strong={true}>Go Ahead, Use It…</Headline>
+              <Headline strong={true}>Go Ahead, Use It.</Headline>
               <p><strong>Introducing the open source NOS that tips traditional networking on its side.
               </strong></p>
               <p>OpenSwitch provides a fully-featured L2/L3 control plane stack, traditional and programmatic, declarative control plane.</p>
@@ -125,7 +125,10 @@ var Home = React.createClass({
         <HomeSection>
           <Headline large={true}>Founding Members.</Headline>
           <p>
-            OpenSwitch is supported by key players in the networking industry. <b><a href="#">See all...</a></b>
+            OpenSwitch is supported by key players in the networking industry.
+            <Box pad={{ horizontal: "small" }}>
+                <Link to="documents/user/members"><i className="fa fa-angle-right"></i>Learn More</Link>
+            </Box>
           </p>
           <Tiles fill={true} flush={false} small={true}>
             <Tile justify="center" align="center" pad="small">
