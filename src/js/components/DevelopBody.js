@@ -47,47 +47,59 @@ module.exports = function (path, includeMenu) {
         appCentered={true} align="end"
         textCentered={true} pad={{vertical: "none"}}>
         <Menu direction="row" align="end" responsive={false} >
-          <p><i className="fa fa-caret-right"></i><a href="#basics" className="scroll">Basics</a></p>
+          <p><i className="fa fa-caret-right"></i><a href="#gettingstart" className="scroll">Getting Started</a></p>
           <p><i className="fa fa-caret-right"></i><a href="#architecture" className="scroll">Architecture</a></p>
           <p><i className="fa fa-caret-right"></i><a href="#porting" className="scroll">Porting</a></p>
           <p><i className="fa fa-caret-right"></i><a href="#testing" className="scroll">Testing</a></p>
+          <p><i className="fa fa-caret-right"></i><a href="#management" className="scroll">Defect Management</a></p>
         </Menu>
         </Section>
 
         <Section justify="start" appCentered={true} pad={{vertical: "medium"}}>
-          <a name="basics"/>
+          <a name="gettingstart"/>
           <Box direction="column">
-            <Headline>Basics</Headline>
-            <p>
-              High level landing page explain the contents of Getting started section with appropriate links
+            <Headline>Getting Started</Headline>
+            <p><strong>
+              Setting up your development environment.</strong>
             </p>
-            <b>More Information</b>
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/quick-start"><i className="fa fa-angle-right"></i>Quick Start Guide</Link>
+                    <Link to="documents/dev/quick-start"><i className="fa fa-angle-right"></i>Quick Start Guide using Vagrant for Windows7</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/development-environment"><i className="fa fa-angle-right"></i>Ubuntu Developers Environment</Link>
+                    <Link to="documents/dev/development-environment"><i className="fa fa-angle-right"></i>Set up on custom Linux</Link>
+                  </Box>
+                  <p></p>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/how-to-debug"><i className="fa fa-angle-right"></i>How to Debug</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/linux-setup"><i className="fa fa-angle-right"></i>Custom Linux Developers Environment</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>Code Repository</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/how-to-debug"><i className="fa fa-angle-right"></i>Debugging</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>Contributing code</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/defect-management"><i className="fa fa-angle-right"></i>Defect Management</Link>
+                    <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>Code Repositories</Link>
                   </Box>
                 </Box>
             </Box>
           </Box>
+          <Box direction="column">
+            <p><strong>
+              Committing Code.</strong>
+            </p>
+            <Box direction="row">
+              <Box direction="column" align="start" responsive={true}>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>Committing changes to existing repositories</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>Adding a new repository</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>Adding a new feature</Link>
+                  </Box>
+                </Box>
+            </Box>
+          </Box>
+
+
         </Section>
 
         <Section colorIndex="neutral-6" justify="start" appCentered={true} pad={{vertical: "medium"}}>
@@ -95,9 +107,65 @@ module.exports = function (path, includeMenu) {
           <Box direction="column">
             <Headline>Architecture</Headline>
             <p>
-              High-level architecture, components, detailed feature & design information
+              OpenSwitch Architecture.
             </p>
-            <b>More Information</b>
+            <b>Feature Design</b>
+            <Box direction="row">
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Peripherals</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Management Interface</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Config Persistance</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Automatic Provisioning</Link>
+                </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>VLANs</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>L3 support</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Authentication</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>REST</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Check_MK</Link>
+                </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>LLDP</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>BGP</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Logging</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>DHCP/TFTP server</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>WebUI</Link>
+                </Box>
+
+              </Box>
+             </Box>
+            <p></p>
+            <b>Components Design</b>
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
@@ -254,14 +322,15 @@ module.exports = function (path, includeMenu) {
             <p>
               Lorem ipsum.
             </p>
-            <b>More Information</b>
-            <Box direction="row" align="start" responsive={true}>
+            <Box direction="row">
+            <Box direction="column" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/porting-new-platform"><i className="fa fa-angle-right"></i>Platform</Link>
+                <Link to="documents/dev/porting-new-platform"><i className="fa fa-angle-right"></i>Port OpenSwitch to a New Platform</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/porting-new-asic"><i className="fa fa-angle-right"></i>ASIC</Link>
+                <Link to="documents/dev/porting-new-asic"><i className="fa fa-angle-right"></i>Port OpenSwitch to a new ASIC</Link>
               </Box>
+            </Box>
             </Box>
           </Box>
         </Section>
@@ -270,17 +339,88 @@ module.exports = function (path, includeMenu) {
           <a name="testing"/>
           <Box direction="column">
             <Headline>Testing</Headline>
-            <p>
-              Testing
-            </p>
-            <b>More Information</b>
-            <Box direction="row" align="start" responsive={true}>
+            <Box direction="row">
+            <Box direction="column" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/testing-framework"><i className="fa fa-angle-right"></i>Testing Framework</Link>
+                <Link to="documents/dev/porting-new-platform"><i className="fa fa-angle-right"></i>Whitebox and Feature Tests</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/cit"><i className="fa fa-angle-right"></i>CIT</Link>
+                <Link to="documents/dev/porting-new-asic"><i className="fa fa-angle-right"></i>How To: Write Tests using Virtual Testing Framework</Link>
               </Box>
+            </Box>
+            </Box>
+            <p></p>
+            <b>Feature Test Cases</b>
+            <Box direction="row">
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Peripherals</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Management Interface</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Config Persistance</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Automatic Provisioning</Link>
+                </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>VLANs</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>L3 support</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Authentication</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>REST</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Check_MK</Link>
+                </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>LLDP</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>BGP</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Logging</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>DHCP/TFTP server</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>WebUI</Link>
+                </Box>
+
+              </Box>
+             </Box>
+            <p></p>
+          </Box>
+        </Section>
+        <Section justify="start" appCentered={true} pad={{vertical: "medium"}}>
+          <a name="management"/>
+          <Box direction="column">
+            <Headline>Defect Management</Headline>
+            <Box direction="row">
+            <Box direction="column" align="start" responsive={true}>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="documents/dev/place-holder-page"><i className="fa fa-angle-right"></i>Defect management tool</Link>
+              </Box>
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="documents/dev/place-holder-page"><i className="fa fa-angle-right"></i>Understanding OpenSwitch defect management process</Link>
+              </Box>
+            </Box>
             </Box>
           </Box>
         </Section>
