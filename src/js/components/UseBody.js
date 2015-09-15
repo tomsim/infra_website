@@ -62,7 +62,7 @@ module.exports = function (path, includeMenu) {
             <a name="installing"/>
             <Headline>Installing</Headline>
             <Box pad={{ horizontal: "small" }}>
-              <Link to="documents/dev/place-holder-page"><i className="fa fa-angle-right"></i>Installing and Booting OpenSwitch</Link>
+              <Link to="documents/user/installing"><i className="fa fa-angle-right"></i>Installing and Booting OpenSwitch</Link>
             </Box>
           </Section>
 
@@ -73,53 +73,53 @@ module.exports = function (path, includeMenu) {
               <Box direction="row">
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Peripherals</Link>
+                    <Link to="documents/user/user-features-guides-place-holder"><i className="fa fa-angle-right"></i>Peripherals</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
+                    <Link to="documents/user/user-features-guides-place-holder"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Management Interface</Link>
+                    <Link to="documents/user/user-features-guides-place-holder"><i className="fa fa-angle-right"></i>Management Interface</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Config Persistance</Link>
+                    <Link to="documents/user/user-features-guides-place-holder"><i className="fa fa-angle-right"></i>Config Persistance</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Automatic Provisioning</Link>
-                  </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>VLANs</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>L3 support</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Authentication</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>REST</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Check_MK</Link>
+                    <Link to="documents/user/user-features-guides-place-holder"><i className="fa fa-angle-right"></i>Automatic Provisioning</Link>
                   </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>LLDP</Link>
+                    <Link to="documents/user/user-features-guides-place-holder"><i className="fa fa-angle-right"></i>VLANs</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>BGP</Link>
+                    <Link to="documents/user/user-features-guides-place-holder"><i className="fa fa-angle-right"></i>L3 support</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Logging</Link>
+                    <Link to="documents/user/user-features-guides-place-holder"><i className="fa fa-angle-right"></i>Authentication</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>DHCP/TFTP server</Link>
+                    <Link to="documents/user/user-features-guides-place-holder"><i className="fa fa-angle-right"></i>REST</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>WebUI</Link>
+                    <Link to="documents/user/user-features-guides-place-holder"><i className="fa fa-angle-right"></i>Check_MK</Link>
+                  </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/user-features-guides-place-holder"><i className="fa fa-angle-right"></i>LLDP</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/user-features-guides-place-holder"><i className="fa fa-angle-right"></i>BGP</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/user-features-guides-place-holder"><i className="fa fa-angle-right"></i>Logging</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/user-features-guides-place-holder"><i className="fa fa-angle-right"></i>DHCP/TFTP server</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/user-features-guides-place-holder"><i className="fa fa-angle-right"></i>WebUI</Link>
                   </Box>
 
                 </Box>
@@ -138,53 +138,53 @@ module.exports = function (path, includeMenu) {
               <Box direction="row">
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Peripherals</Link>
+                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>Peripherals</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
+                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Management Interface</Link>
+                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>Management Interface</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Config Persistance</Link>
+                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>Config Persistance</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Automatic Provisioning</Link>
-                  </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>VLANs</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>L3 support</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Authentication</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>REST</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Check_MK</Link>
+                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>Automatic Provisioning</Link>
                   </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>LLDP</Link>
+                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>VLANs</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>BGP</Link>
+                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>L3 support</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Logging</Link>
+                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>Authentication</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>DHCP/TFTP server</Link>
+                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>REST</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>WebUI</Link>
+                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>Check_MK</Link>
+                  </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>LLDP</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>BGP</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>Logging</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>DHCP/TFTP server</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>WebUI</Link>
                   </Box>
                 </Box>
                 </Box>

@@ -109,7 +109,9 @@ module.exports = function (path, includeMenu) {
               <Box pad={{ horizontal: "small" }}>
                 <a href="https://openswitch.slack.com/" target="_blank"><i className="fa fa-angle-right"></i>Slack</a>
               </Box>
-
+              <Box pad={{ horizontal: "small" }}>
+                <Link to="documents/dev/white-papers"><i className="fa fa-angle-right"></i>White Papers</Link>
+              </Box>
             </Box>
             <Box direction="column" align="start" responsive={true}>
             <Box pad={{ horizontal: "small" }}>
