@@ -68,7 +68,7 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/dev/quick-start"><i className="fa fa-angle-right"></i>Quick Start Guide using Vagrant for Windows7</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/linux-setup"><i className="fa fa-angle-right"></i>Set up on custom Linux</Link>
+                    <Link to="documents/dev/getting-started"><i className="fa fa-angle-right"></i>Comprehensive Setup Guide</Link>
                   </Box>
                   <p></p>
                   <Box pad={{ horizontal: "small" }}>
