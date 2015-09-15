@@ -75,7 +75,7 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/dev/how-to-debug"><i className="fa fa-angle-right"></i>How to Debug</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>Code Repositories</Link>
+                    <Link to="documents/dev/code-repositories"><i className="fa fa-angle-right"></i>Code Repositories</Link>
                   </Box>
                 </Box>
             </Box>

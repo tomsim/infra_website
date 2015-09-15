@@ -205,7 +205,7 @@ module.exports = function (path, includeMenu) {
               <b>Download OpenSwitch for:</b>
               <Box direction="row" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/downloads"><i className="fa fa-angle-right"></i>Acction AS5712</Link>
+                  <Link to="documents/user/downloads"><i className="fa fa-angle-right"></i>Accton AS5712</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/download-simulation"><i className="fa fa-angle-right"></i>Virtual Switch</Link>
