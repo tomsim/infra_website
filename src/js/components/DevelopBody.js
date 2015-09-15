@@ -319,9 +319,6 @@ module.exports = function (path, includeMenu) {
           <a name="porting"/>
           <Box direction="column">
             <Headline>Porting</Headline>
-            <p>
-              Lorem ipsum.
-            </p>
             <Box direction="row">
             <Box direction="column" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
@@ -342,10 +339,10 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
             <Box direction="column" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/porting-new-platform"><i className="fa fa-angle-right"></i>Whitebox and Feature Tests</Link>
+                <Link to="documents/dev/place-holder-page"><i className="fa fa-angle-right"></i>Whitebox and Feature Tests</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/porting-new-asic"><i className="fa fa-angle-right"></i>How To: Write Tests using Virtual Testing Framework</Link>
+                <Link to="documents/dev/place-holder-page"><i className="fa fa-angle-right"></i>How To: Write Tests using Virtual Testing Framework</Link>
               </Box>
             </Box>
             </Box>
