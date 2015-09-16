@@ -93,7 +93,7 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>Adding a new repository</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>Adding a new feature</Link>
+                    <Link to="/documents/dev/contribute-code#adding-new-code"><i className="fa fa-angle-right"></i>Adding a new feature</Link>
                   </Box>
                 </Box>
             </Box>
