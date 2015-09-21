@@ -131,9 +131,6 @@ module.exports = function (path, includeMenu) {
             <a name="references"/>
             <Box direction="column">
               <Headline>References</Headline>
-              <p>
-                Reference documentation
-              </p>
               <b>Command Reference</b>
               <Box direction="row">
                 <Box direction="column" align="start" responsive={true}>
@@ -199,9 +196,6 @@ module.exports = function (path, includeMenu) {
             <a name="downloads"/>
             <Box direction="column">
               <Headline>Downloads</Headline>
-              <p>
-                Downloads
-              </p>
               <b>Download OpenSwitch for:</b>
               <Box direction="row" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
