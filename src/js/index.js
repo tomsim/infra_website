@@ -29,7 +29,24 @@ var routes = (
   </Route>
 );
 
-var router = Router.create({routes: routes, location: Router.HistoryLocation});
+//var router = Router.create({routes: routes, location: Router.HistoryLocation});
+var router = Router.create({
+  routes: routes,
+  location: Router.HistoryLocation,
+  scrollBehavior: {
+    updateScrollPosition: function updateScrollPosition() {
+      var hash = window.location.hash;
+      if (hash) {
+        var element = document.querySelector(hash);
+        if (element) {
+          element.scrollIntoView();
+        }
+      } else {
+        window.scrollTo(0, 0);
+      }
+    }
+  }
+});
 
 router.run(function (Handler) {
   var element = document.getElementById('content');
