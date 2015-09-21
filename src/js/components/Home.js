@@ -93,7 +93,7 @@ var Home = React.createClass({
               <p>OpenSwitch is a truly open and collaborative environment that helps developers innovate and produce modern and modular code. If you’re ready to be the innovator of the future (or maybe just want to tinker with the source code), get started today.
               </p>
               <Menu direction="row">
-                <Link to="documents/dev/getting-started">
+                <Link to="documents/dev/comprehensive-setup-guide">
                   <Button label="Get started Here" onClick={this._onClick} primary={true} />
                 </Link>
               </Menu>
@@ -152,7 +152,7 @@ var Home = React.createClass({
         <Section full={true} backgroundImage={'url(img/network-background.png)'}
           appCentered={true} justify="start" align="start">
           <Menu direction="row" pad={{vertical: "small"}}>
-            <Button label="The OpenSwitch Blog" onClick={this._onClick} primary={true} />
+
           </Menu>
           <Menu direction="row" responsive={false} pad={{ vertical: "small" }}>
           </Menu>
