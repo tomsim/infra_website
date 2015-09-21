@@ -65,10 +65,13 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/quick-start"><i className="fa fa-angle-right"></i>Quick Start Guide using Vagrant for Windows7</Link>
+                    <Link to="documents/dev/prerequisites"><i className="fa fa-angle-right"></i>Pre-requisites</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/getting-started"><i className="fa fa-angle-right"></i>Comprehensive Setup Guide</Link>
+                    <Link to="documents/dev/quick-start"><i className="fa fa-angle-right"></i>Quick Start Guide using Vagrant</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/comprehensive-setup-guide"><i className="fa fa-angle-right"></i>Comprehensive Setup Guide</Link>
                   </Box>
                   <p></p>
                   <Box pad={{ horizontal: "small" }}>
@@ -78,11 +81,28 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/dev/code-repositories"><i className="fa fa-angle-right"></i>Code Repositories</Link>
                   </Box>
                 </Box>
+
             </Box>
           </Box>
           <Box direction="column">
             <p><strong>
-              Committing Code.</strong>
+              Develop on OpenSwitch.</strong>
+            </p>
+            <Box direction="row">
+              <Box direction="column" align="start" responsive={true}>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/develop-on-openswitch"><i className="fa fa-angle-right"></i>Develop on OpenSwitch</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/how-to-debug"><i className="fa fa-angle-right"></i>Debugging</Link>
+                  </Box>
+                </Box>
+            </Box>
+          </Box>
+
+          <Box direction="column">
+            <p><strong>
+              Contributing to OpenSwitch.</strong>
             </p>
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
@@ -90,10 +110,10 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>Committing changes to existing repositories</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>Adding a new repository</Link>
+                    <Link to="/documents/dev/contribute-code#adding-new-code"><i className="fa fa-angle-right"></i>Adding a new repository</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="/documents/dev/contribute-code#adding-new-code"><i className="fa fa-angle-right"></i>Adding a new feature</Link>
+                    <Link to="/documents/dev/contribute-code#adding-a-new-feature"><i className="fa fa-angle-right"></i>Adding a new feature</Link>
                   </Box>
                 </Box>
             </Box>
