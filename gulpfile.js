@@ -35,7 +35,7 @@ renderer.code = function(code, language){
 };
 
 renderer.paragraph = function (text) {
-  return text.replace(/{/g, "{'{'}").replace(/^'}/g, "{'}'}");
+  return '<p>' + text.replace(/{/g, "{'{'}").replace(/^'}/g, "{'}'}") + '</p>';
 }
 
 var opts = {
