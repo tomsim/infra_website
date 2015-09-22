@@ -62,7 +62,7 @@ module.exports = function (path, includeMenu) {
             <a name="installing"/>
             <Headline>Installing</Headline>
             <Box pad={{ horizontal: "small" }}>
-              <Link to="documents/user/installing"><i className="fa fa-angle-right"></i>Installing and Booting OpenSwitch</Link>
+              <Link to="documents/dev/deploy-to-physical-switch"><i className="fa fa-angle-right"></i>Installing and Booting OpenSwitch</Link>
             </Box>
           </Section>
 
