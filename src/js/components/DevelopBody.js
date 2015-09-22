@@ -435,7 +435,7 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
             <Box direction="column" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/place-holder-page"><i className="fa fa-angle-right"></i>Defect management tool</Link>
+                <a href="https://tree.taiga.io/project/openswitch/" target="_blank"><i className="fa fa-angle-right"></i>Defect management tool</a>
               </Box>
               <Box pad={{ horizontal: "small" }}>
                 <Link to="documents/dev/place-holder-page"><i className="fa fa-angle-right"></i>Understanding OpenSwitch defect management process</Link>
