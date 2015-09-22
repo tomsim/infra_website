@@ -91,9 +91,6 @@ module.exports = function (path, includeMenu) {
           <a name="communication"/>
           <Box direction="column">
             <Headline>Communication</Headline>
-            <p>
-              Communication
-            </p>
             <b>More Information</b>
             <Box direction="row">
             <Box direction="column" align="start" responsive={true}>
