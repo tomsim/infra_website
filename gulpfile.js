@@ -44,6 +44,14 @@ var opts = {
     {
       asset: 'src/img/**',
       dist: 'dist/img/'
+    },
+    {
+      asset: 'src/markdown/en-US/documents/dev/img/**',
+      dist: 'dist/img/'
+    },
+    {
+      asset: 'src/markdown/en-US/documents/user/img/**',
+      dist: 'dist/img/'
     }
   ],
   jsAssets: ['src/js/**/*.js'],

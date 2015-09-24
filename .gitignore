@@ -1,3 +1,4 @@
+singletask.lock
 dist
 node_modules
 src/js/components/MarkdownContentsMap.js

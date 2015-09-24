@@ -87,9 +87,9 @@ module.exports = {
       render: function () {}
     });
 
-    var results = [<Route path="" handler={DefaultRedirect} />];
-    results.push(<Route path="/" handler={DefaultRedirect} />);
-    results.push(<NotFoundRoute handler={DefaultRedirect}/>);
+    var results = [<Route key="emptyPath" path="" handler={DefaultRedirect} />];
+    results.push(<Route key="homePagePath" path="/" handler={DefaultRedirect} />);
+    results.push(<NotFoundRoute key="notFoundPath" handler={DefaultRedirect}/>);
 
     return results.concat(this.createContentRoutes(contents));
   }
