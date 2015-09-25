@@ -179,46 +179,16 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Projects configuration (gerrit, zuul, jenkins, etc)</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Puppet Gerrit Module</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Puppet Iptables Module</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Puppet Jenkins Module</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Puppet SSH Module</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Infrastructure System Configuration</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>AAA</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>ARP Manager Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Configuration files for AS5712</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Buffer Monitor Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Configuration Daemon</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>CLI daemon</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Library to read config yaml files</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Dhcp and tftp server</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Fan Daemon</Link>
@@ -226,12 +196,6 @@ module.exports = function (path, includeMenu) {
 
               </Box>
               <Box direction="column" align="start" responsive={true}>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>OpenHalon Governance</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>OpenHalon Utility Library</Link>
-                </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Interface Daemon</Link>
                 </Box>
@@ -248,19 +212,16 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>LLDP Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>OpenHalon Project</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>OpenVswitch Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>OVSDB IDL</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Halon Broadcom OVS Plugin</Link>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>OpenSwitch Broadcom OVS Plugin</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Halon Simulator OVS Plugin L2</Link>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>OpenSwitch Simulator OVS Plugin L2</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Pluggable Module Daemon</Link>
@@ -275,9 +236,6 @@ module.exports = function (path, includeMenu) {
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Configuration files for Simulator</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>System Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
@@ -290,9 +248,6 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>LACP Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Virtual Switch Image (Test Framework)</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>LLDP Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
@@ -302,19 +257,10 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Zero touch components</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Check_MK</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>DHCP/TFTP server</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Quagga - BGP</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Quagga - Zebra</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Feature Test Framework</Link>
+                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Quagga</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>CLI daemon</Link>

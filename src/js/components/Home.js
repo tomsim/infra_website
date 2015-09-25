@@ -123,12 +123,9 @@ var Home = React.createClass({
         </HomeSection>
 
         <HomeSection>
-          <Headline large={true}>Founding Members.</Headline>
+          <Headline large={true}>Charter Contributors</Headline>
           <p>
             OpenSwitch is supported by key players in the networking industry.
-            <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/user/members"><i className="fa fa-angle-right"></i>Learn More</Link>
-            </Box>
           </p>
           <Tiles fill={true} flush={false} small={true}>
             <Tile justify="center" align="center" pad="small">

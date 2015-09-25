@@ -22,7 +22,7 @@ var Footer = React.createClass({
 
         </Box>
         <Menu direction="row" align="end" responsive={false} pad={{ vertical: "small" }}>
-            <a href="https://groups.google.com/forum/#!forum/openswitch" target="_blank"><i className="fa fa-envelope fa-2x"></i></a>
+            <a href="http://lists.openswitch.net" target="_blank"><i className="fa fa-envelope fa-2x"></i></a>
             <a href="https://tree.taiga.io/project/openswitch/issues" target="_blank"><i className="fa fa-bug fa-2x"></i></a>
             <a href="http://openswitch.slack.com" target="_blank"><i className="fa fa-slack fa-2x"></i></a>
             <a href="http://git.openswitch.net/" target="_blank"><i className="fa fa-git fa-2x"></i></a>
@@ -31,6 +31,6 @@ var Footer = React.createClass({
       </GrommetFooter>
     );
   }
-}); 
+});
 
 module.exports = Footer;
