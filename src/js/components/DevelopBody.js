@@ -71,7 +71,7 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/dev/quick-start"><i className="fa fa-angle-right"></i>Quick Start Guide using Vagrant</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/comprehensive-setup-guide"><i className="fa fa-angle-right"></i>Comprehensive Setup Guide</Link>
+                    <Link to="documents/dev/step-by-step-guide"><i className="fa fa-angle-right"></i>Step-by-Step Guide</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/dev/code-repositories"><i className="fa fa-angle-right"></i>Code Repositories</Link>
@@ -98,18 +98,12 @@ module.exports = function (path, includeMenu) {
 
           <Box direction="column">
             <p><strong>
-              Contributing to OpenSwitch.</strong>
+              How to Contribute to the Code.</strong>
             </p>
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>Committing changes to existing repositories</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="/documents/dev/contribute-code#adding-new-code"><i className="fa fa-angle-right"></i>Adding a new repository</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="/documents/dev/contribute-code#adding-a-new-feature"><i className="fa fa-angle-right"></i>Adding a new feature</Link>
                   </Box>
                 </Box>
             </Box>
@@ -355,7 +349,7 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
             <Box direction="column" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/place-holder-page"><i className="fa fa-angle-right"></i>Whitebox and Feature Tests</Link>
+                <Link to="documents/dev/whitebox-and-feature-tests"><i className="fa fa-angle-right"></i>Whitebox and Feature Tests</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
                 <Link to="documents/dev/place-holder-page"><i className="fa fa-angle-right"></i>How To: Write Tests using Virtual Testing Framework</Link>

@@ -190,7 +190,7 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <p></p>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/rest-api-reference"><i className="fa fa-angle-right"></i>REST APIs</Link>
+                  <a href="http://api.openswitch.net/rest/dist/index.html" target="_blank"><i className="fa fa-angle-right"></i>REST APIs</a>
                 </Box>
             </Box>
           </Section>
@@ -199,18 +199,20 @@ module.exports = function (path, includeMenu) {
             <a name="downloads"/>
             <Box direction="column">
               <Headline>Downloads</Headline>
-              <b>Download OpenSwitch for:</b>
-              <Box direction="row" align="start" responsive={true}>
+              <Box direction="row">
+                <Box direction="column" align="start" responsive={true}>
+                  <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/downloads"><i className="fa fa-angle-right"></i>Accton AS5712</Link>
+                  <Link to="documents/user/hardware-compatibility"><i className="fa fa-angle-right"></i>Hardware Compatibility</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/download-simulation"><i className="fa fa-angle-right"></i>Virtual Switch</Link>
+                  <a href="http://archive.openswitch.net/artifacts/" target="_blank"><i className="fa fa-angle-right"></i>OpenSwitch Download Archive</a>
                 </Box>
               </Box>
+              </Box>
+            </Box>
             </Box>
           </Section>
-
           <Footer />
         </Article>
       );
