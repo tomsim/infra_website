@@ -5,7 +5,8 @@ MARKDOWN_ROOT=src/ops-website/src/markdown/en-US/documents
 ops-website-setup: $(MARKDOWN_ROOT)/dev $(MARKDOWN_ROOT)/user
 
 $(MARKDOWN_ROOT)/dev: $(BUILD_ROOT)/src/ops-docs
-	 $(V) cp -Rf $< $@
+	$(V) cp -Rf $< $@
+	$(V) rm -Rf $@/user
 
 $(BUILD_ROOT)/src/ops-docs:
 	$(V) git clone https://git.openswitch.net/openswitch/ops-docs $@

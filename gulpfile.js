@@ -111,7 +111,10 @@ function processPages(baseDir, location, pageSection) {
         return;
       }
     } else {
-      if (page == "images") {
+      if (page == "img") {
+        return;
+      }
+      if (page == "templates") {
         return;
       }
     }
