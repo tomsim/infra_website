@@ -60,7 +60,7 @@ module.exports = function (path, includeMenu) {
           <Box direction="column">
             <Headline>Getting Started</Headline>
             <p><strong>
-              Setting up your development environment.</strong>
+              Setup, Build and Run OpenSwitch.</strong>
             </p>
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
@@ -87,7 +87,7 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/develop-on-openswitch"><i className="fa fa-angle-right"></i>Develop on OpenSwitch</Link>
+                    <Link to="documents/dev/changing-openswitch-code"><i className="fa fa-angle-right"></i>Changing OpenSwitch Code</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/dev/how-to-debug"><i className="fa fa-angle-right"></i>Debugging</Link>
@@ -425,7 +425,7 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
             <Box direction="column" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <a href="https://tree.taiga.io/project/openswitch/" target="_blank"><i className="fa fa-angle-right"></i>Defect management tool</a>
+                <a href="https://tree.taiga.io/project/openswitch/issues?page=1" target="_blank"><i className="fa fa-angle-right"></i>Defect management tool</a>
               </Box>
               <Box pad={{ horizontal: "small" }}>
                 <Link to="documents/dev/place-holder-page"><i className="fa fa-angle-right"></i>Understanding OpenSwitch defect management process</Link>

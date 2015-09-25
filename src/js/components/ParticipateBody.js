@@ -63,6 +63,8 @@ module.exports = function (path, includeMenu) {
             <b>More Information</b>
             <Box direction="row" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
+                <Link to="documents/user/openswitch_overview"><i className="fa fa-angle-right"></i>Overview</Link>
+                <Link to="documents/user/openswitch_faq"><i className="fa fa-angle-right"></i>FAQ</Link>
                 <Link to="documents/user/participatehome"><i className="fa fa-angle-right"></i>Getting Started</Link>
                 <a href="http://governance.openswitch.net/" target="_blank"><i className="fa fa-angle-right"></i>Governance Documentation</a>
               </Box>
@@ -94,12 +96,6 @@ module.exports = function (path, includeMenu) {
             <b>More Information</b>
             <Box direction="row">
             <Box direction="column" align="start" responsive={true}>
-              <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/openswitch_overview"><i className="fa fa-angle-right"></i>Overview</Link>
-              </Box>
-              <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/openswitch_faq"><i className="fa fa-angle-right"></i>FAQ</Link>
-              </Box>
               <Box pad={{ horizontal: "small" }}>
                 <a href="https://groups.google.com/forum/#!forum/openswitch" target="_blank"><i className="fa fa-angle-right"></i>Mailing lists</a>
               </Box>
