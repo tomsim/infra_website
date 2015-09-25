@@ -14,7 +14,7 @@ $(BUILD_ROOT)/src/ops:
 	$(V)$(MAKE) devenv_add ops
 
 ops-website-serve:
-	$(V)cd src/ops-website/ ; $(STAGING_DIR_NATIVE)/usr/bin/gulp dev
+	$(V)cd src/ops-website/ ; PATH=$(STAGING_DIR_NATIVE)/usr/bin:$$PATH $(STAGING_DIR_NATIVE)/usr/bin/gulp dev
 
 ops-website-dist:
-	$(V)cd src/ops-website/ ; $(STAGING_DIR_NATIVE)/usr/bin/gulp dist
+	$(V)cd src/ops-website/ ; PATH=$(STAGING_DIR_NATIVE)/usr/bin:$$PATH $(STAGING_DIR_NATIVE)/usr/bin/gulp dist
