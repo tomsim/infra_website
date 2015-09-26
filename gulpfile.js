@@ -26,7 +26,8 @@ marked.setOptions({
 renderer.code = function(code, language){
   var lang = language || 'nohighlight';
 
-  if (language && language !== 'nohighlight' && language !== 'ascii-art') {
+  if (language && language !== 'nohighlight' && language !== 'ascii-art'
+      && language !== 'ditaa') {
     code = hljs.highlight(lang, code).value;
   }
 
