@@ -79,7 +79,7 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
             <Box direction="column" align="start" responsive={true}>
               <Box pad={{ horizontal: "small" }}>
-                <a href="https://groups.google.com/forum/#!forum/openswitch" target="_blank"><i className="fa fa-angle-right"></i>Mailing lists</a>
+                <a href="http://lists.openswitch.net" target="_blank"><i className="fa fa-angle-right"></i>Mailing lists</a>
               </Box>
               <Box pad={{ horizontal: "small" }}>
                 <a href="https://openswitch.slack.com/" target="_blank"><i className="fa fa-angle-right"></i>Slack</a>
