@@ -32,7 +32,7 @@ renderer.code = function(code, language){
   }
 
   return '<pre><code class="hljs ' + lang + '">' +
-    code.replace(/\n/g, '\n\n').replace(/{/g, "{'{'}").replace(/^'}/g, "{'}'}").replace(/</g, "&lt;").replace(/>/g, "&gt;") + '</code></pre>';
+    code.replace(/{/g, "{'{'}").replace(/^'}/g, "{'}'}").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/\n/g, '<br />') + '</code></pre>';
 };
 
 renderer.paragraph = function (text) {
