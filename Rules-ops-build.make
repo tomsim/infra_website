@@ -25,6 +25,6 @@ ops-website-dist:
 
 ops-website-update:
 	$(V)rm -Rf $(MARKDOWN_ROOT)/user $(MARKDOWN_ROOT)/dev
-	$(V)cd $(BUILD_ROOT)/src/ops; git pull
-	$(V)cd $(BUILD_ROOT)/src/ops-docs; git pull
+	$(V)cd $(BUILD_ROOT)/src/ops; git pull || true
+	$(V)cd $(BUILD_ROOT)/src/ops-docs; git pull || true
 	$(V)$(MAKE) $(MARKDOWN_ROOT)/user $(MARKDOWN_ROOT)/dev

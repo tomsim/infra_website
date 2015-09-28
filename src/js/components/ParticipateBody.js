@@ -48,7 +48,6 @@ module.exports = function (path, includeMenu) {
         textCentered={true} pad={{vertical: "none"}}>
         <Menu direction="row" align="end" responsive={false} >
           <p><i className="fa fa-caret-right"></i><a href="#participate" className="scroll">Participate</a></p>
-          <p><i className="fa fa-caret-right"></i><a href="#members" className="scroll">Members</a></p>
           <p><i className="fa fa-caret-right"></i><a href="#communication" className="scroll">Communication</a></p>
         </Menu>
         </Section>
@@ -67,23 +66,6 @@ module.exports = function (path, includeMenu) {
                 <Link to="documents/user/openswitch_faq"><i className="fa fa-angle-right"></i>FAQ</Link>
                 <Link to="documents/user/participatehome"><i className="fa fa-angle-right"></i>Getting Started</Link>
                 <a href="http://governance.openswitch.net/" target="_blank"><i className="fa fa-angle-right"></i>Governance Documentation</a>
-              </Box>
-            </Box>
-          </Box>
-        </Section>
-
-        <Section colorIndex="neutral-6" justify="start" appCentered={true} pad={{vertical: "medium"}}>
-          <a name="members"/>
-          <Box direction="column">
-            <Headline>Members</Headline>
-            <p>
-              OpenSwitch is supported by key players in the networking industry.
-            </p>
-            <b>More Information</b>
-            <Box direction="row" align="start" responsive={true}>
-
-              <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/user/members"><i className="fa fa-angle-right"></i>Members</Link>
               </Box>
             </Box>
           </Box>
@@ -116,10 +98,6 @@ module.exports = function (path, includeMenu) {
               <Box pad={{ horizontal: "small" }}>
                 <Link to="documents/user/blogs"><i className="fa fa-angle-right"></i>Blogs</Link>
               </Box>
-              <Box pad={{ horizontal: "small" }}>
-                <a href="https://github.com/open-switch" target="_blank"><i className="fa fa-angle-right"></i>GitHub Discussions</a>
-              </Box>
-
             </Box>
             </Box>
           </Box>

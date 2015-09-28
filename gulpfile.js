@@ -17,7 +17,7 @@ var marked = require('marked');
 var hljs = require('highlight.js/lib/index');
 var renderer = new marked.Renderer();
 marked.setOptions({
-  breaks: true,
+  breaks: false,
   sanitize: true,
   smartLists: true,
   smartypants: true
@@ -32,7 +32,7 @@ renderer.code = function(code, language){
   }
 
   return '<pre><code class="hljs ' + lang + '">' +
-    code.replace(/\n/g, '<br />').replace(/{/g, "{'{'}").replace(/^'}/g, "{'}'}") + '</code></pre>';
+    code.replace(/\n/g, '\n\n').replace(/{/g, "{'{'}").replace(/^'}/g, "{'}'}").replace(/</g, "&lt;").replace(/>/g, "&gt;") + '</code></pre>';
 };
 
 renderer.paragraph = function (text) {
