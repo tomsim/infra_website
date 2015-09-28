@@ -20,6 +20,7 @@ var HPIcon = require('./icons/HP');
 var AcctonIcon = require('./icons/Accton');
 var VMwareIcon = require('./icons/Vmware');
 var BroadcomIcon = require('./icons/Broadcom');
+var QosmosIcon = require('./icons/Qosmos');
 
 var Header = require('./Header');
 var Footer = require('./Footer');
@@ -127,7 +128,7 @@ var Home = React.createClass({
           <p>
             OpenSwitch is supported by key players in the networking industry.
           </p>
-          <Tiles fill={true} flush={false} small={true}>
+          <Tiles fill={true} flush={false}>
             <Tile justify="center" align="center" pad="small">
               <HPIcon />
             </Tile>
@@ -142,6 +143,9 @@ var Home = React.createClass({
             </Tile>
             <Tile justify="center" align="center" pad="small">
               <VMwareIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
+              <QosmosIcon />
             </Tile>
           </Tiles>
         </HomeSection>
