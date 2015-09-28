@@ -18,10 +18,10 @@ var Footer = React.createClass({
     return (
       <GrommetFooter appCentered={true} align="start" float={this.props.float}
          pad={{ vertical: "none", horizontal: "large" }} justify="between" colorIndex={colorIndex}>
-        <Box direction="row">
-
-        </Box>
-        <Menu direction="row" align="end" responsive={false} pad={{ vertical: "small" }}>
+        <Menu direction="row" align="start" responsive={false}>
+          <p><i className="fa fa-caret-right"></i><a href="http://www8.hp.com/us/en/terms-of-use.html" className="scroll">Terms of use</a></p>
+        </Menu>
+        <Menu direction="row" align="end" responsive={false} pad={{ vertical: "medium" }}>
             <a href="http://webchat.freenode.net/?channels=#openswitch" target="_blank"><i className="fa fa-user fa-2x"></i></a>
             <a href="http://lists.openswitch.net" target="_blank"><i className="fa fa-envelope fa-2x"></i></a>
             <a href="http://openswitch.slack.com" target="_blank"><i className="fa fa-slack fa-2x"></i></a>
