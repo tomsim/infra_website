@@ -54,7 +54,7 @@ var Home = React.createClass({
         <HomeSection primary={true} full={true} className="openswitch-hero"
           backgroundImage={'url(img/openswitch-background.png)'}>
           <OpenSwitchLogo a11yTitle=""/>
-          <Headline large={true}><b>Open</b>Switch</Headline>
+          <Headline large={true}><b>OpenSwitch</b></Headline>
           <Headline small={true}>
             The first truly Open Source Network Operating System.
           </Headline>

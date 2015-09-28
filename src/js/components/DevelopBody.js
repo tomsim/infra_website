@@ -73,9 +73,6 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/dev/step-by-step-guide"><i className="fa fa-angle-right"></i>Step-by-Step Guide</Link>
                   </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/code-repositories"><i className="fa fa-angle-right"></i>Code Repositories</Link>
-                  </Box>
                 </Box>
 
             </Box>
@@ -91,6 +88,9 @@ module.exports = function (path, includeMenu) {
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/dev/how-to-debug"><i className="fa fa-angle-right"></i>Debugging</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/code-repositories"><i className="fa fa-angle-right"></i>Code Repositories</Link>
                   </Box>
                 </Box>
             </Box>
