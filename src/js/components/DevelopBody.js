@@ -60,7 +60,7 @@ module.exports = function (path, includeMenu) {
           <Box direction="column">
             <Headline>Getting Started</Headline>
             <p><strong>
-              Setup, Build and Run OpenSwitch.</strong>
+              Setup, Build and Run OpenSwitch</strong>
             </p>
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
@@ -79,7 +79,7 @@ module.exports = function (path, includeMenu) {
           </Box>
           <Box direction="column">
             <p><strong>
-              Develop on OpenSwitch.</strong>
+              Develop on OpenSwitch</strong>
             </p>
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
@@ -98,7 +98,7 @@ module.exports = function (path, includeMenu) {
 
           <Box direction="column">
             <p><strong>
-              How to Contribute to the Code.</strong>
+              How to Contribute to the Code</strong>
             </p>
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
@@ -117,7 +117,7 @@ module.exports = function (path, includeMenu) {
           <Box direction="column">
             <Headline>Architecture</Headline>
             <p>
-              <Link to="documents/dev/architecture"><i className="fa fa-angle-right"></i>OpenSwitch Architecture.</Link>
+              <Link to="documents/dev/architecture"><i className="fa fa-angle-right"></i>OpenSwitch Architecture</Link>
             </p>
             <b>Feature Design</b>
             <Box direction="row">

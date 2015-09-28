@@ -56,7 +56,7 @@ var Home = React.createClass({
           <OpenSwitchLogo a11yTitle=""/>
           <Headline large={true}><b>OpenSwitch</b></Headline>
           <Headline small={true}>
-            The first truly Open Source Network Operating System.
+            The first truly Open Source Network Operating System
           </Headline>
 
         </HomeSection>
@@ -67,7 +67,7 @@ var Home = React.createClass({
               <CommunityIcon />
             </Box>
             <Box direction="column" justify="center" align="center">
-              <Headline strong={true}>Open Source, Open Community.</Headline>
+              <Headline strong={true}>Open Source, Open Community</Headline>
               <p><strong>
                 Become a part of the data center and networking revolution.</strong></p>
               <p>
@@ -75,7 +75,7 @@ var Home = React.createClass({
               </p>
               <Menu direction="row">
                 <Link to="participate/participatehome">
-                  <Button label="Join the community today." onClick={this._onClick} primary={true} />
+                  <Button label="Join the community today" onClick={this._onClick} primary={true} />
                 </Link>
               </Menu>
             </Box>
@@ -108,7 +108,7 @@ var Home = React.createClass({
               <ConsoleIcon />
             </Box>
             <Box direction="column" justify="center" align="center">
-              <Headline strong={true}>Go Ahead, Use It.</Headline>
+              <Headline strong={true}>Go Ahead, Use It</Headline>
               <p><strong>Introducing the open source NOS that tips traditional networking on its side.
               </strong></p>
               <p>OpenSwitch provides a fully-featured L2/L3 control plane stack, traditional and programmatic, declarative control plane.</p>
