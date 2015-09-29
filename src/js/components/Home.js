@@ -94,7 +94,7 @@ var Home = React.createClass({
               <p>OpenSwitch is a truly open and collaborative environment that helps developers innovate and produce modern and modular code. If you’re ready to be the innovator of the future (or maybe just want to tinker with the source code), get started today.
               </p>
               <Menu direction="row">
-                <Link to="documents/dev/changing-openswitch-code">
+                <Link to="develop">
                   <Button label="Get started Here" onClick={this._onClick} primary={true} />
                 </Link>
               </Menu>
