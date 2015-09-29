@@ -123,55 +123,71 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-common-place-holder"><i className="fa fa-angle-right"></i>Peripherals</Link>
+                    <span>Boot Up</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-common-place-holder"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
+                  <Link to="documents/user/interfaces_design"><i className="fa fa-angle-right"></i>PHY Interfaces</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/mgmt_intf_design"><i className="fa fa-angle-right"></i>Management Interface</Link>
+                  <span>Temp and Fan Management</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-common-place-holder"><i className="fa fa-angle-right"></i>Config Persistance</Link>
+                  <Link to="documents/user/led_design"><i className="fa fa-angle-right"></i>LED</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-common-place-holder"><i className="fa fa-angle-right"></i>Automatic Provisioning</Link>
+                  <span>Power Management</span>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-common-place-holder"><i className="fa fa-angle-right"></i>VLANs</Link>
+                  <Link to="documents/user/pluggable_modules_design"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-common-place-holder"><i className="fa fa-angle-right"></i>L3 support</Link>
+                  <span>VLANs</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-common-place-holder"><i className="fa fa-angle-right"></i>Authentication</Link>
+                  <span>LLDP</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-common-place-holder"><i className="fa fa-angle-right"></i>REST</Link>
+                  <span>Link Aggregation</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-common-place-holder"><i className="fa fa-angle-right"></i>Check_MK</Link>
+                  <span>L3 Interfaces, Static Routes, ECMP</span>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-common-place-holder"><i className="fa fa-angle-right"></i>LLDP</Link>
+                  <span>BGP</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-common-place-holder"><i className="fa fa-angle-right"></i>BGP</Link>
+                 <Link to="documents/user/mgmt_intf_design"><i className="fa fa-angle-right"></i>Management Interface</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-common-place-holder"><i className="fa fa-angle-right"></i>Logging</Link>
+                  <span>Authentication</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-common-place-holder"><i className="fa fa-angle-right"></i>DHCP/TFTP server</Link>
+                  <span>Log Rotation</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-common-place-holder"><i className="fa fa-angle-right"></i>WebUI</Link>
+                  <span>Configuration Persistence</span>
                 </Box>
-
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>Web UI</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>REST and Declarative Config</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>Zero Touch</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>Check_MK</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>DHCP/TFTP Server</span>
+                </Box>
               </Box>
              </Box>
             <p></p>
@@ -179,91 +195,95 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>AAA</Link>
+                  <span>AAA</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>ARP Manager Daemon</Link>
+                  <span>ARP Manager Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Buffer Monitor Daemon</Link>
+                  <span>Buffer Monitor Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>CLI daemon</Link>
+                  <span>Configuration Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Fan Daemon</Link>
+                  <span>Check_MK</span>
                 </Box>
-
+                <Box pad={{ horizontal: "small" }}>
+                  <span>CLI Daemon</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>Configuration Files for AS5712</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>Configuration Files for Simulator</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>Library to Read Config yaml Files</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>DHCP/TFTP Server</span>
+                </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>Fan Daemon</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>Feature Test Framework</span>
+                </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/interfaces_design"><i className="fa fa-angle-right"></i>Interface Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Layer3 Port Daemon</Link>
+                  <span>LACP Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>LACP Daemon</Link>
+                  <span>LED Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/led_design"><i className="fa fa-angle-right"></i>LED Daemon</Link>
+                  <span>LLDP Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>LLDP Daemon</Link>
+                  <span>Management Interface</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>OpenVswitch Daemon</Link>
+                  <span>OpenVswitch Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>OVSDB IDL</Link>
+                  <span>Pluggable Module Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>OpenSwitch Broadcom OVS Plugin</Link>
+                  <span>Layer3 Port Daemon</span>
                 </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>OpenSwitch Simulator OVS Plugin L2</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/pluggable_modules_design"><i className="fa fa-angle-right"></i>Pluggable Module Daemon</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Power Daemon</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>REST Daemon</Link>
-                </Box>
-
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>System Daemon</Link>
+                  <span>Power Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Temparature Daemon</Link>
+                  <span>Quagga (BGP and Zebra)</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>VLAN Daemon</Link>
+                  <span>REST Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>LACP Daemon</Link>
+                  <span>OpenNSL Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>LLDP Daemon</Link>
+                  <span>Temperature Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Web UI</Link>
+                  <span>Utility Library</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Zero touch components</Link>
+                  <span>VLAN Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>DHCP/TFTP server</Link>
+                  <span>Virtual Switch Image (Test Framework)</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Quagga</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>CLI daemon</Link>
+                  <span>Web UI</span>
                 </Box>
               </Box>
              </Box>
@@ -310,53 +330,53 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-test-case-place-holder"><i className="fa fa-angle-right"></i>Peripherals</Link>
+                  <span>Peripherals</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-test-case-place-holder"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
+                  <span>Link Aggregation</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-test-case-place-holder"><i className="fa fa-angle-right"></i>Management Interface</Link>
+                  <span>Management Interface</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-test-case-place-holder"><i className="fa fa-angle-right"></i>Config Persistance</Link>
+                  <span>Config Persistance</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-test-case-place-holder"><i className="fa fa-angle-right"></i>Automatic Provisioning</Link>
-                </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-test-case-place-holder"><i className="fa fa-angle-right"></i>VLANs</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-test-case-place-holder"><i className="fa fa-angle-right"></i>L3 support</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-test-case-place-holder"><i className="fa fa-angle-right"></i>Authentication</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-test-case-place-holder"><i className="fa fa-angle-right"></i>REST</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-test-case-place-holder"><i className="fa fa-angle-right"></i>Check_MK</Link>
+                  <span>Automatic Provisioning</span>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-test-case-place-holder"><i className="fa fa-angle-right"></i>LLDP</Link>
+                  <span>VLANs</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-test-case-place-holder"><i className="fa fa-angle-right"></i>BGP</Link>
+                  <span>L3 Support</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-test-case-place-holder"><i className="fa fa-angle-right"></i>Logging</Link>
+                  <span>Authentication</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-test-case-place-holder"><i className="fa fa-angle-right"></i>DHCP/TFTP server</Link>
+                    <span>REST</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-test-case-place-holder"><i className="fa fa-angle-right"></i>WebUI</Link>
+                  <span>Check_MK</span>
+                </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>LLDP</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>BGP</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>Logging</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>DHCP/TFTP Server</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>Web UI</span>
                 </Box>
 
               </Box>
