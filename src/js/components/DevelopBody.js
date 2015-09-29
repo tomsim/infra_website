@@ -117,7 +117,7 @@ module.exports = function (path, includeMenu) {
           <Box direction="column">
             <Headline>Architecture</Headline>
             <p>
-              <Link to="documents/dev/architecture"><i className="fa fa-angle-right"></i>OpenSwitch Architecture</Link>
+              <Link to="documents/user/architecture"><i className="fa fa-angle-right"></i>OpenSwitch Architecture</Link>
             </p>
             <b>Feature Design</b>
             <Box direction="row">
@@ -129,7 +129,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/feature-common-place-holder"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/feature-common-place-holder"><i className="fa fa-angle-right"></i>Management Interface</Link>
+                  <Link to="documents/user/mgmt_intf_design"><i className="fa fa-angle-right"></i>Management Interface</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/feature-common-place-holder"><i className="fa fa-angle-right"></i>Config Persistance</Link>
@@ -197,7 +197,7 @@ module.exports = function (path, includeMenu) {
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Interface Daemon</Link>
+                  <Link to="documents/user/interfaces_design"><i className="fa fa-angle-right"></i>Interface Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Layer3 Port Daemon</Link>
@@ -206,7 +206,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>LACP Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>LED Daemon</Link>
+                  <Link to="documents/user/led_design"><i className="fa fa-angle-right"></i>LED Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>LLDP Daemon</Link>
@@ -224,7 +224,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>OpenSwitch Simulator OVS Plugin L2</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Pluggable Module Daemon</Link>
+                  <Link to="documents/user/pluggable_modules_design"><i className="fa fa-angle-right"></i>Pluggable Module Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/common-component"><i className="fa fa-angle-right"></i>Power Daemon</Link>
@@ -374,7 +374,7 @@ module.exports = function (path, includeMenu) {
                 <a href="https://tree.taiga.io/project/openswitch/issues?page=1" target="_blank"><i className="fa fa-angle-right"></i>Defect management tool</a>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/place-holder-page"><i className="fa fa-angle-right"></i>Understanding OpenSwitch defect management process</Link>
+                <Link to="documents/dev/defect-management"><i className="fa fa-angle-right"></i>Understanding OpenSwitch defect management process</Link>
               </Box>
             </Box>
             </Box>
