@@ -138,13 +138,19 @@ module.exports = function (path, includeMenu) {
               <Box direction="row">
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/system_cli"><i className="fa fa-angle-right"></i>System</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>Peripherals</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
+                    <Link to="documents/user/interface_cli"><i className="fa fa-angle-right"></i>Interfaces</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>Management Interface</Link>
+                    <Link to="documents/user/lacp_cli"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/mgmt_intf_cli"><i className="fa fa-angle-right"></i>Management Interface</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>Config Persistance</Link>
@@ -155,36 +161,30 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>VLANs</Link>
+                    <Link to="documents/user/vlan_cli"><i className="fa fa-angle-right"></i>VLANs</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>L3 support</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>Authentication</Link>
+                    <Link to="documents/user/aaa_cli"><i className="fa fa-angle-right"></i>Authentication</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>REST</Link>
                   </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>Check_MK</Link>
-                  </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>LLDP</Link>
+                    <Link to="documents/user/lldp_cli"><i className="fa fa-angle-right"></i>LLDP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>BGP</Link>
+                    <Link to="documents/user/bgp_cli"><i className="fa fa-angle-right"></i>BGP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>Logging</Link>
+                    <Link to="documents/user/logrotate_cli"><i className="fa fa-angle-right"></i>Logging</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>DHCP/TFTP server</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/user-features-common-place-holder"><i className="fa fa-angle-right"></i>WebUI</Link>
+                    <Link to="documents/user/dhcp_tftp_cli"><i className="fa fa-angle-right"></i>DHCP/TFTP server</Link>
                   </Box>
                 </Box>
                 </Box>
