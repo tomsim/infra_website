@@ -298,7 +298,7 @@ module.exports = function (path, includeMenu) {
                 <Link to="documents/dev/whitebox-and-feature-tests"><i className="fa fa-angle-right"></i>Whitebox and Feature Tests</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/place-holder-page"><i className="fa fa-angle-right"></i>How To: Write Tests using Virtual Testing Framework</Link>
+                <Link to="documents/dev/writing-a-feature-test-case"><i className="fa fa-angle-right"></i>How To: Write Tests using Virtual Testing Framework</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
                 <Link to="documents/dev/cit"><i className="fa fa-angle-right"></i>Continuous Integration Testing Infrastructure</Link>
