@@ -56,7 +56,10 @@ var Home = React.createClass({
           <OpenSwitchLogo a11yTitle=""/>
           <Headline large={true}><b>OpenSwitch</b></Headline>
           <Headline small={true}>
-            The first truly Open Source Network Operating System
+            Community based, Open Source,
+          </Headline>
+          <Headline small={true}>
+            Fully featured Network Operating System
           </Headline>
 
         </HomeSection>
