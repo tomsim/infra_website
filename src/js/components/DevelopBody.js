@@ -49,7 +49,6 @@ module.exports = function (path, includeMenu) {
         <Menu direction="row" align="end" responsive={false} >
           <p><i className="fa fa-caret-right"></i><a href="#gettingstart" className="scroll">Getting Started</a></p>
           <p><i className="fa fa-caret-right"></i><a href="#architecture" className="scroll">Architecture</a></p>
-          <p><i className="fa fa-caret-right"></i><a href="#porting" className="scroll">Porting</a></p>
           <p><i className="fa fa-caret-right"></i><a href="#testing" className="scroll">Testing</a></p>
           <p><i className="fa fa-caret-right"></i><a href="#management" className="scroll">Defect Management</a></p>
         </Menu>
@@ -87,6 +86,9 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/dev/changing-openswitch-code"><i className="fa fa-angle-right"></i>Changing OpenSwitch Code</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/ui-guidelines"><i className="fa fa-angle-right"></i>User Interface Guidelines</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/dev/how-to-debug"><i className="fa fa-angle-right"></i>Debugging</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
@@ -98,12 +100,12 @@ module.exports = function (path, includeMenu) {
 
           <Box direction="column">
             <p><strong>
-              How to Contribute to the Code</strong>
+              Contribute to OpenSwitch</strong>
             </p>
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>Committing changes to existing repositories</Link>
+                    <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>How to Contribute to the Code</Link>
                   </Box>
                 </Box>
             </Box>
@@ -116,9 +118,17 @@ module.exports = function (path, includeMenu) {
           <a name="architecture"/>
           <Box direction="column">
             <Headline>Architecture</Headline>
-            <p>
-              <Link to="documents/user/architecture"><i className="fa fa-angle-right"></i>OpenSwitch Architecture</Link>
-            </p>
+            <Box direction="row">
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/architecture"><i className="fa fa-angle-right"></i>OpenSwitch Architecture</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/porting"><i className="fa fa-angle-right"></i>Porting OpenSwitch</Link>
+                </Box>
+              </Box>
+            </Box>
+            <p></p>
             <b>Feature Design</b>
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
@@ -195,7 +205,7 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>AAA</span>
+                  <Link to="/documents/dev/ops-aaa-utils/DESIGN"><i className="fa fa-angle-right"></i>AAA</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>ARP Manager Daemon</span>
@@ -219,7 +229,7 @@ module.exports = function (path, includeMenu) {
                   <span>Configuration Files for Simulator</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Library to Read Config yaml Files</span>
+                  <Link to="/documents/dev/ops-config-yaml/DESIGN"><i className="fa fa-angle-right"></i>Library to read config yaml files</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>DHCP/TFTP Server</span>
@@ -248,7 +258,7 @@ module.exports = function (path, includeMenu) {
                   <span>Management Interface</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>OpenVswitch Daemon</span>
+                  <Link to="/documents/dev/ops-openvswitch/DESIGN"><i className="fa fa-angle-right"></i>OpenVswitch Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Pluggable Module Daemon</span>
@@ -289,23 +299,6 @@ module.exports = function (path, includeMenu) {
              </Box>
             </Box>
 
-        </Section>
-
-        <Section justify="start" appCentered={true} pad={{vertical: "medium"}}>
-          <a name="porting"/>
-          <Box direction="column">
-            <Headline>Porting</Headline>
-            <Box direction="row">
-            <Box direction="column" align="start" responsive={true}>
-              <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/porting-new-platform"><i className="fa fa-angle-right"></i>Port OpenSwitch to a New Platform</Link>
-              </Box>
-              <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/porting-new-asic"><i className="fa fa-angle-right"></i>Port OpenSwitch to a new ASIC</Link>
-              </Box>
-            </Box>
-            </Box>
-          </Box>
         </Section>
 
         <Section colorIndex="neutral-6" justify="start" appCentered={true} pad={{vertical: "medium"}}>
