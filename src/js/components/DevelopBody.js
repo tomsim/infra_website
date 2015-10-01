@@ -330,36 +330,36 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Peripherals</span>
+                  <span>ARP</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Link Aggregation</span>
+                  <span>Authentication (AAA CLI)</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Management Interface</span>
+                  <span>BGP</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Config Persistance</span>
+                  <span>Boot Up</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Automatic Provisioning</span>
+                  <span>Configuration Persistence</span>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>VLANs</span>
+                  <span>DHCP/TFTP Server</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>L3 Support</span>
+                  <span>ECMP</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Authentication</span>
+                  <span>InterVLAN Routing</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                    <span>REST</span>
+                    <span>L3 Interfaces</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Check_MK</span>
+                  <span>Link Aggregation</span>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
@@ -367,18 +367,34 @@ module.exports = function (path, includeMenu) {
                   <span>LLDP</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>BGP</span>
+                  <span>Log Rotation</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Logging</span>
+                  <span>Management Interface</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>DHCP/TFTP Server</span>
+                  <span>Phy Interfaces</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>Pluggable Modules</span>
+                </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>Static Routes</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>VLANs</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <span>VRF</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Web UI</span>
                 </Box>
-
+                <Box pad={{ horizontal: "small" }}>
+                  <span>Zero Touch</span>
+                </Box>
               </Box>
              </Box>
             <p></p>

@@ -73,74 +73,78 @@ module.exports = function (path, includeMenu) {
               <Box direction="row">
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>Boot Up</span>
+                    <span>ARP</span>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>PHY Interfaces</span>
+                    <span>Authentication (AAA CLI)</span>
                   </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <span>Temp and Fan Management</span>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <span>LED</span>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <span>Power Management</span>
-                  </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/pluggable_modules_user_guide"><i className="fa fa-angle-right"></i>Pluggable Module Daemon</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <span>VLANs</span>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <span>LLDP</span>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <span>Link Aggregation</span>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <span>L3 Interfaces, Static Routes, ECMP</span>
-                  </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <span>BGP</span>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>Management Interface</span>
+                    <span>Boot Up</span>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>Authentication</span>
+                    <Link to="documents/user/config_persistence_user_guide"><i className="fa fa-angle-right"></i>Configuration Persistence</Link>
+                  </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
+                  <Box pad={{ horizontal: "small" }}>
+                    <span>DHCP/TFTP Server</span>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <span>ECMP</span>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <span>InterVLAN Routing</span>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <span>L3 Interfaces</span>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <span>Link Aggregation</span>
+                  </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/lldp_user_guide"><i className="fa fa-angle-right"></i>LLDP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <span>Log Rotation</span>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>Configuration Persistence</span>
+                    <Link to="documents/user/mgmt_intf_user_guide"><i className="fa fa-angle-right"></i>Management Interface</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/interface_user_guide"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/pluggable_modules_user_guide"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
                   </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>Web UI</span>
+                    <span>Static Routes</span>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>REST and Declarative Config</span>
+                    <span>System</span>
                   </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <span>VLANs</span>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <span>VRF</span>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <span>Web UI</span>
+                  </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <span>Zero Touch</span>
                   </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <span>Check_MK</span>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <span>DHCP/TFTP Server</span>
-                  </Box>
                 </Box>
-
-               </Box>
+              </Box>
             </Box>
           </Section>
 
@@ -152,7 +156,7 @@ module.exports = function (path, includeMenu) {
               <Box direction="row">
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>ARP</span>
+                    <Link to="/documents/user/arp_cli"><i className="fa fa-angle-right"></i>ARP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/AAA_cli"><i className="fa fa-angle-right"></i>Authentication (AAA CLI)</Link>
@@ -169,39 +173,45 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>ECMP</span>
+                    <Link to="/documents/user/ecmp_cli"><i className="fa fa-angle-right"></i>ECMP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>Inter-VLAN Routing</span>
+                    <Link to="/documents/user/inter-vlan_cli"><i className="fa fa-angle-right"></i>InterVLAN Routing</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>L3 Interfaces</span>
+                    <Link to="/documents/user/l3-interface_cli"><i className="fa fa-angle-right"></i>L3 Interfaces</Link>
                   </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/lacp_cli"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/lldp_cli"><i className="fa fa-angle-right"></i>LLDP</Link>
+                  </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/Logrotate_cli"><i className="fa fa-angle-right"></i>Log Rotation</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/mgmt_intf_cli"><i className="fa fa-angle-right"></i>Management Interface</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="/documents/user/interface_cli"><i className="fa fa-angle-right"></i>PHY Interfaces</Link>
+                    <Link to="/documents/user/interface_cli"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <span>Static Routes</span>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="/documents/user/system_cli"><i className="fa fa-angle-rigt"></i>System</Link>
+                    <Link to="/documents/user/system_cli"><i className="fa fa-angle-right"></i>System</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/VLAN_cli"><i className="fa fa-angle-right"></i>VLANs</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>VRF</span>
+                    <Link to="/documents/user/vrf_cli"><i className="fa fa-angle-right"></i>VRF</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/autoprovision_CLI"><i className="fa fa-angle-right"></i>Zero Touch</Link>
                   </Box>
