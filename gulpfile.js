@@ -26,13 +26,16 @@ marked.setOptions({
 renderer.code = function(code, language){
   var lang = language || 'nohighlight';
 
+  code = code.replace(/</g, "lt_escape_seq").replace(/>/g, "gt_escape_seq");
   if (language && language !== 'nohighlight' && language !== 'ascii-art'
       && language !== 'ditaa') {
     code = hljs.highlight(lang, code).value;
   }
 
-  return '<pre><code class="hljs ' + lang + '">' +
-    code.replace(/{/g, "{'{'}").replace(/^'}/g, "{'}'}").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/\n/g, '<br />') + '</code></pre>';
+  code = code.replace(/{/g, "{'{'}").replace(/^'}/g, "{'}'}");
+  code = code.replace(/lt_escape_seq/g, "&lt;").replace(/gt_escape_seq/g, "&gt;");
+  code = code.replace(/\n/g, '<br />');
+  return '<pre><code class="hljs ' + lang + '">' + code + '</code></pre>';
 };
 
 renderer.paragraph = function (text) {
