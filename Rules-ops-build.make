@@ -13,11 +13,11 @@ $(MARKDOWN_ROOT)/dev: $(BUILD_ROOT)/src/ops-docs
 define make-component
 $(MARKDOWN_ROOT)/dev/$(1): $(MARKDOWN_ROOT)/dev src/$(1)
 	$(V) mkdir -p $(MARKDOWN_ROOT)/dev/$(1)
-	$(V) if [ -f src/$(1)/design.md ] ; then \
-	  cp -R src/$(1)/design.md $(MARKDOWN_ROOT)/dev/$(1) ; \
+	$(V) if [ -f src/$(1)/DESIGN.md ] ; then \
+	  cp -R src/$(1)/DESIGN.md $(MARKDOWN_ROOT)/dev/$(1) ; \
 	else \
-	  if [ -f src/$(1)/ops/docs/design.md ] ; then \
-	    cp -R src/$(1)/ops/docs/design.md $(MARKDOWN_ROOT)/dev/$(1) ; \
+	  if [ -f src/$(1)/ops/docs/DESIGN.md ] ; then \
+	    cp -R src/$(1)/ops/docs/DESIGN.md $(MARKDOWN_ROOT)/dev/$(1) ; \
 	  else \
 	    echo "# Placeholder page" > $(MARKDOWN_ROOT)/dev/$(1)/design.md ; \
 	  fi \
@@ -29,11 +29,11 @@ src/$(1):
 update-website-$(1): $(MARKDOWN_ROOT)/dev/$(1)
 	$(V) $(ECHO) Updating $(1)...
 	$(V) cd src/$(1) ; git pull || true
-	$(V) if [ -f src/$(1)/design.md ] ; then \
-	  cp -R src/$(1)/design.md $(MARKDOWN_ROOT)/dev/$(1) ; \
+	$(V) if [ -f src/$(1)/DESIGN.md ] ; then \
+	  cp -R src/$(1)/DESIGN.md $(MARKDOWN_ROOT)/dev/$(1) ; \
 	else \
-	  if [ -f src/$(1)/ops/docs/design.md ] ; then \
-	    cp -R src/$(1)/ops/docs/design.md $(MARKDOWN_ROOT)/dev/$(1) ; \
+	  if [ -f src/$(1)/ops/docs/DESIGN.md ] ; then \
+	    cp -R src/$(1)/ops/docs/DESIGN.md $(MARKDOWN_ROOT)/dev/$(1) ; \
 	  else \
 	    echo "# Placeholder page" > $(MARKDOWN_ROOT)/dev/$(1)/design.md ; \
 	  fi \
