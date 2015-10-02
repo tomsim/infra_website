@@ -13,35 +13,6 @@ String.prototype.capitalize = function() {
   return words.join(' ');
 };
 
-var marked = require('marked');
-var hljs = require('highlight.js/lib/index');
-var renderer = new marked.Renderer();
-marked.setOptions({
-  breaks: false,
-  sanitize: true,
-  smartLists: true,
-  smartypants: true
-});
-
-renderer.code = function(code, language){
-  var lang = language || 'nohighlight';
-
-  code = code.replace(/</g, "lt_escape_seq").replace(/>/g, "gt_escape_seq");
-  if (language && language !== 'nohighlight' && language !== 'ascii-art'
-      && language !== 'ditaa') {
-    code = hljs.highlight(lang, code).value;
-  }
-
-  code = code.replace(/{/g, "{'{'}").replace(/^'}/g, "{'}'}");
-  code = code.replace(/lt_escape_seq/g, "&lt;").replace(/gt_escape_seq/g, "&gt;");
-  code = code.replace(/\n/g, '<br />');
-  return '<pre><code class="hljs ' + lang + '">' + code + '</code></pre>';
-};
-
-renderer.paragraph = function (text) {
-  return '<p>' + text.replace(/{/g, "{'{'}").replace(/^'}/g, "{'}'}") + '</p>';
-}
-
 var opts = {
   copyAssets: [
     'src/index.html',
@@ -76,12 +47,9 @@ var opts = {
       loaders: [
         {
           test: /\.md$/,
-          loader: 'babel!imports?React=react!html-jsx-loader!markdown-loader'
+          loader: 'babel!imports?React=react!html-jsx-loader!grommet-markdown'
         }
       ]
-    },
-    markdownLoader: {
-      renderer: renderer
     }
   },
   sync: {

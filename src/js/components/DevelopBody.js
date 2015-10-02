@@ -136,13 +136,13 @@ module.exports = function (path, includeMenu) {
                     <span>Boot Up</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/interfaces_design"><i className="fa fa-angle-right"></i>PHY Interfaces</Link>
+                  <span>Phy Interfaces</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Temp and Fan Management</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/led_design"><i className="fa fa-angle-right"></i>LED</Link>
+                  <span>LED</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Power Management</span>
@@ -150,7 +150,7 @@ module.exports = function (path, includeMenu) {
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/pluggable_modules_design"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
+		  <span>Pluggable Modules</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>VLANs</span>
@@ -170,7 +170,7 @@ module.exports = function (path, includeMenu) {
                   <span>BGP</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                 <Link to="documents/user/mgmt_intf_design"><i className="fa fa-angle-right"></i>Management Interface</Link>
+		  <span>Management Interface</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Authentication</span>
@@ -205,7 +205,7 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/documents/dev/ops-aaa-utils/DESIGN"><i className="fa fa-angle-right"></i>AAA</Link>
+		  <span>AAA</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>ARP Manager Daemon</span>
@@ -229,7 +229,7 @@ module.exports = function (path, includeMenu) {
                   <span>Configuration Files for Simulator</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/documents/dev/ops-config-yaml/DESIGN"><i className="fa fa-angle-right"></i>Library to read config yaml files</Link>
+                  <span>Library to read config yaml files</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>DHCP/TFTP Server</span>
@@ -243,7 +243,7 @@ module.exports = function (path, includeMenu) {
                   <span>Feature Test Framework</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/interfaces_design"><i className="fa fa-angle-right"></i>Interface Daemon</Link>
+                  <span>Interface Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>LACP Daemon</span>
@@ -258,7 +258,7 @@ module.exports = function (path, includeMenu) {
                   <span>Management Interface</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/documents/dev/ops-openvswitch/DESIGN"><i className="fa fa-angle-right"></i>OpenVswitch Daemon</Link>
+                  <span>OpenVswitch Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Pluggable Module Daemon</span>

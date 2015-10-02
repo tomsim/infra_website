@@ -85,7 +85,7 @@ module.exports = function (path, includeMenu) {
                     <span>Boot Up</span>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/config_persistence_user_guide"><i className="fa fa-angle-right"></i>Configuration Persistence</Link>
+                    <span>Configuration Persistence</span>
                   </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
@@ -107,19 +107,19 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/lldp_user_guide"><i className="fa fa-angle-right"></i>LLDP</Link>
+                    <span>LLDP</span>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <span>Log Rotation</span>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/mgmt_intf_user_guide"><i className="fa fa-angle-right"></i>Management Interface</Link>
+                    <span>Management Interface</span>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/interface_user_guide"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
+                    <span>Phy Interfaces</span>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/pluggable_modules_user_guide"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
+                    <span>Pluggable Modules</span>
                   </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
