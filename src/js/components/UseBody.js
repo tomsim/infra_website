@@ -173,13 +173,10 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="/documents/user/ecmp_cli"><i className="fa fa-angle-right"></i>ECMP</Link>
+                    <Link to="/documents/user/layer3_ecmp_cli"><i className="fa fa-angle-right"></i>ECMP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="/documents/user/inter-vlan_cli"><i className="fa fa-angle-right"></i>InterVLAN Routing</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="/documents/user/l3-interface_cli"><i className="fa fa-angle-right"></i>L3 Interfaces</Link>
+                    <Link to="/documents/user/layer3_interface_cli"><i className="fa fa-angle-right"></i>L3 Interfaces</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/lacp_cli"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
@@ -187,11 +184,11 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/lldp_cli"><i className="fa fa-angle-right"></i>LLDP</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/Logrotate_cli"><i className="fa fa-angle-right"></i>Log Rotation</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/mgmt_intf_cli"><i className="fa fa-angle-right"></i>Management Interface</Link>
                   </Box>
@@ -199,16 +196,16 @@ module.exports = function (path, includeMenu) {
                     <Link to="/documents/user/interface_cli"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>Static Routes</span>
+                    <Link to="/documents/user/static-routes_cli"><i className="fa fa-angle-right"></i>Static Routes</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/system_cli"><i className="fa fa-angle-right"></i>System</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/VLAN_cli"><i className="fa fa-angle-right"></i>VLANs</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/vrf_cli"><i className="fa fa-angle-right"></i>VRF</Link>
                   </Box>
