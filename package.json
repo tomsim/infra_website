@@ -36,7 +36,7 @@
     "gulp-file": "^0.2.0",
     "mkdirp": "^0.5.1",
     "node-uuid": "^1.4.0",
-    "grommet": "https://github.com/HewlettPackard/grommet.git#stable",
+    "grommet": "0.3.7",
     "highlight.js": "^8.5.0"
   },
   "devDependencies": {
