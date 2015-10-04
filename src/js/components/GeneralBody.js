@@ -25,11 +25,6 @@ module.exports = function (path, includeMenu) {
 
     mixins: [IntlMixin],
 
-    componentDidMount: function() {
-      // parse out any [TOC] strings left in the body from markdown text
-      document.body.innerHTML = document.body.innerHTML.replace('[TOC]', '');
-    },
-
     render: function() {
       var documentationBody = (
         <Section appCentered={true} direction="row" className="document__body">
