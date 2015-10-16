@@ -165,7 +165,7 @@ module.exports = function (path, includeMenu) {
                   <span>Link Aggregation</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span><Link to="documents/user/layer3_design"><i className="fa fa-angle-right"></i>L3 Interfaces, Static Routes, ECMP</Link></span>
+                  <Link to="documents/user/layer3_design"><i className="fa fa-angle-right"></i>L3 Interfaces, Static Routes, ECMP</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
