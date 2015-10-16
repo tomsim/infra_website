@@ -82,10 +82,10 @@ module.exports = function (path, includeMenu) {
                 <a href="http://lists.openswitch.net" target="_blank"><i className="fa fa-angle-right"></i>Mailing lists</a>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <a href="https://openswitch.slack.com/" target="_blank"><i className="fa fa-angle-right"></i>Slack</a>
+                <Link to="documents/dev/white-papers"><i className="fa fa-angle-right"></i>White Papers</Link>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/white-papers"><i className="fa fa-angle-right"></i>White Papers</Link>
+                <Link to="documents/user/blogs"><i className="fa fa-angle-right"></i>Blogs</Link>
               </Box>
             </Box>
             <Box direction="column" align="start" responsive={true}>
@@ -94,9 +94,6 @@ module.exports = function (path, includeMenu) {
             </Box>
               <Box pad={{ horizontal: "small" }}>
                 <Link to="documents/user/news"><i className="fa fa-angle-right"></i>News</Link>
-              </Box>
-              <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/user/blogs"><i className="fa fa-angle-right"></i>Blogs</Link>
               </Box>
             </Box>
             </Box>
