@@ -139,30 +139,30 @@ module.exports = function (path, includeMenu) {
                     <span>Boot Up</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Phy Interfaces</span>
+                  <Link to="documents/user/interface_design"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Temp and Fan Management</span>
+                  <Link to="documents/user/thermal_management_design"><i className="fa fa-angle-right"></i>Temp and Fan Management</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>LED</span>
+                  <Link to="documents/user/led_design"><i className="fa fa-angle-right"></i>LED</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Power Management</span>
+                  <Link to="documents/user/power_management_design"><i className="fa fa-angle-right"></i>Power Management</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-		  <span>Pluggable Modules</span>
+		  <Link to="documents/user/pluggable_modules_design"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>VLANs</span>
+                  <Link to="documents/user/vlan_design"><i className="fa fa-angle-right"></i>VLANs</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>LLDP</span>
+                  <Link to="documents/user/lldp_design"><i className="fa fa-angle-right"></i>LLDP</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Link Aggregation</span>
+                  <Link to="documents/user/link_aggregation_design"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/layer3_design"><i className="fa fa-angle-right"></i>L3 Interfaces, Static Routes, ECMP</Link>
@@ -173,7 +173,7 @@ module.exports = function (path, includeMenu) {
                   <span>BGP</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-		  <span>Management Interface</span>
+		  <Link to="documents/user/mgmt_intf_design"><i className="fa fa-angle-right"></i>Management Interface</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Authentication</span>
@@ -190,7 +190,7 @@ module.exports = function (path, includeMenu) {
                   <span>Web UI</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>REST and Declarative Config</span>
+                  <Link to="documents/user/REST_API_design"><i className="fa fa-angle-right"></i>REST and Declarative Config</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Zero Touch</span>

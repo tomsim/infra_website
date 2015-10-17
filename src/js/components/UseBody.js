@@ -85,12 +85,12 @@ module.exports = function (path, includeMenu) {
                     <span>Boot Up</span>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>Configuration Persistence</span>
+                    <Link to="documents/user/config_persistence_user_guide"><i className="fa fa-angle-right"></i>Configuration Persistence</Link>
                   </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>DHCP/TFTP Server</span>
+                    <Link to="documents/user/dhcp_tftp_user_guide"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <span>ECMP</span>
@@ -99,7 +99,7 @@ module.exports = function (path, includeMenu) {
                     <span>InterVLAN Routing</span>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>L3 Interfaces</span>
+                    <Link to="documents/user/layer3_user_guide"><i className="fa fa-angle-right"></i>L3 Interfaces</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <span>Link Aggregation</span>
@@ -107,19 +107,19 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>LLDP</span>
+                    <Link to="documents/user/lldp_user_guide"><i className="fa fa-angle-right"></i>LLDP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <span>Log Rotation</span>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>Management Interface</span>
+                    <Link to="documents/user/mgmt_intf_user_guide"><i className="fa fa-angle-right"></i>Management Interface</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>Phy Interfaces</span>
+                    <Link to="documents/user/interface_user_guide"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>Pluggable Modules</span>
+                    <Link to="documents/user/pluggable_modules_user_guide"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
                   </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
@@ -136,7 +136,7 @@ module.exports = function (path, includeMenu) {
                     <span>VRF</span>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>Web UI</span>
+                    <Link to="documents/user/webui_user_guide"><i className="fa fa-angle-right"></i>Web UI</Link>
                   </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
