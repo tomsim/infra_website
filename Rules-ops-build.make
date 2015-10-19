@@ -2,7 +2,7 @@
 
 MARKDOWN_ROOT=src/ops-website/src/markdown/en-US/documents
 
-COMPONENTS = ops-cli ops-fand ops-ledd ops-powerd ops-pmd ops-sysd ops-restd ops-cfgd ops-intfd ops-tempd ops-openvswitch
+COMPONENTS = ops-cli ops-fand ops-ledd ops-powerd ops-pmd ops-sysd ops-restd ops-cfgd ops-intfd ops-tempd ops-openvswitch ops-aaa-utils
 
 ops-website-setup: $(MARKDOWN_ROOT)/dev $(MARKDOWN_ROOT)/user $(foreach component,$(COMPONENTS),$(MARKDOWN_ROOT)/dev/$(component))
 
