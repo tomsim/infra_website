@@ -173,7 +173,7 @@ module.exports = function (path, includeMenu) {
                   <span>BGP</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/mgmt_intf_design"><i className="fa fa-angle-right"></i>Management Interface</Link>
+                  <span>Management Interface</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Authentication</span>
@@ -190,7 +190,7 @@ module.exports = function (path, includeMenu) {
                   <span>Web UI</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/REST_API_design"><i className="fa fa-angle-right"></i>REST and Declarative Config</Link>
+                  <span>REST and Declarative Config</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Zero Touch</span>
