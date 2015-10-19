@@ -173,7 +173,7 @@ module.exports = function (path, includeMenu) {
                   <span>BGP</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Management Interface</span>
+                  <Link to="documents/user/mgmt_intf_design"><i className="fa fa-angle-right"></i>Management Interface</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Authentication</span>
