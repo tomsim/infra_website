@@ -208,7 +208,7 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-		  <span>AAA</span>
+		  <Link to="documents/dev/ops-aaa-utils/DESIGN.md"><i className="fa fa-angle-right"></i>AAA</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>ARP Manager Daemon</span>
