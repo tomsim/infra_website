@@ -139,16 +139,16 @@ module.exports = function (path, includeMenu) {
                     <span>Boot Up</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Phy Interfaces</span>
+                  <Link to="documents/user/interface_design"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Temp and Fan Management</span>
+                  <Link to="documents/user/thermal_management_design"><i className="fa fa-angle-right"></i>Temp and Fan Management</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>LED</span>
+                  <Link to="documents/user/led_design"><i className="fa fa-angle-right"></i>LED</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Power Management</span>
+                  <Link to="documents/user/power_management_design"><i className="fa fa-angle-right"></i>Power Management</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
