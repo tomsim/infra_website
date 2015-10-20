@@ -190,7 +190,7 @@ module.exports = function (path, includeMenu) {
                   <span>Web UI</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/REST_API_design"><i className="fa fa-angle-right"></i>REST and Declarative Config</Link>
+                  <span>REST and Declarative Config</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Zero Touch</span>
@@ -208,7 +208,7 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-		  <span>AAA</span>
+                  <Link to="documents/dev/ops-aaa-utils/DESIGN"><i className="fa fa-angle-right"></i>AAA</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>ARP Manager Daemon</span>
