@@ -208,22 +208,22 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>AAA</span>
+                  <Link to="documents/dev/ops-aaa-utils/design"><i className="fa fa-angle-right"></i>AAA</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>ARP Manager Daemon</span>
+                  <Link to="documents/dev/ops-arpmgrd/design"><i className="fa fa-angle-right"></i>ARP Manager Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-bufmond/design"><i className="fa fa-angle-right"></i>Buffer Monitor Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Configuration Daemon</span>
+                  <Link to="documents/dev/ops-cfgd/design"><i className="fa fa-angle-right"></i>Configuration Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Check_MK</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>CLI Daemon</span>
+                  <Link to="documents/dev/ops-cli/design"><i className="fa fa-angle-right"></i>CLI Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Configuration Files for AS5712</span>
@@ -232,10 +232,10 @@ module.exports = function (path, includeMenu) {
                   <span>Configuration Files for Simulator</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Library to read config yaml files</span>
+                  <Link to="documents/dev/ops-config-yaml/design"><i className="fa fa-angle-right"></i>Library to read config yaml files</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>DHCP/TFTP Server</span>
+                  <Link to="documents/dev/ops-dhcp-tftp/design"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
