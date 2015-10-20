@@ -190,7 +190,7 @@ module.exports = function (path, includeMenu) {
                   <span>Web UI</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>REST and Declarative Config</span>
+                  <Link to="documents/user/rest_api_design"><i className="fa fa-angle-right"></i>REST and Declarative Config</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Zero Touch</span>
