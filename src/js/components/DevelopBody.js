@@ -208,13 +208,13 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/ops-aaa-utils/DESIGN"><i className="fa fa-angle-right"></i>AAA</Link>
+                  <span>AAA</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>ARP Manager Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Buffer Monitor Daemon</span>
+                  <Link to="documents/dev/ops-bufmond/design"><i className="fa fa-angle-right"></i>Buffer Monitor Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Configuration Daemon</span>
