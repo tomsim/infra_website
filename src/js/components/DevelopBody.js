@@ -240,63 +240,63 @@ module.exports = function (path, includeMenu) {
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Fan Daemon</span>
+                  <Link to="documents/dev/ops-fand/design"><i className="fa fa-angle-right"></i>Fan Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Feature Test Framework</span>
+                  <Link to="documents/dev/ops-ft-framework/design"><i className="fa fa-angle-right"></i>Feature Test Framework</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Interface Daemon</span>
+                  <Link to="documents/dev/ops-intfd/design"><i className="fa fa-angle-right"></i>Interface Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>LACP Daemon</span>
+                  <Link to="documents/dev/ops-lacpd/design"><i className="fa fa-angle-right"></i>LACP Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>LED Daemon</span>
+                  <Link to="documents/dev/ops-ledd/design"><i className="fa fa-angle-right"></i>LED Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>LLDP Daemon</span>
+                  <Link to="documents/dev/ops-lldpd/design"><i className="fa fa-angle-right"></i>LLDP Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Management Interface</span>
+                  <Link to="documents/dev/ops-mgmt-intf/design"><i className="fa fa-angle-right"></i>Management Interface</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>OpenVswitch Daemon</span>
+                  <Link to="documents/dev/ops-openvswitch/design"><i className="fa fa-angle-right"></i>OpenVswitch Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Pluggable Module Daemon</span>
+                  <Link to="documents/dev/ops-pmd/design"><i className="fa fa-angle-right"></i>Pluggable Module Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Layer3 Port Daemon</span>
+                  <Link to="documents/dev/ops-portd/design"><i className="fa fa-angle-right"></i>Layer3 Port Daemon</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Power Daemon</span>
+                  <Link to="documents/dev/ops-powerd/design"><i className="fa fa-angle-right"></i>Power Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Quagga (BGP and Zebra)</span>
+                  <Link to="documents/dev/ops-quagga/design"><i className="fa fa-angle-right"></i>Quagga (BGP and Zebra)</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>REST Daemon</span>
+                  <Link to="documents/dev/ops-restd/design"><i className="fa fa-angle-right"></i>REST Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>OpenNSL Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Temperature Daemon</span>
+                  <Link to="documents/dev/ops-tempd/design"><i className="fa fa-angle-right"></i>Temperature Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Utility Library</span>
+                  <Link to="documents/dev/ops-utils/design"><i className="fa fa-angle-right"></i>Utility Library</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>VLAN Daemon</span>
+                  <Link to="documents/dev/ops-vland/design"><i className="fa fa-angle-right"></i>VLAN Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Virtual Switch Image (Test Framework)</span>
+                  <Link to="documents/dev/ops-vsi/design"><i className="fa fa-angle-right"></i>Virtual Switch Image (Test Framework)</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Web UI</span>
+                  <Link to="documents/dev/ops-webui/design"><i className="fa fa-angle-right"></i>Web UI</Link>
                 </Box>
               </Box>
              </Box>
