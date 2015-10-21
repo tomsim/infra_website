@@ -208,22 +208,22 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/ops-aaa-utils/design"><i className="fa fa-angle-right"></i>AAA</Link>
+                  <span>AAA</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-arpmgrd/design"><i className="fa fa-angle-right"></i>ARP Manager Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/ops-bufmond/design"><i className="fa fa-angle-right"></i>Buffer Monitor Daemon</Link>
+                  <span>Buffer Monitor Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/ops-cfgd/design"><i className="fa fa-angle-right"></i>Configuration Daemon</Link>
+                  <span>Configuration Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Check_MK</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/ops-cli/design"><i className="fa fa-angle-right"></i>CLI Daemon</Link>
+                  <span>CLI Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Configuration Files for AS5712</span>
@@ -243,7 +243,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-fand/design"><i className="fa fa-angle-right"></i>Fan Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/ops-ft-framework/design"><i className="fa fa-angle-right"></i>Feature Test Framework</Link>
+                  <span>Feature Test Framework</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-intfd/design"><i className="fa fa-angle-right"></i>Interface Daemon</Link>
@@ -255,10 +255,10 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-ledd/design"><i className="fa fa-angle-right"></i>LED Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/ops-lldpd/design"><i className="fa fa-angle-right"></i>LLDP Daemon</Link>
+                  <span>LLDP Daemon</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/ops-mgmt-intf/design"><i className="fa fa-angle-right"></i>Management Interface</Link>
+                  <span>Management Interface</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-openvswitch/design"><i className="fa fa-angle-right"></i>OpenVswitch Daemon</Link>
@@ -267,7 +267,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-pmd/design"><i className="fa fa-angle-right"></i>Pluggable Module Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/ops-portd/design"><i className="fa fa-angle-right"></i>Layer3 Port Daemon</Link>
+                  <span>Layer3 Port Daemon</span>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
@@ -275,7 +275,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-powerd/design"><i className="fa fa-angle-right"></i>Power Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/ops-quagga/design"><i className="fa fa-angle-right"></i>Quagga (BGP and Zebra)</Link>
+                  <span>Quagga (BGP and Zebra)</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-restd/design"><i className="fa fa-angle-right"></i>REST Daemon</Link>
