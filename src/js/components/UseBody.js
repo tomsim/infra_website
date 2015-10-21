@@ -93,25 +93,19 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/dhcp_tftp_user_guide"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>ECMP</span>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <span>InterVLAN Routing</span>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/layer3_user_guide"><i className="fa fa-angle-right"></i>L3 Interfaces</Link>
+                    <Link to="documents/user/layer3_user_guide"><i className="fa fa-angle-right"></i>L3 Interfaces, Static Routes, ECMP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <span>Link Aggregation</span>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/lldp_user_guide"><i className="fa fa-angle-right"></i>LLDP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <span>Log Rotation</span>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/mgmt_intf_user_guide"><i className="fa fa-angle-right"></i>Management Interface</Link>
                   </Box>
@@ -121,25 +115,20 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/pluggable_modules_user_guide"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/rest_api_user_guide"><i className="fa fa-angle-right"></i>REST API</link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <span>Static Routes</span>
+                    <Link to="documents/user/rest_api_user_guide"><i className="fa fa-angle-right"></i>REST API</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <span>System</span>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <span>VLANs</span>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <span>VRF</span>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/webui_user_guide"><i className="fa fa-angle-right"></i>Web UI</link>
                   </Box>
