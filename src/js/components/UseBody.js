@@ -124,6 +124,9 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/rest_api_user_guide"><i className="fa fa-angle-right"></i>REST API</link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <span>Static Routes</span>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
@@ -135,11 +138,11 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <span>VRF</span>
                   </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/webui_user_guide"><i className="fa fa-angle-right"></i>Web UI</Link>
-                  </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/webui_user_guide"><i className="fa fa-angle-right"></i>Web UI</link>
+                  </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <span>Zero Touch</span>
                   </Box>
