@@ -187,9 +187,6 @@ module.exports = function (path, includeMenu) {
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Web UI</span>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/rest_api_design"><i className="fa fa-angle-right"></i>REST and Declarative Config</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
@@ -199,7 +196,7 @@ module.exports = function (path, includeMenu) {
                   <span>Check_MK</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>DHCP/TFTP Server</span>
+                  <Link to="documents/user/dhcp_tftp_design"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                 </Box>
               </Box>
              </Box>
@@ -208,7 +205,7 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>AAA</span>
+                  <Link to="documents/dev/ops-aaa-utils/design"><i className="fa fa-angle-right"></i>AAA</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-arpmgrd/design"><i className="fa fa-angle-right"></i>ARP Manager Daemon</Link>
@@ -255,7 +252,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-ledd/design"><i className="fa fa-angle-right"></i>LED Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>LLDP Daemon</span>
+                  <Link to="documents/dev/ops-lldpd/design"><i className="fa fa-angle-right"></i><LLDP Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Management Interface</span>
@@ -267,7 +264,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-pmd/design"><i className="fa fa-angle-right"></i>Pluggable Module Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Layer3 Port Daemon</span>
+                  <Link to="documents/dev/ops-portd/design"><i className="fa fa-angle-right"></i>Layer3 Port Daemon</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
