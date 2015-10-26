@@ -73,7 +73,7 @@ module.exports = function (path, includeMenu) {
               <Box direction="row">
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/aaa_user_guide"><i className="fa fa-angle-right"><i>Authentication (AAA CLI)</Link>
+                    <Link to="documents/user/aaa_user_guide"><i className="fa fa-angle-right"></i>Authentication (AAA CLI)</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <span>BGP</span>
