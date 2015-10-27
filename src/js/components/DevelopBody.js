@@ -252,7 +252,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-ledd/design"><i className="fa fa-angle-right"></i>LED Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>LLDP Daemon</span>
+                  <Link to="documents/dev/ops-lldpd/design"><i className="fa fa-angle-right"></i>LLDP Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Management Interface</span>
