@@ -93,7 +93,7 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/layer3_user_guide"><i className="fa fa-angle-right"></i>L3 Interfaces, Static Routes, ECMP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>Link Aggregation</span>
+                    <Link to="documents/user/lacp_user_guide"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/lldp_user_guide"><i className="fa fa-angle-right"></i>LLDP</Link>
