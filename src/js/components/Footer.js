@@ -19,8 +19,8 @@ var Footer = React.createClass({
          pad={{ vertical: "none", horizontal: "large" }} justify="between" colorIndex={colorIndex}>
         <Menu direction="row" align="start" responsive={false}>
           <p>© 2015 HPED LP</p>
-          <p><i className="fa fa-caret-right"></i><a href="http://www8.hp.com/us/en/terms-of-use.html" className="scroll">Terms of use</a></p>
-          <p><i className="fa fa-caret-right"></i><a href="http://www8.hp.com/us/en/privacy/privacy.html" className="scroll">Privacy</a></p>
+          <p><i className="fa fa-caret-right"></i><a href="http://www8.hp.com/us/en/hpe/legal/terms-of-use.html" className="scroll">Terms of use</a></p>
+          <p><i className="fa fa-caret-right"></i><a href="https://www.hpe.com/us/en/legal/privacy.html" className="scroll">Privacy</a></p>
         </Menu>
         <Menu direction="row" align="end" responsive={false} pad={{ vertical: "medium" }}>
             <a href="http://webchat.freenode.net/?channels=#openswitch" target="_blank"><i className="fa fa-user fa-2x"></i></a>

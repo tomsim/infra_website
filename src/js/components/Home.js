@@ -16,7 +16,7 @@ var StoryIcon = require('./icons/Story');
 var ConsoleIcon = require('./icons/Console');
 var CommunityIcon = require('./icons/Community');
 var IntelIcon = require('./icons/Intel');
-var HPIcon = require('./icons/HP');
+var HPEIcon = require('./icons/HPE');
 var AristaIcon = require('./icons/Arista');
 var AcctonIcon = require('./icons/Accton');
 var VMwareIcon = require('./icons/Vmware');
@@ -134,7 +134,7 @@ var Home = React.createClass({
           </p>
           <Tiles fill={true} flush={false}>
             <Tile justify="center" align="center" pad="small">
-              <HPIcon />
+              <HPEIcon />
             </Tile>
             <Tile justify="center" align="center" pad="small">
               <BroadcomIcon />
