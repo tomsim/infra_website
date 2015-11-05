@@ -64,7 +64,7 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/prerequisites"><i className="fa fa-angle-right"></i>Pre-requisites</Link>
+                    <Link to="documents/dev/prerequisites"><i className="fa fa-angle-right"></i>Prerequisites</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/dev/quick-start"><i className="fa fa-angle-right"></i>Quick Start Guide using Vagrant</Link>
