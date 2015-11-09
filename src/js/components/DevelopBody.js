@@ -229,13 +229,16 @@ module.exports = function (path, includeMenu) {
                   <span>Configuration Files for Simulator</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/ops-config-yaml/design"><i className="fa fa-angle-right"></i>Library to read config yaml files</Link>
+                  <Link to="documents/dev/ops-switchd-container-plugin/design"><i className="fa fa-angle-right"></i>Container Plugin</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/ops-dhcp-tftp/design"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
+                  <Link to="documents/dev/ops-config-yaml/design"><i className="fa fa-angle-right"></i>Library to read config yaml files</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/ops-dhcp-tftp/design"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
+                </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-fand/design"><i className="fa fa-angle-right"></i>Fan Daemon</Link>
                 </Box>
@@ -255,7 +258,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-lldpd/design"><i className="fa fa-angle-right"></i>LLDP Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Management Interface</span>
+                  <Link to="documents/dev/ops-mgmt-intf/design"><i className="fa fa-angle-right"></i>Management Interface</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-openvswitch/design"><i className="fa fa-angle-right"></i>OpenVswitch Daemon</Link>
@@ -263,11 +266,11 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-pmd/design"><i className="fa fa-angle-right"></i>Pluggable Module Daemon</Link>
                 </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-portd/design"><i className="fa fa-angle-right"></i>Layer3 Port Daemon</Link>
                 </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-powerd/design"><i className="fa fa-angle-right"></i>Power Daemon</Link>
                 </Box>
