@@ -409,7 +409,6 @@ module.exports = function (path, includeMenu) {
             </Box>
           </Box>
         </Section>
-
           <Footer />
         </Article>
       );
