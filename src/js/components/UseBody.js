@@ -99,7 +99,7 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/lldp_user_guide"><i className="fa fa-angle-right"></i>LLDP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>Log Rotation</span>
+                    <Link to="documents/user/logrotate_user_guide"><i className="fa fa-angle-right"></i>Log Rotation</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/mgmt_intf_user_guide"><i className="fa fa-angle-right"></i>Management Interface</Link>

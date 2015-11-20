@@ -179,7 +179,7 @@ module.exports = function (path, includeMenu) {
                   <span>Authentication</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Log Rotation</span>
+                  <Link to="documents/user/logrotate_design"><i className="fa fa-angle-right"></i>Log Rotation</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Configuration Persistence</span>
@@ -227,6 +227,9 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Configuration Files for Simulator</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/ops-cfgd/design"><i className="fa fa-angle-right"></i>Configuration Persistence</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-switchd-container-plugin/design"><i className="fa fa-angle-right"></i>Container Plugin</Link>
