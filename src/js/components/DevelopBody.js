@@ -211,7 +211,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-arpmgrd/design"><i className="fa fa-angle-right"></i>ARP Manager Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Buffer Monitor Daemon</span>
+                  <Link to="documents/dev/ops-bufmond/design"><i className="fa fa-angle-right"></i>Buffer Monitor Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Configuration Daemon</span>
@@ -281,7 +281,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-restd/design"><i className="fa fa-angle-right"></i>REST Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>OpenNSL Plugin</span>
+                  <Link to="documents/dev/ops-switchd-opennsl-plugin/design"><i className="fa fa-angle-right"></i>OpenNSL Plugin</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-tempd/design"><i className="fa fa-angle-right"></i>Temperature Daemon</Link>
