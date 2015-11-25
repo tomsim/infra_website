@@ -1,7 +1,7 @@
 // (C) Copyright 2014-2015 Hewlett-Packard Development Company, L.P.
 
 var React = require('react');
-var uuid = require('node-uuid');
+//var uuid = require('node-uuid');
 
 var IntlMixin = require('grommet/mixins/GrommetIntlMixin');
 
@@ -20,7 +20,7 @@ var Grommet = React.createClass({
 
   render: function() {
 
-    var logoTitleId = 'openswitch-logo-title-' + uuid.v1();
+    var logoTitleId = 'openswitch-logo-title';// + uuid.v1();
 
     var logo = (
       <svg version="1.1" viewBox="0 0 205 140" fill="none"

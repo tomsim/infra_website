@@ -1,7 +1,7 @@
 // (C) Copyright 2014-2015 Hewlett-Packard Development Company, L.P.
 
 var React = require('react');
-var uuid = require('node-uuid');
+//var uuid = require('node-uuid');
 
 var IntlMixin = require('grommet/mixins/GrommetIntlMixin');
 
@@ -26,7 +26,7 @@ var Qosmos = React.createClass({
       classes.push(this.props.className);
     }
 
-    var logoTitleId = 'Qosmos-title-' + uuid.v1();
+    var logoTitleId = 'Qosmos-title';// + uuid.v1();
 
     return (
       <svg className={classes.join(' ')} width="240px" viewBox="0 0 595.3 283.5"

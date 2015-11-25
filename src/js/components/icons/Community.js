@@ -1,7 +1,7 @@
 // (C) Copyright 2014-2015 Hewlett-Packard Development Company, L.P.
 
 var React = require('react');
-var uuid = require('node-uuid');
+//var uuid = require('node-uuid');
 
 var IntlMixin = require('grommet/mixins/GrommetIntlMixin');
 
@@ -26,7 +26,7 @@ var Community = React.createClass({
       classes.push(this.props.className);
     }
 
-    var logoTitleId = 'community-title-' + uuid.v1();
+    var logoTitleId = 'community-title';// + uuid.v1();
 
     return (
       <svg className={classes.join(' ')} fill="#fff"
