@@ -182,13 +182,10 @@ module.exports = function (path, includeMenu) {
                   <span>Log Rotation</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Configuration Persistence</span>
+                  <Link to="documents/user/rest_api_design"><i className="fa fa-angle-right"></i>REST and Declarative Config</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/rest_api_design"><i className="fa fa-angle-right"></i>REST and Declarative Config</Link>
-                </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Zero Touch</span>
                 </Box>
