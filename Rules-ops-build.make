@@ -47,6 +47,8 @@ $(BUILD_ROOT)/src/ops-docs:
 
 $(MARKDOWN_ROOT)/user: $(BUILD_ROOT)/src/ops
 	$(V) cp -Rf $</docs $@
+	$(V) cp -Rf $</tests $@
+
 
 $(BUILD_ROOT)/src/ops:
 	$(V)$(MAKE) devenv_add ops
