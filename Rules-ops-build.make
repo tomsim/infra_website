@@ -47,7 +47,7 @@ $(BUILD_ROOT)/src/ops-docs:
 
 $(MARKDOWN_ROOT)/user: $(BUILD_ROOT)/src/ops
 	$(V) cp -Rf $</docs $@
-	$(V) find $</docs -iname "*.md" -exec cp -Rf {} $@ \;
+	$(V) find $</tests -iname "*.md" -exec cp -Rf {} $@ \;
 
 
 
