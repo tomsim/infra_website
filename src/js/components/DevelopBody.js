@@ -329,7 +329,7 @@ module.exports = function (path, includeMenu) {
                   <span>ARP</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Authentication (AAA CLI)</span>
+                  <Link to="documents/user/aaa_test"><i className="fa fa-angle-right"></i>Authentication (AAA CLI)</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>BGP</span>
@@ -343,7 +343,7 @@ module.exports = function (path, includeMenu) {
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>DHCP/TFTP Server</span>
+                  <Link to="documents/user/dhcp_tftp_test"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>ECMP</span>
@@ -352,24 +352,24 @@ module.exports = function (path, includeMenu) {
                   <span>InterVLAN Routing</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                    <span>L3 Interfaces</span>
+                  <Link to="documents/user/layer3_test"><i className="fa fa-angle-right"></i>L3 Interfaces</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Link Aggregation</span>
+                  <Link to="documents/user/lag_test"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>LLDP</span>
+                  <Link to="documents/user/lldp_test"><i className="fa fa-angle-right"></i>LLDP</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Log Rotation</span>
+                  <Link to="documents/user/logrotate_test"><i className="fa fa-angle-right"></i>Log Rotation</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Management Interface</span>
+                  <Link to="documents/user/mgmt_intf_test"><i className="fa fa-angle-right"></i>Management Interface</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Phy Interfaces</span>
+                  <Link to="documents/user/feature_test"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Pluggable Modules</span>
@@ -377,17 +377,22 @@ module.exports = function (path, includeMenu) {
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/rest_test"><i className="fa fa-angle-right"></i>REST API</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                   <span>Static Routes</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>VLANs</span>
+                  <Link to="documents/user/vlan_test"><i className="fa fa-angle-right"></i>VLANs</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>VRF</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Web UI</span>
+                  <Link to="documents/user/webui_test"><i className="fa fa-angle-right"></i>>Web UI</Link>
                 </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Zero Touch</span>
                 </Box>
