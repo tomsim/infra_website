@@ -389,7 +389,7 @@ module.exports = function (path, includeMenu) {
                   <span>VRF</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/webui_test"><i className="fa fa-angle-right"></i>>Web UI</Link>
+                  <Link to="documents/user/webui_test"><i className="fa fa-angle-right"></i>Web UI</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
