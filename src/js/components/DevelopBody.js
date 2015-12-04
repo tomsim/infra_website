@@ -329,7 +329,6 @@ module.exports = function (path, includeMenu) {
                   <span>ARP</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-// <Link to="documents/user/aaa_test"><i className="fa fa-angle-right"></i>Authentication (AAA CLI)</Link>;
                   <span>Authentication (AAA CLI)</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
@@ -356,7 +355,6 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/layer3_test"><i className="fa fa-angle-right"></i>L3 Interfaces</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-//<Link to="documents/user/lag_test"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
                   <span>Link Aggregation</span>
                 </Box>
               </Box>
@@ -371,7 +369,6 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/mgmt_intf_test"><i className="fa fa-angle-right"></i>Management Interface</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-// <Link to="documents/user/feature_test"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
                   <span>Phy Interfaces</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
@@ -380,15 +377,12 @@ module.exports = function (path, includeMenu) {
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  //<Link to="documents/user/rest_test"><i className="fa fa-angle-right"></i>REST API</Link>
                   <span>REST API</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Static Routes</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-/*<Link to="documents/user/vlan_test"><i className="fa fa-angle-right"></i>VLANs</Link>
- */
                   <span>VLANs</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
