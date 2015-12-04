@@ -387,7 +387,8 @@ module.exports = function (path, includeMenu) {
                   <span>Static Routes</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  //<Link to="documents/user/vlan_test"><i className="fa fa-angle-right"></i>VLANs</Link>;
+/*<Link to="documents/user/vlan_test"><i className="fa fa-angle-right"></i>VLANs</Link>
+ */
                   <span>VLANs</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
