@@ -76,7 +76,7 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/aaa_user_guide"><i className="fa fa-angle-right"></i>Authentication (AAA CLI)</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>BGP</span>
+                    <Link to="documents/user/bgp_user_guide"><i className="fa fa-angle-right"></i>BGP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <span>Boot Up</span>
@@ -116,10 +116,11 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/rest_api_user_guide"><i className="fa fa-angle-right"></i>REST API</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>System</span>
+                    <Link to="documents/user/system_user_guide"><i className="fa fa-angle-right"></i>System</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <span>VLANs</span>
+                    <Link to="documents/user/vlan_user_guide"><i className="fa fa-angle-right"></i>VLANs</Link>
                   </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>

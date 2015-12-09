@@ -211,7 +211,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-bufmond/design"><i className="fa fa-angle-right"></i>Buffer Monitor Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Configuration Daemon</span>
+                  <Link to="documents/dev/ops-cfgd/design"><i className="fa fa-angle-right"></i>Configuration Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Check_MK</span>
@@ -226,7 +226,7 @@ module.exports = function (path, includeMenu) {
                   <span>Configuration Files for Simulator</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/ops-cfgd/design"><i className="fa fa-angle-right"></i>Configuration Persistence</Link>
+                  <span>Configuration Persistence</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-switchd-container-plugin/design"><i className="fa fa-angle-right"></i>Container Plugin</Link>
@@ -265,6 +265,9 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-pmd/design"><i className="fa fa-angle-right"></i>Pluggable Module Daemon</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/ops-sysd/design"><i className="fa fa-angle-right"></i>System Daemon</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
@@ -329,10 +332,10 @@ module.exports = function (path, includeMenu) {
                   <span>ARP</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Authentication (AAA CLI)</span>
+                  <Link to="documents/user/aaa_test"><i className="fa fa-angle-right"></i>Authentication (AAA CLI)</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>BGP</span>
+                  <Link to="documents/user/bgp_test"><i className="fa fa-angle-right"></i>BGP</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Boot Up</span>
