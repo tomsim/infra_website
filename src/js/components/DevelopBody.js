@@ -335,7 +335,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/aaa_test"><i className="fa fa-angle-right"></i>Authentication (AAA CLI)</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>BGP</span>
+                  <Link to="documents/user/bgp_test"><i className="fa fa-angle-right"></i>BGP</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Boot Up</span>
