@@ -119,7 +119,6 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/system_user_guide"><i className="fa fa-angle-right"></i>System</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>VLANs</span>
                     <Link to="documents/user/vlan_user_guide"><i className="fa fa-angle-right"></i>VLANs</Link>
                   </Box>
                 </Box>
