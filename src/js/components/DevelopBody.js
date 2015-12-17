@@ -343,7 +343,6 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/test_cfgd_ft_case"><i className="fa fa-angle-right"></i>Configuration Persistence</Link>
                 </Box>
-                </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
