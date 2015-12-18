@@ -380,7 +380,7 @@ module.exports = function (path, includeMenu) {
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/rest_test"><i className="fa fa-angle-right"></i>REST API</Link>
+                  <span>REST API</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Static Routes</span>
