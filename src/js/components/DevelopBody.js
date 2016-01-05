@@ -226,9 +226,6 @@ module.exports = function (path, includeMenu) {
                   <span>Configuration Files for Simulator</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Configuration Persistence</span>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-switchd-container-plugin/design"><i className="fa fa-angle-right"></i>Container Plugin</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
@@ -278,7 +275,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-powerd/design"><i className="fa fa-angle-right"></i>Power Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Quagga (BGP and Zebra)</span>
+                  <Link to="documents/dev/ops-quagga/design"><i className="fa fa-angle-right"></i>Quagga (BGP and Zebra)</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-restd/design"><i className="fa fa-angle-right"></i>REST Daemon</Link>

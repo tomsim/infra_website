@@ -130,7 +130,7 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/webui_user_guide"><i className="fa fa-angle-right"></i>Web UI</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>Zero Touch</span>
+                    <Link to="documents/user/autoprovision_user_guide"><i className="fa fa-angle-right"></i>Zero Touch</Link>
                   </Box>
                 </Box>
               </Box>
