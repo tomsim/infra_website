@@ -218,6 +218,7 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>CLI Daemon</span>
+                  <Link to="documents/dev/ops-cli/design"><i className="fa fa-angle-right"></i>CLI Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Configuration Files for AS5712</span>
