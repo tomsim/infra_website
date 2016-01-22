@@ -110,21 +110,27 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/interface_user_guide"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/ping_user_guide"><i className="fa fa-angle-right"></i>PING</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/pluggable_modules_user_guide"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/rest_api_user_guide"><i className="fa fa-angle-right"></i>REST API</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/system_user_guide"><i className="fa fa-angle-right"></i>System</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/vlan_user_guide"><i className="fa fa-angle-right"></i>VLANs</Link>
+                    <Link to="documents/user/sftp_user_guide"><i className="fa fa-angle-right"></i>SFTP</Link>
                   </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>VRF</span>
+                    <Link to="documents/user/system_user_guide"><i className="fa fa-angle-right"></i>System</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/traceroute_user_guide"><i className="fa fa-angle-right"></i>Traceroute</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/vlan_user_guide"><i className="fa fa-angle-right"></i>VLANs</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/webui_user_guide"><i className="fa fa-angle-right"></i>Web UI</Link>
@@ -185,16 +191,25 @@ module.exports = function (path, includeMenu) {
                     <Link to="/documents/user/interface_cli"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/ping_cli"><i className="fa fa-angle-right"></i>PING</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/sftp_cli"><i className="fa fa-angle-right"></i>SFTP</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/static-routes_cli"><i className="fa fa-angle-right"></i>Static Routes</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/system_cli"><i className="fa fa-angle-right"></i>System</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/traceroute_cli"><i className="fa fa-angle-right"></i>Traceroute</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/VLAN_cli"><i className="fa fa-angle-right"></i>VLANs</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/vrf_cli"><i className="fa fa-angle-right"></i>VRF</Link>
                   </Box>

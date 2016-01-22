@@ -110,6 +110,9 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/dev/version-control"><i className="fa fa-angle-right"></i>Supported Branches and Tags</Link>
                   </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/adding-web-ui-content"><i className="fa fa-angle-right"></i>Adding Web UI Content</Link>
+                  </Box>
                 </Box>
             </Box>
           </Box>
@@ -186,6 +189,12 @@ module.exports = function (path, includeMenu) {
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/ping_design"><i className="fa fa-angle-right"></i>PING</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/traceroute_design"><i className="fa fa-angle-right"></i>Traceroute</Link>
+                </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Zero Touch</span>
                 </Box>
@@ -372,15 +381,24 @@ module.exports = function (path, includeMenu) {
                   <span>Phy Interfaces</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/ping_ft_test"><i className="fa fa-angle-right"></i>PING</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                   <span>Pluggable Modules</span>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/rest_test"><i className="fa fa-angle-right"></i>REST API</Link>
+                  <span>REST API</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/sftp_ft_test"><i className="fa fa-angle-right"></i>SFTP</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Static Routes</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/traceroute_ft_test"><i className="fa fa-angle-right"></i>Traceroute</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>VLANs</span>
