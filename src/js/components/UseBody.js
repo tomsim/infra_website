@@ -218,7 +218,7 @@ module.exports = function (path, includeMenu) {
                   </Box>
                 </Box>
                 </Box>
-                <p></p>
+                <b>REST API</b>
                 <Box pad={{ horizontal: "small" }}>
                   <a href="http://api.openswitch.net/rest/dist/index.html" target="_blank"><i className="fa fa-angle-right"></i>REST APIs</a>
                 </Box>
