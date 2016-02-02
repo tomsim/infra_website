@@ -100,6 +100,19 @@ module.exports = function (path, includeMenu) {
 
           <Box direction="column">
             <p><strong>
+              System Infrastructure for Development</strong>
+            </p>
+            <Box direction="row">
+              <Box direction="column" align="start" responsive={true}>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/source_interface_design"><i className="fa fa-angle-right"></i>Source IP selection</Link>
+                  </Box>
+                </Box>
+            </Box>
+          </Box>
+
+          <Box direction="column">
+            <p><strong>
               Contribute to OpenSwitch</strong>
             </p>
             <Box direction="row">
@@ -267,13 +280,16 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-mgmt-intf/design"><i className="fa fa-angle-right"></i>Management Interface</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/ops-openvswitch/design"><i className="fa fa-angle-right"></i>OpenVswitch Daemon</Link>
+                  <Link to="documents/dev/ops-ntpd/design"><i className="fa fa-angle-right"></i>NTP</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/ops-pmd/design"><i className="fa fa-angle-right"></i>Pluggable Module Daemon</Link>
+                  <Link to="documents/dev/ops-openvswitch/design"><i className="fa fa-angle-right"></i>OpenVswitch Daemon</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/ops-pmd/design"><i className="fa fa-angle-right"></i>Pluggable Module Daemon</Link>
+                </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-sysd/design"><i className="fa fa-angle-right"></i>System Daemon</Link>
                 </Box>
@@ -380,13 +396,16 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/mgmt_intf_test"><i className="fa fa-angle-right"></i>Management Interface</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Phy Interfaces</span>
+                  <Link to="documents/user/ntp_test"><i className="fa fa-angle-right"></i>NTP</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/ping_ft_test"><i className="fa fa-angle-right"></i>PING</Link>
+                  <span>Phy Interfaces</span>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/ping_ft_test"><i className="fa fa-angle-right"></i>PING</Link>
+                </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Pluggable Modules</span>
                 </Box>
@@ -399,11 +418,11 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <span>Static Routes</span>
                 </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/traceroute_ft_test"><i className="fa fa-angle-right"></i>Traceroute</Link>
                 </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <span>VLANs</span>
                 </Box>

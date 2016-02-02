@@ -79,19 +79,16 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/bgp_user_guide"><i className="fa fa-angle-right"></i>BGP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <span>Boot Up</span>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/config_persistence_user_guide"><i className="fa fa-angle-right"></i>Configuration Persistence</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/dhcp_tftp_user_guide"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/layer3_user_guide"><i className="fa fa-angle-right"></i>L3 Interfaces, Static Routes, ECMP</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/lacp_user_guide"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
                   </Box>
@@ -103,6 +100,9 @@ module.exports = function (path, includeMenu) {
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/mgmt_intf_user_guide"><i className="fa fa-angle-right"></i>Management Interface</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/ntp_user_guide"><i className="fa fa-angle-right"></i>NTP</Link>
                   </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
@@ -188,6 +188,9 @@ module.exports = function (path, includeMenu) {
                     <Link to="/documents/user/mgmt_intf_cli"><i className="fa fa-angle-right"></i>Management Interface</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/ntp_cli"><i className="fa fa-angle-right"></i>NTP</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/interface_cli"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
@@ -196,11 +199,11 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/sftp_cli"><i className="fa fa-angle-right"></i>SFTP</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/static-routes_cli"><i className="fa fa-angle-right"></i>Static Routes</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/system_cli"><i className="fa fa-angle-right"></i>System</Link>
                   </Box>
@@ -213,11 +216,14 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/vrf_cli"><i className="fa fa-angle-right"></i>VRF</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/autoprovision_CLI"><i className="fa fa-angle-right"></i>Zero Touch</Link>
                   </Box>
                 </Box>
                 </Box>
+
                 <b>REST API</b>
                 <Box pad={{ horizontal: "small" }}>
                   <a href="http://api.openswitch.net/rest/dist/index.html" target="_blank"><i className="fa fa-angle-right"></i>REST APIs</a>
