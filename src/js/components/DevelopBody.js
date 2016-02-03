@@ -253,11 +253,11 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-config-yaml/design"><i className="fa fa-angle-right"></i>Library to read config yaml files</Link>
                 </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-dhcp-tftp/design"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                 </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-fand/design"><i className="fa fa-angle-right"></i>Fan Daemon</Link>
                 </Box>
@@ -285,14 +285,14 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-openvswitch/design"><i className="fa fa-angle-right"></i>OpenVswitch Daemon</Link>
                 </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-pmd/design"><i className="fa fa-angle-right"></i>Pluggable Module Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-sysd/design"><i className="fa fa-angle-right"></i>System Daemon</Link>
                 </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-portd/design"><i className="fa fa-angle-right"></i>Layer3 Port Daemon</Link>
                 </Box>
@@ -397,8 +397,6 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <span>Phy Interfaces</span>
                 </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/ping_ft_test"><i className="fa fa-angle-right"></i>PING</Link>
                 </Box>
@@ -408,7 +406,7 @@ module.exports = function (path, includeMenu) {
                   <span>Pluggable Modules</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>REST API</span>
+                  <Link to="documents/user/rest_test"><i className="fa fa-angle-right"></i>REST API</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/sftp_ft_test"><i className="fa fa-angle-right"></i>SFTP</Link>
