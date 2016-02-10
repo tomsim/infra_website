@@ -152,33 +152,19 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
+                  <span>Authentication</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/bgp_feature_design"><i className="fa fa-angle-right"></i>BGP</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                     <span>Boot Up</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/interface_design"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
+                  <span>Check_MK</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/thermal_management_design"><i className="fa fa-angle-right"></i>Temp and Fan Management</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/led_design"><i className="fa fa-angle-right"></i>LED</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/power_management_design"><i className="fa fa-angle-right"></i>Power Management</Link>
-                </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/pluggable_modules_design"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/vlan_design"><i className="fa fa-angle-right"></i>VLANS</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/lldp_design"><i className="fa fa-angle-right"></i>LLDP</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/link_aggregation_design"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
+                  <Link to="documents/user/dhcp_tftp_design"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/layer3_design"><i className="fa fa-angle-right"></i>L3 Interfaces, Static Routes, ECMP</Link>
@@ -186,19 +172,22 @@ module.exports = function (path, includeMenu) {
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/bgp_feature_design"><i className="fa fa-angle-right"></i>BGP</Link>
+                  <Link to="documents/user/led_design"><i className="fa fa-angle-right"></i>LED</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/mgmt_intf_design"><i className="fa fa-angle-right"></i>Management Interface</Link>
+                  <Link to="documents/user/link_aggregation_design"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Authentication</span>
+                  <Link to="documents/user/lldp_design"><i className="fa fa-angle-right"></i>LLDP</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/logrotate_design"><i className="fa fa-angle-right"></i>Log Rotation</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/rest_api_design"><i className="fa fa-angle-right"></i>REST and Declarative Config</Link>
+                  <Link to="documents/user/mgmt_intf_design"><i className="fa fa-angle-right"></i>Management Interface</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/pluggable_modules_design"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
@@ -206,16 +195,30 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/ping_design"><i className="fa fa-angle-right"></i>PING</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/power_management_design"><i className="fa fa-angle-right"></i>Power Management</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/interface_design"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/rest_api_design"><i className="fa fa-angle-right"></i>REST and Declarative Config</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/sftp_design"><i className="fa fa-angle-right"></i>SFTP</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/thermal_management_design"><i className="fa fa-angle-right"></i>Temp and Fan Management</Link>
+                </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/traceroute_design"><i className="fa fa-angle-right"></i>Traceroute</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/vlan_design"><i className="fa fa-angle-right"></i>VLANS</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                   <span>Zero Touch</span>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <span>Check_MK</span>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/dhcp_tftp_design"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                 </Box>
               </Box>
              </Box>
