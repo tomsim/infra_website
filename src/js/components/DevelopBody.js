@@ -107,6 +107,15 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/source_interface_design"><i className="fa fa-angle-right"></i>Source IP selection</Link>
                   </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/diagnostic_dev_guide"><i className="fa fa-angle-right"></i>Diagnostics Infra</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/event_logs_dev_guide"><i className="fa fa-angle-right"></i>Event Log Infra</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/show-tech_dev_guide"><i className="fa fa-angle-right"></i>Show Tech Infra</Link>
+                  </Box>
                 </Box>
             </Box>
           </Box>
