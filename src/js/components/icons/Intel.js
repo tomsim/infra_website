@@ -29,7 +29,7 @@ var Intel = React.createClass({
     var logoTitleId = 'intel-title';// + uuid.v1();
 
     return (
-      <svg className={classes.join(' ')} width="73px" viewBox="0 0 73.8 48.8"
+      <svg className={classes.join(' ')} width="110px" viewBox="0 0 73.8 48.8"
         version="1.1" role="img" aria-labelledby={logoTitleId}>
         <title id={logoTitleId}>{this.getGrommetIntlMessage(this.props.a11yTitle)}</title>
         <path fill="#197DC1" d="M73.5,13.9C70-3.1,37.2-4.1,16.1,8.8v1.4C37.2-0.7,67.1-0.6,69.9,15c0.9,5.2-2,10.5-7.2,13.6v4

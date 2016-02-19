@@ -29,7 +29,7 @@ var Accton = React.createClass({
     var logoTitleId = 'accton-title'; //+ uuid.v1();
 
     return (
-      <svg className={classes.join(' ')} width="140px" viewBox="0 0 50 12"
+      <svg className={classes.join(' ')} width="150px" viewBox="0 0 50 12"
         version="1.1" role="img" fill="#3B4095" aria-labelledby={logoTitleId}>
         <title id={logoTitleId}>{this.getGrommetIntlMessage(this.props.a11yTitle)}</title>
         <path d="M6.52,0.198C6.469,0,6.396,0,6.148,0H5.037C4.767,0,4.692,0.074,4.643,0.271L0.125,10.346L0,10.592	c0,0.198,0.247,0.198,0.396,0.198h1.16c0.346,0,0.395,0,0.518-0.247l1.259-3.086h3.778l1.309,3.086	c0.148,0.247,0.197,0.247,0.519,0.247h1.851c0.123,0,0.321,0,0.321-0.198c0-0.049,0-0.123-0.074-0.198L6.52,0.198L6.52,0.198z M5.234,6.271H3.778l1.456-3.53v0.025l1.433,3.504H5.234L5.234,6.271z"/>

@@ -29,7 +29,7 @@ var HPE = React.createClass({
     var logoTitleId = 'hpe-title';// + uuid.v1();
 
     return (
-      <svg className={classes.join(' ')} width="139px" viewBox="0 0 138.9 58"
+      <svg className={classes.join(' ')} width="200px" viewBox="0 0 138.9 58"
         version="1.1" role="img" aria-labelledby={logoTitleId}>
         <title id={logoTitleId}>{this.getGrommetIntlMessage(this.props.a11yTitle)}</title>
         <path fill="#333333" d="M3,36.2H0V22.6h3V28h5.3v-5.4h3v13.6h-3v-5.7H3V36.2z M18,36.4c-3,0-5.1-1.9-5.1-5

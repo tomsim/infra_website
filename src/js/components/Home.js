@@ -22,6 +22,9 @@ var AcctonIcon = require('./icons/Accton');
 var VMwareIcon = require('./icons/Vmware');
 var BroadcomIcon = require('./icons/Broadcom');
 var QosmosIcon = require('./icons/Qosmos');
+var BarefootIcon = require('./icons/Barefoot');
+var MellanoxIcon = require('./icons/Mellanox');
+var QuattroIcon = require('./icons/Quattro');
 
 var Header = require('./Header');
 var Footer = require('./Footer');
@@ -156,6 +159,37 @@ var Home = React.createClass({
             </Tile>
           </Tiles>
         </HomeSection>
+
+        <Section appCentered={true} justify="center" align="start"
+          textCentered={true} pad={{vertical: "large"}} colorIndex="neutral-6">
+          <Headline>Contributors</Headline>
+          <p><b>
+            OpenSwitch has already accepted contributions from:
+          </b></p>
+          <Tiles fill={true} flush={false}>
+            <Tile justify="center" align="center" pad="small">
+              <HPEIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
+              <BroadcomIcon />
+            </Tile>
+          </Tiles>
+          <p><b>
+            OpenSwitch has signed CLAs and the commitment to contribute from:
+          </b></p>
+          <Tiles fill={true} flush={false}>
+            <Tile justify="center" align="center" pad="small">
+              <BarefootIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
+              <MellanoxIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
+              <QuattroIcon />
+            </Tile>
+          </Tiles>
+        </Section>
+
 
         <Section full={true} backgroundImage={'url(img/network-background.png)'}
           appCentered={true} justify="start" align="start">
