@@ -25,6 +25,7 @@ var QosmosIcon = require('./icons/Qosmos');
 var BarefootIcon = require('./icons/Barefoot');
 var MellanoxIcon = require('./icons/Mellanox');
 var QuattroIcon = require('./icons/Quattro');
+var CaviumIcon = require('./icons/Cavium');
 
 var Header = require('./Header');
 var Footer = require('./Footer');
@@ -186,6 +187,9 @@ var Home = React.createClass({
             </Tile>
             <Tile justify="center" align="center" pad="small">
               <QuattroIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
+              <CaviumIcon />
             </Tile>
           </Tiles>
         </Section>
