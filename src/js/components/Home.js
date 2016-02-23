@@ -161,12 +161,11 @@ var Home = React.createClass({
           </Tiles>
         </HomeSection>
 
-        <Section appCentered={true} justify="center" align="start"
-          textCentered={true} pad={{vertical: "large"}} colorIndex="neutral-6">
+        <HomeSection colorIndex="neutral-6">
           <Headline>Contributors</Headline>
-          <p><b>
+          <p>
             OpenSwitch has already accepted contributions from:
-          </b></p>
+          </p>
           <Tiles fill={true} flush={false}>
             <Tile justify="center" align="center" pad="small">
               <HPEIcon />
@@ -174,14 +173,14 @@ var Home = React.createClass({
             <Tile justify="center" align="center" pad="small">
               <BroadcomIcon />
             </Tile>
-          </Tiles>
-          <p><b>
-            OpenSwitch has signed CLAs and the commitment to contribute from:
-          </b></p>
-          <Tiles fill={true} flush={false}>
             <Tile justify="center" align="center" pad="small">
               <BarefootIcon />
             </Tile>
+          </Tiles>
+          <p>
+            OpenSwitch has signed CLAs and the commitment to contribute from:
+          </p>
+          <Tiles fill={true} flush={false}>
             <Tile justify="center" align="center" pad="small">
               <MellanoxIcon />
             </Tile>
@@ -192,7 +191,7 @@ var Home = React.createClass({
               <CaviumIcon />
             </Tile>
           </Tiles>
-        </Section>
+        </HomeSection>
 
 
         <Section full={true} backgroundImage={'url(img/network-background.png)'}

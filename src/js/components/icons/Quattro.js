@@ -9,11 +9,11 @@ var CLASS_ROOT = "Quattro-icon";
 
 var Quattro = React.createClass({
 
-  mixins: [IntlMixin],
-
   propTypes: {
     a11yTitle: React.PropTypes.string
   },
+
+  mixins: [IntlMixin],
 
   getDefaultProps: function() {
     return { a11yTitle: 'Quattro' };
