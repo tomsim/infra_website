@@ -52,21 +52,43 @@ module.exports = function (path, includeMenu) {
           textCentered={true} pad={{vertical: "none"}}>
           <Menu direction="row" align="end" responsive={false} >
             <p><i className="fa fa-caret-right"></i><a href="#installing" className="scroll">Installing</a></p>
+            <p><i className="fa fa-caret-right"></i><a href="#downloads" className="scroll">Downloads</a></p>
             <p><i className="fa fa-caret-right"></i><a href="#userguides" className="scroll">User Guides</a></p>
             <p><i className="fa fa-caret-right"></i><a href="#references" className="scroll">References</a></p>
-            <p><i className="fa fa-caret-right"></i><a href="#downloads" className="scroll">Downloads</a></p>
           </Menu>
           </Section>
 
-          <Section align="start" justify="start" appCentered={true} pad={{vertical: "medium"}}>
+          <Section align="start" justify="start" appCentered={true} >
             <a name="installing"/>
             <Headline>Installing</Headline>
+            <p>OpenSwitch supports hardware based on <a href="http://onie.org">ONIE</a>. Bellow you will find the installation guide and Hardware Compatibility List.
+            OpenSwitch also provides an appliance Virtual Machine that is useful for testing and demo purposes.
+            </p>
             <Box pad={{ horizontal: "small" }}>
-              <Link to="documents/dev/deploy-to-physical-switch"><i className="fa fa-angle-right"></i>Installing and Booting OpenSwitch</Link>
+             <Link to="documents/dev/deploy-to-physical-switch"><i className="fa fa-angle-right"></i>Installing and Booting OpenSwitch (ONIE-based hardware)</Link>
+            </Box>
+            <Box pad={{ horizontal: "medium" }}>
+              <Link to="documents/user/hardware-compatibility"><i className="fa fa-angle-right"></i>Hardware Compatibility</Link>
+            </Box>
+            <Box pad={{ horizontal: "small" }}>
+              <Link to="documents/dev/use-virtual-appliance"><i className="fa fa-angle-right"></i>Using OpenSwitch Virtual Appliance</Link>
             </Box>
           </Section>
 
           <Section colorIndex="neutral-6" justify="start" appCentered={true} pad={{vertical: "medium"}}>
+            <a name="downloads"/>
+            <Headline>Downloads</Headline>
+            OpenSwitch is still on development, but you can download pre-release images from our archive:
+            <ul>
+              <li> Periodic images are built every 6 hours with the latest code from the master and release branches. </li>
+              <li> Release images are tagged development check points. </li>
+            </ul>
+            <Box pad={{ horizontal: "small" }}>
+              <a href="http://archive.openswitch.net/artifacts/" target="_blank"><i className="fa fa-angle-right"></i>OpenSwitch Download Archive</a>
+            </Box>
+          </Section>
+
+          <Section justify="start" appCentered={true} pad={{vertical: "medium"}}>
             <a name="userguides"/>
             <Box direction="column">
               <Headline>User Guides</Headline>
@@ -143,7 +165,7 @@ module.exports = function (path, includeMenu) {
             </Box>
           </Section>
 
-          <Section  justify="start" appCentered={true} pad={{vertical: "medium"}}>
+          <Section colorIndex="neutral-6" justify="start" appCentered={true} pad={{vertical: "medium"}}>
             <a name="references"/>
             <Box direction="column">
               <Headline>References</Headline>
@@ -228,25 +250,6 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <a href="http://api.openswitch.net/rest/dist/index.html" target="_blank"><i className="fa fa-angle-right"></i>REST APIs</a>
                 </Box>
-            </Box>
-          </Section>
-
-          <Section colorIndex="neutral-6" justify="start" appCentered={true} pad={{vertical: "medium"}}>
-            <a name="downloads"/>
-            <Box direction="column">
-              <Headline>Downloads</Headline>
-              <Box direction="row">
-                <Box direction="column" align="start" responsive={true}>
-                  <Box direction="column" align="start" responsive={true}>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/hardware-compatibility"><i className="fa fa-angle-right"></i>Hardware Compatibility</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <a href="http://archive.openswitch.net/artifacts/" target="_blank"><i className="fa fa-angle-right"></i>OpenSwitch Download Archive</a>
-                </Box>
-              </Box>
-              </Box>
-            </Box>
             </Box>
           </Section>
           <Footer />
