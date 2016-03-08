@@ -51,11 +51,22 @@ module.exports = function (path, includeMenu) {
           appCentered={true} align="end"
           textCentered={true} pad={{vertical: "none"}}>
           <Menu direction="row" align="end" responsive={false} >
+            <p><i className="fa fa-caret-right"></i><a href="#demo" className="scroll">Quick Start Guide for Demo</a></p>
             <p><i className="fa fa-caret-right"></i><a href="#installing" className="scroll">Installing</a></p>
             <p><i className="fa fa-caret-right"></i><a href="#downloads" className="scroll">Downloads</a></p>
             <p><i className="fa fa-caret-right"></i><a href="#userguides" className="scroll">User Guides</a></p>
             <p><i className="fa fa-caret-right"></i><a href="#references" className="scroll">References</a></p>
           </Menu>
+          </Section>
+
+          <Section align="start" justify="start" appCentered={true} >
+            <a name="demo"/>
+            <Headline>Quick Start Guide for Demo</Headline>
+            <p>Below is a quick start guide that helps in setting up a device and gaining access to the switch console
+            </p>
+            <Box pad={{ horizontal: "small" }}>
+             <Link to="documents/dev/quick-start-demo-setup"><i className="fa fa-angle-right"></i>Quick Start Demo Setup</Link>
+            </Box>
           </Section>
 
           <Section align="start" justify="start" appCentered={true} >
@@ -68,7 +79,7 @@ module.exports = function (path, includeMenu) {
              <Link to="documents/dev/deploy-to-physical-switch"><i className="fa fa-angle-right"></i>Installing and Booting OpenSwitch (ONIE-based hardware)</Link>
             </Box>
             <Box pad={{ horizontal: "medium" }}>
-              <Link to="documents/user/hardware-compatibility"><i className="fa fa-angle-right"></i>Hardware Compatibility</Link>
+             <Link to="documents/user/hardware-compatibility"><i className="fa fa-angle-right"></i>Hardware Compatibility</Link>
             </Box>
             <Box pad={{ horizontal: "small" }}>
               <Link to="documents/dev/use-virtual-appliance"><i className="fa fa-angle-right"></i>Using OpenSwitch Virtual Appliance</Link>
