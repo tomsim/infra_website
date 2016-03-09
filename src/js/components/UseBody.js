@@ -72,14 +72,14 @@ module.exports = function (path, includeMenu) {
           <Section align="start" justify="start" appCentered={true} >
             <a name="installing"/>
             <Headline>Installing</Headline>
-            <p>OpenSwitch supports hardware based on <a href="http://onie.org">ONIE</a>. Bellow you will find the installation guide and Hardware Compatibility List.
+            <p>OpenSwitch supports hardware based on <a href="http://onie.org">ONIE</a>. Below you will find the installation guide and Hardware Compatibility List.
             OpenSwitch also provides an appliance Virtual Machine that is useful for testing and demo purposes.
             </p>
             <Box pad={{ horizontal: "small" }}>
-             <Link to="documents/dev/deploy-to-physical-switch"><i className="fa fa-angle-right"></i>Installing and Booting OpenSwitch (ONIE-based hardware)</Link>
+              <Link to="documents/dev/deploy-to-physical-switch"><i className="fa fa-angle-right"></i>Installing and Booting OpenSwitch (ONIE-based hardware)</Link>
             </Box>
-            <Box pad={{ horizontal: "medium" }}>
-             <Link to="documents/user/hardware-compatibility"><i className="fa fa-angle-right"></i>Hardware Compatibility</Link>
+            <Box pad={{ horizontal: "small" }}>
+              <Link to="documents/user/hardware-compatibility"><i className="fa fa-angle-right"></i>Hardware Compatibility</Link>
             </Box>
             <Box pad={{ horizontal: "small" }}>
               <Link to="documents/dev/use-virtual-appliance"><i className="fa fa-angle-right"></i>Using OpenSwitch Virtual Appliance</Link>
