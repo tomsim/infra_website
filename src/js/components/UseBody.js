@@ -59,7 +59,7 @@ module.exports = function (path, includeMenu) {
           </Menu>
           </Section>
 
-          <Section align="start" justify="start" appCentered={true} >
+          <Section colorIndex="neutral-6" justify="start" appCentered={true} pad={{vertical: "medium"}}>
             <a name="demo"/>
             <Headline>Quick Start Guide for Demo</Headline>
             <p>Below is a quick start guide that helps in setting up a device and gaining access to the switch console
