@@ -306,6 +306,9 @@ module.exports = function (path, includeMenu) {
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/plugins_extensions_design"><i className="fa fa-angle-right"></i>Switched Feature Plugins Extensions</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-portd/design"><i className="fa fa-angle-right"></i>Layer3 Port Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
