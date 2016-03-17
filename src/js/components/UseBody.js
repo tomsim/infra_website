@@ -65,7 +65,7 @@ module.exports = function (path, includeMenu) {
             <p>Below is a quick start guide that helps in setting up a device and gaining access to the switch console
             </p>
             <Box pad={{ horizontal: "small" }}>
-             <Link to="documents/dev/quick-start-demo-setup"><i className="fa fa-angle-right"></i>Quick Start Demo Setup</Link>
+             <Link to="documents/dev/quick-start-physical"><i className="fa fa-angle-right"></i>Quick Start Demo Setup</Link>
             </Box>
           </Section>
 
