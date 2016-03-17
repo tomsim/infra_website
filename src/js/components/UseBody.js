@@ -51,7 +51,6 @@ module.exports = function (path, includeMenu) {
           appCentered={true} align="end"
           textCentered={true} pad={{vertical: "none"}}>
           <Menu direction="row" align="end" responsive={false} >
-            <p><i className="fa fa-caret-right"></i><a href="#demo" className="scroll">Quick Start Guide for Demo</a></p>
             <p><i className="fa fa-caret-right"></i><a href="#installing" className="scroll">Installing</a></p>
             <p><i className="fa fa-caret-right"></i><a href="#downloads" className="scroll">Downloads</a></p>
             <p><i className="fa fa-caret-right"></i><a href="#userguides" className="scroll">User Guides</a></p>
@@ -59,30 +58,17 @@ module.exports = function (path, includeMenu) {
           </Menu>
           </Section>
 
-          <Section colorIndex="neutral-6" justify="start" appCentered={true} pad={{vertical: "medium"}}>
-            <a name="demo"/>
-            <Headline>Quick Start Guide for Demo</Headline>
-            <p>Below is a quick start guide that helps in setting up a device and gaining access to the switch console
-            </p>
-            <Box pad={{ horizontal: "small" }}>
-             <Link to="documents/dev/quick-start-physical"><i className="fa fa-angle-right"></i>Quick Start Demo Setup</Link>
-            </Box>
-          </Section>
-
           <Section align="start" justify="start" appCentered={true} >
             <a name="installing"/>
             <Headline>Installing</Headline>
-            <p>OpenSwitch supports hardware based on <a href="http://onie.org">ONIE</a>. Below you will find the installation guide and Hardware Compatibility List.
+            <p>OpenSwitch supports hardware based on <a href="http://onie.org">ONIE</a>. Below you will find the installation guide.
             OpenSwitch also provides an appliance Virtual Machine that is useful for testing and demo purposes.
             </p>
             <Box pad={{ horizontal: "small" }}>
-              <Link to="documents/dev/deploy-to-physical-switch"><i className="fa fa-angle-right"></i>Installing and Booting OpenSwitch (ONIE-based hardware)</Link>
+              <Link to="documents/dev/quick-start-physical"><i className="fa fa-angle-right"></i>Quick Start Guide for Physical Switches</Link>
             </Box>
             <Box pad={{ horizontal: "small" }}>
-              <Link to="documents/user/hardware-compatibility"><i className="fa fa-angle-right"></i>Hardware Compatibility</Link>
-            </Box>
-            <Box pad={{ horizontal: "small" }}>
-              <Link to="documents/dev/quick-start-virtual"><i className="fa fa-angle-right"></i>Using OpenSwitch Virtual Appliance</Link>
+              <Link to="documents/dev/quick-start-virtual"><i className="fa fa-angle-right"></i>Quick Start Guide for Virtual Appliance</Link>
             </Box>
           </Section>
 
