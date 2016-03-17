@@ -82,7 +82,7 @@ module.exports = function (path, includeMenu) {
               <Link to="documents/user/hardware-compatibility"><i className="fa fa-angle-right"></i>Hardware Compatibility</Link>
             </Box>
             <Box pad={{ horizontal: "small" }}>
-              <Link to="documents/dev/use-virtual-appliance"><i className="fa fa-angle-right"></i>Using OpenSwitch Virtual Appliance</Link>
+              <Link to="documents/dev/quick-start-virtual"><i className="fa fa-angle-right"></i>Using OpenSwitch Virtual Appliance</Link>
             </Box>
           </Section>
 
