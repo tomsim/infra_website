@@ -410,7 +410,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/ntp_test"><i className="fa fa-angle-right"></i>NTP</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Phy Interfaces</span>
+                  <Link to="documents/user/phy_interface_test"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/ping_ft_test"><i className="fa fa-angle-right"></i>PING</Link>
