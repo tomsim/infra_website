@@ -116,9 +116,6 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/show-tech_dev_guide"><i className="fa fa-angle-right"></i>Show Tech Infra</Link>
                   </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/cli_developer_guide"><i className="fa fa-angle-right"></i>CLI Developer Guide</Link>
-                  </Box>
                 </Box>
             </Box>
           </Box>
