@@ -18,7 +18,7 @@ var Footer = React.createClass({
       <GrommetFooter appCentered={true} align="start" float={this.props.float}
          pad={{ vertical: "none", horizontal: "large" }} justify="between" colorIndex={colorIndex}>
         <Menu direction="row" align="start" responsive={false}>
-          <p>© 2015 HPED LP</p>
+          <p>© Copyright 2015-2016 HPE LP</p>
           <p><i className="fa fa-caret-right"></i><a href="http://www8.hp.com/us/en/hpe/legal/terms-of-use.html" className="scroll">Terms of use</a></p>
           <p><i className="fa fa-caret-right"></i><a href="https://www.hpe.com/us/en/legal/privacy.html" className="scroll">Privacy</a></p>
         </Menu>
