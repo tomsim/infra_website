@@ -254,12 +254,6 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-cli/design"><i className="fa fa-angle-right"></i>CLI Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Configuration Files for AS5712</span>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <span>Configuration Files for Simulator</span>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-switchd-container-plugin/design"><i className="fa fa-angle-right"></i>Container Plugin</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
