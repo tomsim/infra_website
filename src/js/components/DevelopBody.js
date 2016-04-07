@@ -117,7 +117,7 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/show-tech_dev_guide"><i className="fa fa-angle-right"></i>Show Tech Infra</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/show-tech_dev_guide"><i className="fa fa-angle-right"></i>Process Isolation</Link>
+                    <Link to="documents/dev/how-to-process-isolation"><i className="fa fa-angle-right"></i>Process Isolation</Link>
                   </Box>
                 </Box>
             </Box>
