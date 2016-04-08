@@ -232,6 +232,9 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <span>Zero Touch</span>
                 </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/custom_validators_design"><i className="fa fa-angle-right"></i>Custom Validators</Link>
+                </Box>
               </Box>
              </Box>
             <p></p>
