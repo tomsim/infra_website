@@ -125,6 +125,12 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/auditloghowtoguide"><i className="fa fa-angle-right"></i>Audit Log</Link>
                   </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/ovsdb_improvements_design"><i className="fa fa-angle-right"></i>OVSDB Improvements Design</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/ovsdb_improvements_how_to_guide"><i className="fa fa-angle-right"></i>OVSDB Improvements How-To Guide</Link>
+                  </Box>
                 </Box>
             </Box>
           </Box>
