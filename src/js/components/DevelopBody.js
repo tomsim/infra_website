@@ -122,6 +122,8 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/rbachowtoguide"><i className="fa fa-angle-right"></i>RBAC</Link>
                   </Box>
+                </Box>
+              <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/auditloghowtoguide"><i className="fa fa-angle-right"></i>Audit Log</Link>
                   </Box>
@@ -246,6 +248,9 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/custom_validators_design"><i className="fa fa-angle-right"></i>Custom Validators</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/ospfv2_design"><i className="fa fa-angle-right"></i>OSPF</Link>
                 </Box>
               </Box>
              </Box>
@@ -452,6 +457,11 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/webui_test"><i className="fa fa-angle-right"></i>Web UI</Link>
+                </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/ospfv2_test"><i className="fa fa-angle-right"></i>OSPF</Link>
                 </Box>
               </Box>
              </Box>
