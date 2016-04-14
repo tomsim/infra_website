@@ -459,11 +459,6 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/webui_test"><i className="fa fa-angle-right"></i>Web UI</Link>
                 </Box>
               </Box>
-              <Box direction="column" align="start" responsive={true}>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/ospfv2_test"><i className="fa fa-angle-right"></i>OSPF</Link>
-                </Box>
-              </Box>
              </Box>
             <p></p>
           </Box>
