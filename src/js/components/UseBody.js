@@ -184,9 +184,6 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/dhcp_tftp_cli"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                   </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="/documents/user/ospfv2_cli"><i className="fa fa-angle-right"></i>OSPF</Link>
-                  </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
@@ -242,6 +239,9 @@ module.exports = function (path, includeMenu) {
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/autoprovision_CLI"><i className="fa fa-angle-right"></i>Zero Touch</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/ospfv2_cli"><i className="fa fa-angle-right"></i>OSPF</Link>
                   </Box>
                 </Box>
                 </Box>
