@@ -412,7 +412,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/layer3_test"><i className="fa fa-angle-right"></i>L3 Interfaces</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Link Aggregation</span>
+                  <Link to="documents/user/lag_test"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/lldp_test"><i className="fa fa-angle-right"></i>LLDP</Link>
