@@ -265,6 +265,9 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-aaa-utils/design"><i className="fa fa-angle-right"></i>AAA</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/ops-ansible/design"><i className="fa fa-angle-right"></i>Ansible</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-arpmgrd/design"><i className="fa fa-angle-right"></i>ARP Manager Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
