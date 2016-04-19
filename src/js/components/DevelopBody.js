@@ -283,9 +283,6 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-switchd-container-plugin/design"><i className="fa fa-angle-right"></i>Container Plugin</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/dev/ops-config-yaml/design"><i className="fa fa-angle-right"></i>Library to read config yaml files</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-dhcp-tftp/design"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                 </Box>
               </Box>
