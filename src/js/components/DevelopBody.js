@@ -193,7 +193,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/dhcp_tftp_design"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/layer3_design"><i className="fa fa-angle-right"></i>L3 Interfaces, Static Routes, ECMP</Link>
+                  <Link to="documents/user/layer3_design"><i className="fa fa-angle-right"></i>L3 Interfaces</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
@@ -251,6 +251,9 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/ospfv2_design"><i className="fa fa-angle-right"></i>OSPF</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/version_design"><i className="fa fa-angle-right"></i>Versioning</Link>
                 </Box>
               </Box>
              </Box>
