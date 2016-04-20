@@ -190,7 +190,7 @@ module.exports = function (path, includeMenu) {
                     <span>Boot Up</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Check_MK</span>
+                  <Link to="documents/user/checkmk-agent-design"><i className="fa fa-angle-right"></i>Check_MK Agent</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/dhcp_tftp_design"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
@@ -280,7 +280,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-cfgd/design"><i className="fa fa-angle-right"></i>Configuration Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Check_MK</span>
+                  <Link to="documents/user/checkmk-agent-design"><i className="fa fa-angle-right"></i>Check_MK Agent</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-cli/design"><i className="fa fa-angle-right"></i>CLI Daemon</Link>
@@ -399,6 +399,9 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <span>Boot Up</span>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/checkmk-agent-test"><i className="fa fa-angle-right"></i>Check_MK Agent</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/test_cfgd_ft_case"><i className="fa fa-angle-right"></i>Configuration Persistence</Link>
