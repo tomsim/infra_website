@@ -133,6 +133,9 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/ovsdb_improvements_how_to_guide"><i className="fa fa-angle-right"></i>OVSDB Improvements How-To Guide</Link>
                   </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/cli_developer_guide"><i className="fa fa-angle-right"></i>CLI Infrastructure</Link>
+                  </Box>
                 </Box>
             </Box>
           </Box>
