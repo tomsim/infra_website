@@ -48,7 +48,6 @@ $(BUILD_ROOT)/src/ops-docs:
 $(MARKDOWN_ROOT)/user: $(BUILD_ROOT)/src/ops
 	$(V) cp -Rf $</docs $@
 	$(V) find $</tests -iname "*.md" -exec cp -Rf {} $@ \;
-	$(V) rm -rf $(MARKDOWN_ROOT)/user/cli_developer_guide.md
 
 
 $(BUILD_ROOT)/src/ops:
