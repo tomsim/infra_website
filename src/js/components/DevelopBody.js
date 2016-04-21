@@ -410,9 +410,6 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/dhcp_tftp_test"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>ECMP</span>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
                   <span>InterVLAN Routing</span>
                 </Box>
               </Box>
@@ -451,9 +448,6 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/sftp_ft_test"><i className="fa fa-angle-right"></i>SFTP</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <span>Static Routes</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/traceroute_ft_test"><i className="fa fa-angle-right"></i>Traceroute</Link>
