@@ -398,7 +398,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/bgp_test"><i className="fa fa-angle-right"></i>BGP</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Boot Up</span>
+                  <Link to="documents/user/bootup_test"><i className="fa fa-angle-right"></i>Boot Up</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/checkmk-agent-test"><i className="fa fa-angle-right"></i>Check_MK Agent</Link>
@@ -444,7 +444,7 @@ module.exports = function (path, includeMenu) {
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>Pluggable Modules</span>
+                  <Link to="documents/user/pluggable_modules_test"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/rest_test"><i className="fa fa-angle-right"></i>REST API</Link>
