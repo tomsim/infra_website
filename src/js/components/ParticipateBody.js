@@ -84,9 +84,6 @@ module.exports = function (path, includeMenu) {
               <Box pad={{ horizontal: "small" }}>
                 <Link to="documents/dev/white-papers"><i className="fa fa-angle-right"></i>White Papers</Link>
               </Box>
-              <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/user/blogs"><i className="fa fa-angle-right"></i>Blogs</Link>
-              </Box>
             </Box>
             <Box direction="column" align="start" responsive={true}>
             <Box pad={{ horizontal: "small" }}>
