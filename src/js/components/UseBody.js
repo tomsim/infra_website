@@ -146,6 +146,9 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/sftp_user_guide"><i className="fa fa-angle-right"></i>SFTP</Link>
                   </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/show_tech_user_guide"><i className="fa fa-angle-right"></i>Show Tech</Link>
+                  </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
@@ -227,6 +230,9 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/show_tech_cli"><i className="fa fa-angle-right"></i>Show Tech</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/static-routes_cli"><i className="fa fa-angle-right"></i>Static Routes</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
@@ -238,11 +244,11 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/VLAN_cli"><i className="fa fa-angle-right"></i>VLANs</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/vrf_cli"><i className="fa fa-angle-right"></i>VRF</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/autoprovision_CLI"><i className="fa fa-angle-right"></i>Zero Touch</Link>
                   </Box>
