@@ -202,7 +202,7 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/event_logging_design"><i className="fa fa-angle-right"></i>Event Log</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/layer3_design"><i className="fa fa-angle-right"></i>L3 Interfaces</Link>
+                  <Link to="documents/user/layer3_design"><i className="fa fa-angle-right"></i>L3 Interfaces, Static Routes, ECMP</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
@@ -436,7 +436,7 @@ module.exports = function (path, includeMenu) {
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/layer3_test"><i className="fa fa-angle-right"></i>L3 Interfaces</Link>
+                  <Link to="documents/user/layer3_test"><i className="fa fa-angle-right"></i>L3 Interfaces, Static Routes, ECMP</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/lag_test"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
