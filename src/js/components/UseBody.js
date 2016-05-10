@@ -109,6 +109,9 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/dhcp_tftp_user_guide"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                   </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/show_events_user_guide"><i className="fa fa-angle-right"></i>Event Log</Link>
+                  </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
@@ -197,6 +200,9 @@ module.exports = function (path, includeMenu) {
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/layer3_ecmp_cli"><i className="fa fa-angle-right"></i>ECMP</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/show_events_cli"><i className="fa fa-angle-right"></i>Event Log</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/layer3_interface_cli"><i className="fa fa-angle-right"></i>L3 Interfaces</Link>
