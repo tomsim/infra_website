@@ -156,6 +156,9 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/sftp_user_guide"><i className="fa fa-angle-right"></i>SFTP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/show_core-dump_user_guide"><i className="fa fa-angle-right"></i>Show Core</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/show_tech_user_guide"><i className="fa fa-angle-right"></i>Show Tech</Link>
                   </Box>
                 </Box>
@@ -247,6 +250,9 @@ module.exports = function (path, includeMenu) {
                   </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/show_core-dump_cli_guide"><i className="fa fa-angle-right"></i>Show Core</Link>
+                  </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/show_tech_cli"><i className="fa fa-angle-right"></i>Show Tech</Link>
                   </Box>
