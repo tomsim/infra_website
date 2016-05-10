@@ -110,6 +110,9 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/dhcp_tftp_user_guide"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/diagnostic_user_guide"><i className="fa fa-angle-right"></i>Diagnostics</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/show_events_user_guide"><i className="fa fa-angle-right"></i>Event Log</Link>
                   </Box>
                 </Box>
@@ -142,6 +145,9 @@ module.exports = function (path, includeMenu) {
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/pluggable_modules_user_guide"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/syslog_remote_user_guide"><i className="fa fa-angle-right"></i>Remote Syslog</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/rest_api_user_guide"><i className="fa fa-angle-right"></i>REST API</Link>
@@ -196,6 +202,9 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/dhcp_tftp_cli"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                   </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/diagnostic_cli"><i className="fa fa-angle-right"></i>Diagnostics</Link>
+                  </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
@@ -229,6 +238,9 @@ module.exports = function (path, includeMenu) {
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/ping_cli"><i className="fa fa-angle-right"></i>PING</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/syslog_remote_cli"><i className="fa fa-angle-right"></i>Remote Syslog</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/sftp_cli"><i className="fa fa-angle-right"></i>SFTP</Link>
