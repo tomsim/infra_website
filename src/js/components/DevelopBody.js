@@ -486,9 +486,6 @@ module.exports = function (path, includeMenu) {
                   <span>VLANs</span>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>VRF</span>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/webui_test"><i className="fa fa-angle-right"></i>Web UI</Link>
                 </Box>
               </Box>
