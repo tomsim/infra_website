@@ -94,6 +94,9 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/dev/code-repositories"><i className="fa fa-angle-right"></i>Code Repositories</Link>
                   </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/dev/platform_porting_guide"><i className="fa fa-angle-right"></i>Porting a new platform to OpenSwitch</Link>
+                  </Box>
                 </Box>
             </Box>
           </Box>
