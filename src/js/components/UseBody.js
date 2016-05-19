@@ -191,6 +191,9 @@ module.exports = function (path, includeMenu) {
               <Box direction="row">
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/access_list_cli"><i className="fa fa-angle-right"></i>Access Control Lists (ACL)</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/arp_cli"><i className="fa fa-angle-right"></i>ARP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
