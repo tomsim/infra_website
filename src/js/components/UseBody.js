@@ -147,6 +147,9 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/pluggable_modules_user_guide"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/qos_user_guide"><i className="fa fa-angle-right"></i>Quality of Service</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/syslog_remote_user_guide"><i className="fa fa-angle-right"></i>Remote Syslog</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
@@ -244,6 +247,9 @@ module.exports = function (path, includeMenu) {
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/ping_cli"><i className="fa fa-angle-right"></i>PING</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/qos_cli"><i className="fa fa-angle-right"></i>Quality of Service</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/syslog_remote_cli"><i className="fa fa-angle-right"></i>Remote Syslog</Link>
