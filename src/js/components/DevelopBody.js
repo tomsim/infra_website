@@ -120,13 +120,10 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/event_logs_dev_guide"><i className="fa fa-angle-right"></i>Event Log</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/ovsdb_improvements_design"><i className="fa fa-angle-right"></i>OVSDB ImprovementsDesign</Link>
+                    <Link to="documents/user/ovsdb_improvements_how_to_guide"><i className="fa fa-angle-right"></i>OVSDB Improvements</Link>
                   </Box>
                 </Box>
               <Box direction="column" align="start" responsive={true}>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/ovsdb_improvements_how_to_guide"><i className="fa fa-angle-right"></i>OVSDB Improvements How-To Guide</Link>
-                  </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/dev/how-to-process-isolation"><i className="fa fa-angle-right"></i>Process Isolation</Link>
                   </Box>
@@ -219,6 +216,9 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/mgmt_intf_design"><i className="fa fa-angle-right"></i>Management Interface</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/ovsdb_improvements_design"><i className="fa fa-angle-right"></i>OVSDB Improvements</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/pluggable_modules_design"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
@@ -242,11 +242,11 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/show_core-dump_design_doc"><i className="fa fa-angle-right"></i>Show Core</Link>
                 </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/show_tech_design"><i className="fa fa-angle-right"></i>Show Tech</Link>
                 </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/thermal_management_design"><i className="fa fa-angle-right"></i>Temp and Fan Management</Link>
                 </Box>
