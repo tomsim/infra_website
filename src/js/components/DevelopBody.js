@@ -187,6 +187,12 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/checkmk-agent-design"><i className="fa fa-angle-right"></i>Check_MK Agent</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/copy_core-dump_design_doc"><i className="fa fa-angle-right"></i>Core Dump</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/daemon_coredump_design"><i className="fa fa-angle-right"></i>Daemon Core Dump</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/dhcp_tftp_design"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
@@ -196,11 +202,16 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/event_logging_design"><i className="fa fa-angle-right"></i>Event Log</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/kernel_coredump_design"><i className="fa fa-angle-right"></i>Kernel Core Dump</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/layer3_design"><i className="fa fa-angle-right"></i>L3 Interfaces, Static Routes, ECMP</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/led_design"><i className="fa fa-angle-right"></i>LED</Link>
                 </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/link_aggregation_design"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
                 </Box>
@@ -210,8 +221,6 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/logrotate_design"><i className="fa fa-angle-right"></i>Log Rotation</Link>
                 </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/mgmt_intf_design"><i className="fa fa-angle-right"></i>Management Interface</Link>
                 </Box>
@@ -233,6 +242,8 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/rest_api_design"><i className="fa fa-angle-right"></i>REST and Declarative Config</Link>
                 </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/syslog_remote_design"><i className="fa fa-angle-right"></i>Remote Syslog</Link>
                 </Box>
@@ -242,8 +253,6 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/show_core-dump_design_doc"><i className="fa fa-angle-right"></i>Show Core</Link>
                 </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/show_tech_design"><i className="fa fa-angle-right"></i>Show Tech</Link>
                 </Box>
@@ -398,9 +407,6 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>ARP</span>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/aaa_test"><i className="fa fa-angle-right"></i>Authentication (AAA CLI)</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
@@ -424,11 +430,14 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/show_events_test"><i className="fa fa-angle-right"></i>Event Log</Link>
                 </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/kernel_coredump_test"><i className="fa fa-angle-right"></i>Kernel Core Dump</Link>
+                </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/layer3_test"><i className="fa fa-angle-right"></i>L3 Interfaces, Static Routes, ECMP</Link>
                 </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/lag_test"><i className="fa fa-angle-right"></i>Link Aggregation</Link>
                 </Box>
@@ -450,8 +459,6 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/ping_ft_test"><i className="fa fa-angle-right"></i>PING</Link>
                 </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/pluggable_modules_test"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
                 </Box>
@@ -461,6 +468,8 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/rest_test"><i className="fa fa-angle-right"></i>REST API</Link>
                 </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/sftp_ft_test"><i className="fa fa-angle-right"></i>SFTP</Link>
                 </Box>
