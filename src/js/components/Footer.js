@@ -1,6 +1,4 @@
 var React = require('react');
-var GrommetFooter = require('grommet/components/Footer');
-var Menu = require('grommet/components/Menu');
 
 var IntlMixin = require('grommet/mixins/GrommetIntlMixin');
 
