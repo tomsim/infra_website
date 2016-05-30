@@ -12,7 +12,18 @@ var Header = React.createClass({
   mixins: [IntlMixin],
 
   render: function() {
+    var lfString = `
+      <div id="lfcollabprojects-header">
+        <div class="gray-diagonal">
+          <div class="header-inner">
+            <a id="lfcollabprojects-logo" href="http://collabprojects.linuxfoundation.org">Linux Foundation Collaborative Projects</a>
+          </div>
+        </div>
+      </div>`;
+
     return (
+      <div>
+      <div dangerouslySetInnerHTML={{ __html: lfString }} />
       <GrommetHeader {...this.props} media={this.props.media} fixed={false}
         float={this.props.float} large={true}
         appCentered={true} justify="between">
@@ -30,6 +41,7 @@ var Header = React.createClass({
           <Link to="develop">{this.getGrommetIntlMessage('Develop')}</Link>
         </Menu>
       </GrommetHeader>
+      </div>
     );
   }
 });

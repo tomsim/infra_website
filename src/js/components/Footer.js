@@ -14,22 +14,21 @@ var Footer = React.createClass({
       colorIndex += '-a';
     }
 
+    var lfFooterString = `
+    <div id="lfcollabprojects-footer">
+      <div class="gray-diagonal">
+        <div class="footer-inner">
+          <p>&copy; 2016 Linux Foundation. All Rights Reserved.</p>
+          <p>Linux Foundation is a registered trademark of The Linux Foundation.</p>
+          <p>Linux is a registered <a href="http://www.linuxfoundation.org/programs/legal/trademark" title="Linux Mark Institute">trademark</a> of Linus Torvalds.</p>
+        </div>
+      </div>
+    </div>`;
+
     return (
-      <GrommetFooter appCentered={true} align="start" float={this.props.float}
-         pad={{ vertical: "none", horizontal: "large" }} justify="between" colorIndex={colorIndex}>
-        <Menu direction="row" align="start" responsive={false}>
-          <p>© Copyright 2015-2016 HPE LP</p>
-          <p><i className="fa fa-caret-right"></i><a href="http://www8.hp.com/us/en/hpe/legal/terms-of-use.html" className="scroll">Terms of use</a></p>
-          <p><i className="fa fa-caret-right"></i><a href="https://www.hpe.com/us/en/legal/privacy.html" className="scroll">Privacy</a></p>
-        </Menu>
-        <Menu direction="row" align="end" responsive={false} pad={{ vertical: "medium" }}>
-            <a href="http://webchat.freenode.net/?channels=#openswitch" target="_blank"><i className="fa fa-user fa-2x"></i></a>
-            <a href="http://lists.openswitch.net" target="_blank"><i className="fa fa-envelope fa-2x"></i></a>
-            <a href="https://tree.taiga.io/project/openswitch/issues" target="_blank"><i className="fa fa-bug fa-2x"></i></a>
-            <a href="http://git.openswitch.net/" target="_blank"><i className="fa fa-git fa-2x"></i></a>
-            <a href="http://github.com/open-switch" target="_blank"><i className="fa fa-github fa-2x"></i></a>
-        </Menu>
-      </GrommetFooter>
+      <div>
+      <div dangerouslySetInnerHTML={{ __html: lfFooterString }} />
+      </div>
     );
   }
 });
