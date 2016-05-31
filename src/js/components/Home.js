@@ -26,6 +26,11 @@ var BarefootIcon = require('./icons/Barefoot');
 var MellanoxIcon = require('./icons/Mellanox');
 var QuattroIcon = require('./icons/Quattro');
 var CaviumIcon = require('./icons/Cavium');
+var LinkedInIcon = require('./icons/Linkedin');
+var NephosIcon = require('./icons/Nephos');
+var ExtremeIcon = require('./icons/Extreme');
+var P4orgIcon = require('./icons/P4org');
+var SnapRouteIcon = require('./icons/SnapRoute');
 
 var Header = require('./Header');
 var Footer = require('./Footer');
@@ -136,14 +141,16 @@ var Home = React.createClass({
           <Headline small={true}>
             Premier
           </Headline>
-
+          <hr style={{minWidth: '544px'}}/>
           <Tiles fill={true} flush={false}>
-            <hr/>
             <Tile justify="center" align="center" pad="small">
              <BarefootIcon />
             </Tile>
             <Tile justify="center" align="center" pad="small">
               <CaviumIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
+              <ExtremeIcon />
             </Tile>
             <Tile justify="center" align="center" pad="small">
               <HPEIcon />
@@ -155,35 +162,44 @@ var Home = React.createClass({
           <Headline small={true}>
             General
           </Headline>
+          <hr style={{minWidth: '544px'}}/>
           <Tiles fill={true} flush={false}>
             <Tile justify="center" align="center" pad="small">
+              <NephosIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
               <QuattroIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
+              <SnapRouteIcon />
             </Tile>
           </Tiles>
           <Headline small={true}>
             Associate
           </Headline>
+          <hr style={{minWidth: '544px'}}/>
           <Tiles fill={true} flush={false}>
             <Tile justify="center" align="center" pad="small">
-              <HPEIcon />
+              <P4orgIcon />
             </Tile>
           </Tiles>
           <Headline small={true}>
             Operator
           </Headline>
+          <hr style={{minWidth: '544px'}}/>
           <Tiles fill={true} flush={false}>
             <Tile justify="center" align="center" pad="small">
-              <HPEIcon />
+              <LinkedInIcon />
             </Tile>
           </Tiles>
         </HomeSection>
         <Section full={true} backgroundImage={'url(img/network-background.png)'}
           appCentered={true} justify="start" align="start">
-          <Headline small={true} strong={true}>About The Project</Headline>
+          <Headline strong={true}>About The Project</Headline>
           <Box direction="row">
             <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/charter"><i className="fa fa-angle-right"></i>Board Members</Link>
+                  <Link to="/documents/user/boardMembers"><i className="fa fa-angle-right"></i>Board Members</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/charter"><i className="fa fa-angle-right"></i>Project Charter</Link>
