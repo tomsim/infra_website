@@ -132,67 +132,38 @@ var Home = React.createClass({
         </HomeSection>
 
         <HomeSection>
-          <Headline large={true}>Charter Contributors</Headline>
+          <Headline large={true}>Premier</Headline>
           <p>
-            OpenSwitch is supported by key players in the networking industry.
           </p>
           <Tiles fill={true} flush={false}>
             <Tile justify="center" align="center" pad="small">
-              <HPEIcon />
-            </Tile>
-            <Tile justify="center" align="center" pad="small">
-              <BroadcomIcon />
-            </Tile>
-            <Tile justify="center" align="center" pad="small">
-              <AcctonIcon />
-            </Tile>
-            <Tile justify="center" align="center" pad="small">
-              <IntelIcon />
-            </Tile>
-            <Tile justify="center" align="center" pad="small">
-              <VMwareIcon />
-            </Tile>
-            <Tile justify="center" align="center" pad="small">
-              <QosmosIcon />
-            </Tile>
-            <Tile justify="center" align="center" pad="small">
-              <AristaIcon />
-            </Tile>
-          </Tiles>
-        </HomeSection>
-
-        <HomeSection colorIndex="neutral-6">
-          <Headline>Contributors</Headline>
-          <p>
-            OpenSwitch has already accepted contributions from:
-          </p>
-          <Tiles fill={true} flush={false}>
-            <Tile justify="center" align="center" pad="small">
-              <HPEIcon />
-            </Tile>
-            <Tile justify="center" align="center" pad="small">
-              <BroadcomIcon />
-            </Tile>
-            <Tile justify="center" align="center" pad="small">
-              <BarefootIcon />
-            </Tile>
-          </Tiles>
-          <p>
-            OpenSwitch has signed CLAs and the commitment to contribute from:
-          </p>
-          <Tiles fill={true} flush={false}>
-            <Tile justify="center" align="center" pad="small">
-              <MellanoxIcon />
-            </Tile>
-            <Tile justify="center" align="center" pad="small">
-              <QuattroIcon />
+             <BarefootIcon />
             </Tile>
             <Tile justify="center" align="center" pad="small">
               <CaviumIcon />
             </Tile>
+            <Tile justify="center" align="center" pad="small">
+              <HPEIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
+              <MellanoxIcon />
+            </Tile>
           </Tiles>
         </HomeSection>
+        <HomeSection colorIndex="neutral-6">
+          <Headline>General</Headline>
+          <Tiles fill={true} flush={false}>
+            <Tile justify="center" align="center" pad="small">
+              <QuattroIcon />
+            </Tile>
+          </Tiles>
+        </HomeSection>
+        <HomeSection colorIndex="neutral-6">
+          <Headline>Associate and Operator</Headline>
+          <Tiles fill={true} flush={false}>
 
+          </Tiles>
+        </HomeSection>
 
         <Section full={true} backgroundImage={'url(img/network-background.png)'}
           appCentered={true} justify="start" align="start">
