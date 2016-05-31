@@ -15,13 +15,13 @@ var OpenSwitchLogo = require('./icons/OpenSwitchLogo');
 var StoryIcon = require('./icons/Story');
 var ConsoleIcon = require('./icons/Console');
 var CommunityIcon = require('./icons/Community');
-var IntelIcon = require('./icons/Intel');
+//var IntelIcon = require('./icons/Intel');
 var HPEIcon = require('./icons/HPE');
-var AristaIcon = require('./icons/Arista');
-var AcctonIcon = require('./icons/Accton');
-var VMwareIcon = require('./icons/Vmware');
-var BroadcomIcon = require('./icons/Broadcom');
-var QosmosIcon = require('./icons/Qosmos');
+//var AristaIcon = require('./icons/Arista');
+//var AcctonIcon = require('./icons/Accton');
+//var VMwareIcon = require('./icons/Vmware');
+//var BroadcomIcon = require('./icons/Broadcom');
+//var QosmosIcon = require('./icons/Qosmos');
 var BarefootIcon = require('./icons/Barefoot');
 var MellanoxIcon = require('./icons/Mellanox');
 var QuattroIcon = require('./icons/Quattro');
@@ -132,10 +132,13 @@ var Home = React.createClass({
         </HomeSection>
 
         <HomeSection>
-          <Headline large={true}>Premier</Headline>
-          <p>
-          </p>
+          <Headline large={true}>Members</Headline>
+          <Headline small={true}>
+            Premier
+          </Headline>
+
           <Tiles fill={true} flush={false}>
+            <hr/>
             <Tile justify="center" align="center" pad="small">
              <BarefootIcon />
             </Tile>
@@ -149,31 +152,45 @@ var Home = React.createClass({
               <MellanoxIcon />
             </Tile>
           </Tiles>
-        </HomeSection>
-        <HomeSection colorIndex="neutral-6">
-          <Headline>General</Headline>
+          <Headline small={true}>
+            General
+          </Headline>
           <Tiles fill={true} flush={false}>
             <Tile justify="center" align="center" pad="small">
               <QuattroIcon />
             </Tile>
           </Tiles>
-        </HomeSection>
-        <HomeSection colorIndex="neutral-6">
-          <Headline>Associate and Operator</Headline>
+          <Headline small={true}>
+            Associate
+          </Headline>
           <Tiles fill={true} flush={false}>
-
+            <Tile justify="center" align="center" pad="small">
+              <HPEIcon />
+            </Tile>
+          </Tiles>
+          <Headline small={true}>
+            Operator
+          </Headline>
+          <Tiles fill={true} flush={false}>
+            <Tile justify="center" align="center" pad="small">
+              <HPEIcon />
+            </Tile>
           </Tiles>
         </HomeSection>
-
         <Section full={true} backgroundImage={'url(img/network-background.png)'}
           appCentered={true} justify="start" align="start">
-          <Menu direction="row" pad={{vertical: "small"}}>
-
-          </Menu>
-          <Menu direction="row" responsive={false} pad={{ vertical: "small" }}>
-          </Menu>
+          <Headline small={true} strong={true}>About The Project</Headline>
+          <Box direction="row">
+            <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/charter"><i className="fa fa-angle-right"></i>Board Members</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/charter"><i className="fa fa-angle-right"></i>Project Charter</Link>
+                </Box>
+            </Box>
+          </Box>
         </Section>
-
         <Footer float={true} />
       </Article>
     );
