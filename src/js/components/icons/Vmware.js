@@ -29,7 +29,7 @@ var Vmware = React.createClass({
     var logoTitleId = 'vmware-title';// + uuid.v1();
 
     return (
-      <svg className={classes.join(' ')} width="190px" viewBox="0 0 190.25 31"
+      <svg className={classes.join(' ')} width="95px" viewBox="0 0 190.25 31"
         version="1.1" fill="#696566" role="img" aria-labelledby={logoTitleId}>
         <title id={logoTitleId}>{this.getGrommetIntlMessage(this.props.a11yTitle)}</title>
         <g id="g12" transform="matrix(1.25, 0, 0, -1.25, -375.855, 370.03)">

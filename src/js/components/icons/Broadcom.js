@@ -29,7 +29,7 @@ var Broadcom = React.createClass({
     var logoTitleId = 'broadcom-title'; //+ uuid.v1();
 
     return (
-      <svg className={classes.join(' ')} width="140px" viewBox="0 0 191 95"
+      <svg className={classes.join(' ')} width="70px" viewBox="0 0 191 95"
         version="1.1" role="img" aria-labelledby={logoTitleId}>
         <title id={logoTitleId}>{this.getGrommetIntlMessage(this.props.a11yTitle)}</title>
         <path fill-rule="evenodd" clip-rule="evenodd" fill="#ED1C24" d="M188.891,81.939h-12.509c-5.257,0.023-11.848-7.215-20.6-7.133

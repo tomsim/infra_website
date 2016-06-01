@@ -29,7 +29,7 @@ var Qosmos = React.createClass({
     var logoTitleId = 'Qosmos-title';// + uuid.v1();
 
     return (
-      <svg className={classes.join(' ')} width="240px" viewBox="0 0 595.3 283.5"
+      <svg className={classes.join(' ')} width="120px" viewBox="0 0 595.3 283.5"
         version="1.1" role="img" aria-labelledby={logoTitleId}>
         <title id={logoTitleId}>{this.getGrommetIntlMessage(this.props.a11yTitle)}</title>
         <g>

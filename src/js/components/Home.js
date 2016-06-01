@@ -15,13 +15,12 @@ var OpenSwitchLogo = require('./icons/OpenSwitchLogo');
 var StoryIcon = require('./icons/Story');
 var ConsoleIcon = require('./icons/Console');
 var CommunityIcon = require('./icons/Community');
-//var IntelIcon = require('./icons/Intel');
+var IntelIcon = require('./icons/Intel');
 var HPEIcon = require('./icons/HPE');
-//var AristaIcon = require('./icons/Arista');
-//var AcctonIcon = require('./icons/Accton');
-//var VMwareIcon = require('./icons/Vmware');
-//var BroadcomIcon = require('./icons/Broadcom');
-//var QosmosIcon = require('./icons/Qosmos');
+var AristaIcon = require('./icons/Arista');
+var VMwareIcon = require('./icons/Vmware');
+var BroadcomIcon = require('./icons/Broadcom');
+var QosmosIcon = require('./icons/Qosmos');
 var BarefootIcon = require('./icons/Barefoot');
 var MellanoxIcon = require('./icons/Mellanox');
 var QuattroIcon = require('./icons/Quattro');
@@ -197,6 +196,31 @@ var Home = React.createClass({
             </Tile>
           </Tiles>
         </HomeSection>
+
+        <HomeSection colorIndex="neutral-6">
+          <Headline small={true}>
+            Industry Contributors
+          </Headline>
+          <hr style={{minWidth: '544px'}}/>
+          <Tiles>
+            <Tile justify="center" align="center" pad="small">
+             <BroadcomIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
+              <IntelIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
+              <VMwareIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
+              <AristaIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
+              <QosmosIcon />
+            </Tile>
+          </Tiles>
+        </HomeSection>
+
         <Section full={true} backgroundImage={'url(img/network-background.png)'}
           appCentered={true} justify="start" align="start">
           <Headline strong={true}>About The Project</Headline>

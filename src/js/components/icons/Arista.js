@@ -29,7 +29,7 @@ var Arista = React.createClass({
     var logoTitleId = 'Arista-title';// + uuid.v1();
 
     return (
-      <svg className={classes.join(' ')} width="200px" viewBox="-38 0 704 792"
+      <svg className={classes.join(' ')} width="100px" viewBox="-38 0 704 792"
         version="1.1" role="img" fill="#16325B" aria-labelledby={logoTitleId}>
         <title id={logoTitleId}>{this.getGrommetIntlMessage(this.props.a11yTitle)}</title>
         <path d="M117.2,343c0.9,0,1.6,0,2.4,0c28.9,0,57.8-0.1,86.6,0.1c13.7,0.1,26.4,10.1,29.8,23.7c3.8,15-3.3,30-17.5,36.8
