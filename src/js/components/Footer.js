@@ -19,6 +19,7 @@ var Footer = React.createClass({
           <p>&copy; 2016 Linux Foundation. All Rights Reserved.</p>
           <p>Linux Foundation is a registered trademark of The Linux Foundation.</p>
           <p>Linux is a registered <a href="http://www.linuxfoundation.org/programs/legal/trademark" title="Linux Mark Institute">trademark</a> of Linus Torvalds.</p>
+          <p><a href="http://www8.hp.com/us/en/hpe/legal/terms-of-use.html" className="scroll">Terms of use</a> | <a href="https://www.hpe.com/us/en/legal/privacy.html" className="scroll">Privacy</a></p>
         </div>
       </div>
     </div>`;

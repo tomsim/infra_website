@@ -20,7 +20,7 @@ var HPEIcon = require('./icons/HPE');
 //var AristaIcon = require('./icons/Arista');
 //var AcctonIcon = require('./icons/Accton');
 //var VMwareIcon = require('./icons/Vmware');
-var BroadcomIcon = require('./icons/Broadcom');
+//var BroadcomIcon = require('./icons/Broadcom');
 //var QosmosIcon = require('./icons/Qosmos');
 var BarefootIcon = require('./icons/Barefoot');
 var MellanoxIcon = require('./icons/Mellanox');
@@ -146,9 +146,6 @@ var Home = React.createClass({
           <Tiles fill={true} flush={false}>
             <Tile justify="center" align="center" pad="small">
              <BarefootIcon />
-            </Tile>
-            <Tile justify="center" align="center" pad="small">
-             <BroadcomIcon />
             </Tile>
             <Tile justify="center" align="center" pad="small">
               <CaviumIcon />
