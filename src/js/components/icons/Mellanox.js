@@ -29,7 +29,7 @@ var Mellanox = React.createClass({
     var logoTitleId = 'mellanox-title';// + uuid.v1();
 
     return (
-      <svg className={classes.join(' ')} width="130px" viewBox="0 0 152.7 117.049"
+      <svg className={classes.join(' ')} width="120px" viewBox="0 0 152.7 117.049"
         version="1.1" role="img" aria-labelledby={logoTitleId}>
         <g>
         	<path fill="#221F72" d="M147.343,72.341c0.022-1.373-0.533-2.617-1.467-3.742l-38.029-63.84V0h-6.943v4.495l-26.12,43.298

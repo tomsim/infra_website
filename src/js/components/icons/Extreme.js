@@ -30,7 +30,7 @@ var Extreme = React.createClass({
 
     return (
       <svg className={classes.join(' ')} fill="#fff"
-        viewBox="0 0 705.6 283.5" width="175" version="1.1"
+        viewBox="0 0 705.6 175.34" width="175" version="1.1"
         role="img" aria-labelledby={logoTitleId}>
         <title id={logoTitleId}>{this.getGrommetIntlMessage(this.props.a11yTitle)}</title>
         <g id="_Group_" data-name="&lt;Group&gt;">

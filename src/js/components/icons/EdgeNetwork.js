@@ -30,7 +30,7 @@ var EdgeNetwork = React.createClass({
 
     return (
       <svg className={classes.join(' ')} fill="#fff"
-        viewBox="0 0 340.19 79.7" width="150" version="1.1"
+        viewBox="0 0 340.19 79.7" width="180" version="1.1"
         role="img" aria-labelledby={logoTitleId}>
         <title id={logoTitleId}>{this.getGrommetIntlMessage(this.props.a11yTitle)}</title>
         <rect style={{"fill" : "#231f20" }} x="0.02" y="0.01" width="33.06" height="52.9"/>

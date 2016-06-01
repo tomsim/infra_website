@@ -20,7 +20,7 @@ var HPEIcon = require('./icons/HPE');
 //var AristaIcon = require('./icons/Arista');
 //var AcctonIcon = require('./icons/Accton');
 //var VMwareIcon = require('./icons/Vmware');
-//var BroadcomIcon = require('./icons/Broadcom');
+var BroadcomIcon = require('./icons/Broadcom');
 //var QosmosIcon = require('./icons/Qosmos');
 var BarefootIcon = require('./icons/Barefoot');
 var MellanoxIcon = require('./icons/Mellanox');
@@ -148,6 +148,9 @@ var Home = React.createClass({
              <BarefootIcon />
             </Tile>
             <Tile justify="center" align="center" pad="small">
+             <BroadcomIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
               <CaviumIcon />
             </Tile>
             <Tile justify="center" align="center" pad="small">
@@ -200,6 +203,7 @@ var Home = React.createClass({
         <Section full={true} backgroundImage={'url(img/network-background.png)'}
           appCentered={true} justify="start" align="start">
           <Headline strong={true}>About The Project</Headline>
+          <h4>Governance</h4>
           <Box direction="row">
             <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
@@ -210,6 +214,17 @@ var Home = React.createClass({
                 </Box>
             </Box>
           </Box>
+          <p> </p>
+          <h4>Links</h4>
+          <Menu direction="row" align="end" responsive={false}>
+              <a href="http://github.com/open-switch" target="_blank"><i className="fa fa-github fa-2x"></i></a>
+              <a href="http://lists.openswitch.net" target="_blank"><i className="fa fa-envelope fa-2x"></i></a>
+              <a href="https://tree.taiga.io/project/openswitch/issues" target="_blank"><i className="fa fa-bug fa-2x"></i></a>
+              <a href="http://webchat.freenode.net/?channels=#openswitch" target="_blank"><i className="fa fa-slack fa-2x"></i></a>
+              <a href="https://www.youtube.com/c/OpenSwitchNOS" target="_blank"><i className="fa fa-youtube fa-2x"></i></a>
+              <a href="https://twitter.com/OpenSwitchNOS" target="_blank"><i className="fa fa-twitter fa-2x"></i></a>
+              <a href="https://www.linkedin.com/groups/8467572" target="_blank"><i className="fa fa-linkedin fa-2x"></i></a>
+          </Menu>
         </Section>
         <Footer float={true} />
       </Article>
