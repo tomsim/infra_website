@@ -150,9 +150,6 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/dev/contribute-code"><i className="fa fa-angle-right"></i>How to Contribute to the Code</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/dev/version-control"><i className="fa fa-angle-right"></i>Supported Branches and Tags</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/dev/adding-web-ui-content"><i className="fa fa-angle-right"></i>Adding Web UI Content</Link>
                   </Box>
                 </Box>
