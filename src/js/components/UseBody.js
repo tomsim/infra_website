@@ -141,6 +141,7 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/loopback-interfaces_user_guide"><i className="fa fa-angle-right"></i>Loopback Interfaces</Link>
                   </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/mgmt_intf_user_guide"><i className="fa fa-angle-right"></i>Management Interface</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
@@ -172,7 +173,6 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/show_core-dump_user_guide"><i className="fa fa-angle-right"></i>Show Core</Link>
                   </Box>
-                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/sub-interfaces_user_guide"><i className="fa fa-angle-right"></i>Sub Interface</Link>
                   </Box>
