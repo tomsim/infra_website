@@ -219,6 +219,9 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/logrotate_design"><i className="fa fa-angle-right"></i>Log Rotation</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/loopback_interface_design"><i className="fa fa-angle-right"></i>Loopback Interface</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/mgmt_intf_design"><i className="fa fa-angle-right"></i>Management Interface</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
@@ -252,6 +255,9 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/show_tech_design"><i className="fa fa-angle-right"></i>Show Tech</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/sub-interface_design"><i className="fa fa-angle-right"></i>Sub Interfaces</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/thermal_management_design"><i className="fa fa-angle-right"></i>Temp and Fan Management</Link>
@@ -445,6 +451,9 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/logrotate_test"><i className="fa fa-angle-right"></i>Log Rotation</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/loopback-interface_test"><i className="fa fa-angle-right"></i>Loopback Interface</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/mgmt_intf_test"><i className="fa fa-angle-right"></i>Management Interface</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
@@ -475,6 +484,9 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/show_tech_test"><i className="fa fa-angle-right"></i>Show Tech</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/sub-interface_test"><i className="fa fa-angle-right"></i>Sub Interface</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/traceroute_ft_test"><i className="fa fa-angle-right"></i>Traceroute</Link>

@@ -139,6 +139,8 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/logrotate_user_guide"><i className="fa fa-angle-right"></i>Log Rotation</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/loopback-interfaces_user_guide"><i className="fa fa-angle-right"></i>Loopback Interfaces</Link>
+                  </Box>
                     <Link to="documents/user/mgmt_intf_user_guide"><i className="fa fa-angle-right"></i>Management Interface</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
@@ -169,6 +171,10 @@ module.exports = function (path, includeMenu) {
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/show_core-dump_user_guide"><i className="fa fa-angle-right"></i>Show Core</Link>
+                  </Box>
+                   </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/sub-interfaces_user_guide"><i className="fa fa-angle-right"></i>Sub Interface</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/show_tech_user_guide"><i className="fa fa-angle-right"></i>Show Tech</Link>
@@ -247,6 +253,9 @@ module.exports = function (path, includeMenu) {
                     <Link to="/documents/user/Logrotate_cli"><i className="fa fa-angle-right"></i>Log Rotation</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/loopback-interfaces_cli"><i className="fa fa-angle-right"></i>Loopback Interfaces</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/mgmt_intf_cli"><i className="fa fa-angle-right"></i>Management Interface</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
@@ -277,6 +286,9 @@ module.exports = function (path, includeMenu) {
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/static-routes_cli"><i className="fa fa-angle-right"></i>Static Routes</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/sub-interfaces_cli"><i className="fa fa-angle-right"></i>Sub Interfaces</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/system_cli"><i className="fa fa-angle-right"></i>System</Link>
