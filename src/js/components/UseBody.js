@@ -168,16 +168,19 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/rest_api_user_guide"><i className="fa fa-angle-right"></i>REST API</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/sflow_user_guide"><i className="fa fa-angle-right"></i>Sflow</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/sftp_user_guide"><i className="fa fa-angle-right"></i>SFTP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/show_core-dump_user_guide"><i className="fa fa-angle-right"></i>Show Core</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/sub-interfaces_user_guide"><i className="fa fa-angle-right"></i>Sub Interface</Link>
+                    <Link to="documents/user/show_tech_user_guide"><i className="fa fa-angle-right"></i>Show Tech</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/show_tech_user_guide"><i className="fa fa-angle-right"></i>Show Tech</Link>
+                    <Link to="documents/user/sub-interfaces_user_guide"><i className="fa fa-angle-right"></i>Sub Interface</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/system_user_guide"><i className="fa fa-angle-right"></i>System</Link>
@@ -275,6 +278,9 @@ module.exports = function (path, includeMenu) {
                   </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/sflow_cli"><i className="fa fa-angle-right"></i>Sflow</Link>
+                  </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/sftp_cli"><i className="fa fa-angle-right"></i>SFTP</Link>
                   </Box>

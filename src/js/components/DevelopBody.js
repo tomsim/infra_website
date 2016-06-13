@@ -248,6 +248,9 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/syslog_remote_design"><i className="fa fa-angle-right"></i>Remote Syslog</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/sflow_design"><i className="fa fa-angle-right"></i>Sflow</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/sftp_design"><i className="fa fa-angle-right"></i>SFTP</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
