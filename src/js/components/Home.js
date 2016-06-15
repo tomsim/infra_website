@@ -147,6 +147,9 @@ var Home = React.createClass({
              <BarefootIcon />
             </Tile>
             <Tile justify="center" align="center" pad="small">
+             <BroadcomIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
               <CaviumIcon />
             </Tile>
             <Tile justify="center" align="center" pad="small">
@@ -203,9 +206,6 @@ var Home = React.createClass({
           </Headline>
           <hr style={{minWidth: '544px'}}/>
           <Tiles>
-            <Tile justify="center" align="center" pad="small">
-             <BroadcomIcon />
-            </Tile>
             <Tile justify="center" align="center" pad="small">
               <IntelIcon />
             </Tile>
