@@ -114,16 +114,19 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/cli_developer_guide"><i className="fa fa-angle-right"></i>CLI</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/custom_validators_design"><i className="fa fa-angle-right"></i>Custom Validators</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/diagnostic_dev_guide"><i className="fa fa-angle-right"></i>Diagnostics</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/event_logs_dev_guide"><i className="fa fa-angle-right"></i>Event Log</Link>
                   </Box>
+                </Box>
+              <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/ovsdb_improvements_how_to_guide"><i className="fa fa-angle-right"></i>OVSDB Improvements</Link>
                   </Box>
-                </Box>
-              <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/dev/how-to-process-isolation"><i className="fa fa-angle-right"></i>Process Isolation</Link>
                   </Box>
@@ -270,9 +273,6 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/vlan_design"><i className="fa fa-angle-right"></i>VLANS</Link>
-                </Box>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/custom_validators_design"><i className="fa fa-angle-right"></i>Custom Validators</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/ospfv2_design"><i className="fa fa-angle-right"></i>OSPF</Link>
