@@ -101,6 +101,9 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/bgp_user_guide"><i className="fa fa-angle-right"></i>BGP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/broadview_user_guide"><i className="fa fa-angle-right"></i>BroadView</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/checkmk-agent-user-guide"><i className="fa fa-angle-right"></i>Check_MK Agent</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
@@ -222,6 +225,9 @@ module.exports = function (path, includeMenu) {
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/bgp_cli"><i className="fa fa-angle-right"></i>BGP</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/broadview_cli"><i className="fa fa-angle-right"></i>BroadView</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/config_persistence_CLI"><i className="fa fa-angle-right"></i>Configuration Persistence</Link>
