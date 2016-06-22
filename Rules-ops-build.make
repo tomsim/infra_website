@@ -23,10 +23,10 @@ $(MARKDOWN_ROOT)/dev/$(1): $(MARKDOWN_ROOT)/dev src/$(1)
 	  fi \
 	fi
 	if [ -d src/$(1)/ops-tests/feature ] ; then \
-		find src/$(1)/ops-tests/feature -iname "*.md" -exec cp -Rf {} $(MARKDOWN_ROOT)/user \; ;\
+		find src/$(1)/ops-tests/feature -maxdepth 2 -iname "*.md" -exec cp -Rf {} $(MARKDOWN_ROOT)/user \; ;\
 	fi
 	if [ -d src/$(1)/ops-tests/component ] ; then \
-		find src/$(1)/ops-tests/component -iname "*.md" -exec cp -Rf {} $(MARKDOWN_ROOT)/dev/$(1) \; ;\
+		find src/$(1)/ops-tests/component -maxdepth 2 -iname "*.md" -exec cp -Rf {} $(MARKDOWN_ROOT)/dev/$(1) \; ;\
 	fi
 
 src/$(1):
@@ -45,10 +45,10 @@ update-website-$(1): $(MARKDOWN_ROOT)/dev/$(1)
 	  fi \
 	fi
 	if [ -d src/$(1)/ops-tests/feature ] ; then \
-		find src/$(1)/ops-tests/feature -iname "*.md" -exec cp -Rf {} $(MARKDOWN_ROOT)/user \; ;\
+		find src/$(1)/ops-tests/feature -maxdepth 2 -iname "*.md" -exec cp -Rf {} $(MARKDOWN_ROOT)/user \; ;\
 	fi
 	if [ -d src/$(1)/ops-tests/component ] ; then \
-		find src/$(1)/ops-tests/component -iname "*.md" -exec cp -Rf {} $(MARKDOWN_ROOT)/dev/$(1) \; ;\
+		find src/$(1)/ops-tests/component -maxdepth 2 -iname "*.md" -exec cp -Rf {} $(MARKDOWN_ROOT)/dev/$(1) \; ;\
 	fi
 
 endef
