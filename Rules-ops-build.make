@@ -2,7 +2,7 @@
 
 MARKDOWN_ROOT=src/ops-website/src/markdown/en-US/documents
 
-COMPONENTS = ops-cli ops-fand ops-ledd ops-powerd ops-pmd ops-sysd ops-restd ops-cfgd ops-intfd ops-tempd ops-openvswitch ops-aaa-utils ops-arpmgrd ops-bufmond ops-dhcp-tftp ops-ft-framework ops-lacpd ops-lldpd ops-mgmt-intf ops-portd ops-quagga ops-utils ops-vland ops-vsi ops-webui ops-hw-config ops-switchd-container-plugin ops-switchd-opennsl-plugin ops-ntpd ops-ansible ops-rbac ops-classifierd
+COMPONENTS = ops-cli ops-fand ops-ledd ops-powerd ops-pmd ops-sysd ops-restd ops-cfgd ops-intfd ops-tempd ops-openvswitch ops-aaa-utils ops-arpmgrd ops-bufmond ops-dhcp-tftp ops-ft-framework ops-lacpd ops-lldpd ops-mgmt-intf ops-portd ops-quagga ops-utils ops-vland ops-vsi ops-webui ops-hw-config ops-switchd-container-plugin ops-switchd-opennsl-plugin ops-ntpd ops-ansible ops-rbac ops-classifierd ops-switchd
 
 ops-website-setup: $(MARKDOWN_ROOT)/dev $(MARKDOWN_ROOT)/user $(foreach component,$(COMPONENTS),$(MARKDOWN_ROOT)/dev/$(component))
 
