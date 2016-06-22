@@ -486,6 +486,9 @@ module.exports = function (path, includeMenu) {
               </Box>
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/sflow_test"><i className="fa fa-angle-right"></i>Sflow</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/sftp_ft_test"><i className="fa fa-angle-right"></i>SFTP</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
