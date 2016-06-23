@@ -193,6 +193,9 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/checkmk-agent-design"><i className="fa fa-angle-right"></i>Check_MK Agent</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/copp_design"><i className="fa fa-angle-right"></i>Control Plane Policing (COPP)</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/copy_core-dump_design_doc"><i className="fa fa-angle-right"></i>Core Dump</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>

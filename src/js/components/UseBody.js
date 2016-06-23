@@ -110,6 +110,9 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/config_persistence_user_guide"><i className="fa fa-angle-right"></i>Configuration Persistence</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/copp_user_guide"><i className="fa fa-angle-right"></i>Control Plane Policing (COPP)</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/copy_core-dump_user_guide"><i className="fa fa-angle-right"></i>Core Dump</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
@@ -231,6 +234,9 @@ module.exports = function (path, includeMenu) {
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/config_persistence_CLI"><i className="fa fa-angle-right"></i>Configuration Persistence</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/copp_cli"><i className="fa fa-angle-right"></i>Control Plane Policing (COPP)</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/copy_core-dump_cli_guide"><i className="fa fa-angle-right"></i>Core Dump</Link>
