@@ -184,6 +184,9 @@ module.exports = function (path, includeMenu) {
             <Box direction="row">
               <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/access_list_design"><i className="fa fa-angle-right"></i>Access Control Lists (ACL)</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/bgp_feature_design"><i className="fa fa-angle-right"></i>BGP</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
@@ -250,6 +253,9 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/interface_design"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/qos_design"><i className="fa fa-angle-right"></i>Quality of Service (QoS)</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/rest_api_design"><i className="fa fa-angle-right"></i>REST and Declarative Config</Link>
