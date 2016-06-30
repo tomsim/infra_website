@@ -28,6 +28,9 @@ $(MARKDOWN_ROOT)/dev/$(1): $(MARKDOWN_ROOT)/dev src/$(1)
 	if [ -d src/$(1)/ops-tests/component ] ; then \
 		find src/$(1)/ops-tests/component -maxdepth 2 -iname "*.md" -exec cp -Rf {} $(MARKDOWN_ROOT)/dev/$(1) \; ;\
 	fi
+	if [ -d src/$(1)/src ] ; then \
+		find src/$(1)/src -maxdepth 5 -iname "*_design.md" -exec cp -Rf {} $(MARKDOWN_ROOT)/user \; ;\
+	fi
 
 src/$(1):
 	$(V) $(MAKE) devenv_add $(1)
@@ -49,6 +52,9 @@ update-website-$(1): $(MARKDOWN_ROOT)/dev/$(1)
 	fi
 	if [ -d src/$(1)/ops-tests/component ] ; then \
 		find src/$(1)/ops-tests/component -maxdepth 2 -iname "*.md" -exec cp -Rf {} $(MARKDOWN_ROOT)/dev/$(1) \; ;\
+	fi
+	if [ -d src/$(1)/src ] ; then \
+		find src/$(1)/src -maxdepth 5 -iname "*_design.md" -exec cp -Rf {} $(MARKDOWN_ROOT)/user \; ;\
 	fi
 
 endef
