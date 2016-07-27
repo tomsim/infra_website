@@ -139,6 +139,9 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/show-tech_dev_guide"><i className="fa fa-angle-right"></i>Show Tech</Link>
                   </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/show_vlog_dev_guide"><i className="fa fa-angle-right"></i>Vlog</Link>
+                  </Box>
                 </Box>
             </Box>
           </Box>
@@ -294,6 +297,9 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/version_design"><i className="fa fa-angle-right"></i>Versioning</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/show_vlog_design"><i className="fa fa-angle-right"></i>Vlog</Link>
                 </Box>
               </Box>
              </Box>
@@ -520,6 +526,9 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/show_version_detail_cli_feature_test"><i className="fa fa-angle-right"></i>Versioning</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/show_vlog_test"><i className="fa fa-angle-right"></i>Vlog</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/webui_test"><i className="fa fa-angle-right"></i>Web UI</Link>

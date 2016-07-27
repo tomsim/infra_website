@@ -201,6 +201,9 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/vlan_user_guide"><i className="fa fa-angle-right"></i>VLANs</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/show_vlog_user_guide"><i className="fa fa-angle-right"></i>Vlog</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/webui_user_guide"><i className="fa fa-angle-right"></i>Web UI</Link>
                   </Box>
                 </Box>
@@ -319,6 +322,9 @@ module.exports = function (path, includeMenu) {
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/VLAN_cli"><i className="fa fa-angle-right"></i>VLANs</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/show_vlog_cli"><i className="fa fa-angle-right"></i>Vlog</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/vrf_cli"><i className="fa fa-angle-right"></i>VRF</Link>
