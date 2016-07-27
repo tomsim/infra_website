@@ -487,6 +487,9 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/pluggable_modules_test"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/qos_feature_test"><i className="fa fa-angle-right"></i>Quality of Service (QOS)</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/syslog_remote_test"><i className="fa fa-angle-right"></i>Remote Syslog</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
