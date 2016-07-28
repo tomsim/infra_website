@@ -95,10 +95,10 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/access_list_user_guide"><i className="fa fa-angle-right"></i>Access Control Lists(ACL)</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/aaa_user_guide"><i className="fa fa-angle-right"></i>Authentication (AAA CLI)</Link>
+                    <Link to="documents/user/ansible_user_guide"><i className="fa fa-angle-right"></i>Ansible</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/ansible_user_guide"><i className="fa fa-angle-right"></i>Ansible</Link>
+                    <Link to="documents/user/aaa_user_guide"><i className="fa fa-angle-right"></i>Authentication (AAA CLI)</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/bgp_user_guide"><i className="fa fa-angle-right"></i>BGP</Link>
@@ -121,6 +121,8 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/daemon_coredump_user_guide"><i className="fa fa-angle-right"></i>Daemon Core Dump</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/dhcp_tftp_user_guide"><i className="fa fa-angle-right"></i>DHCP/TFTP Server</Link>
                   </Box>
@@ -130,8 +132,6 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/show_events_user_guide"><i className="fa fa-angle-right"></i>Event Log</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/kernel_coredump_user_guide"><i className="fa fa-angle-right"></i>Kernel Core Dump</Link>
                   </Box>
@@ -153,6 +153,8 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/mgmt_intf_user_guide"><i className="fa fa-angle-right"></i>Management Interface</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/ntp_user_guide"><i className="fa fa-angle-right"></i>NTP</Link>
                   </Box>
@@ -165,8 +167,6 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/pluggable_modules_user_guide"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/qos_user_guide"><i className="fa fa-angle-right"></i>Quality of Service</Link>
                   </Box>
@@ -185,6 +185,8 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/show_core-dump_user_guide"><i className="fa fa-angle-right"></i>Show Core</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/show_tech_user_guide"><i className="fa fa-angle-right"></i>Show Tech</Link>
                   </Box>
@@ -206,8 +208,6 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/webui_user_guide"><i className="fa fa-angle-right"></i>Web UI</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/autoprovision_user_guide"><i className="fa fa-angle-right"></i>Zero Touch</Link>
                   </Box>
@@ -253,14 +253,14 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/diagnostic_cli"><i className="fa fa-angle-right"></i>Diagnostics</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/layer3_ecmp_cli"><i className="fa fa-angle-right"></i>ECMP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/show_events_cli"><i className="fa fa-angle-right"></i>Event Log</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/layer3_interface_cli"><i className="fa fa-angle-right"></i>L3 Interfaces</Link>
                   </Box>
@@ -283,6 +283,11 @@ module.exports = function (path, includeMenu) {
                     <Link to="/documents/user/ntp_cli"><i className="fa fa-angle-right"></i>NTP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/ospfv2_cli"><i className="fa fa-angle-right"></i>OSPF</Link>
+                  </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/interface_cli"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
@@ -294,8 +299,6 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/syslog_remote_cli"><i className="fa fa-angle-right"></i>Remote Syslog</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/sflow_cli"><i className="fa fa-angle-right"></i>Sflow</Link>
                   </Box>
@@ -314,6 +317,8 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/sub-interfaces_cli"><i className="fa fa-angle-right"></i>Sub Interfaces</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/system_cli"><i className="fa fa-angle-right"></i>System</Link>
                   </Box>
@@ -331,9 +336,6 @@ module.exports = function (path, includeMenu) {
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/autoprovision_CLI"><i className="fa fa-angle-right"></i>Zero Touch</Link>
-                  </Box>
-                  <Box pad={{ horizontal: "small" }}>
-                    <Link to="/documents/user/ospfv2_cli"><i className="fa fa-angle-right"></i>OSPF</Link>
                   </Box>
                 </Box>
                </Box>
