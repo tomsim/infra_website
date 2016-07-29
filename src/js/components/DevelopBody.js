@@ -368,6 +368,9 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/dev/ops-switchd-opennsl-plugin/design"><i className="fa fa-angle-right"></i>OpenNSL Plugin</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/dev/ops-snmpd/design"><i className="fa fa-angle-right"></i>OpenSwitch SNMP Service Daemon</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-openvswitch/design"><i className="fa fa-angle-right"></i>OpenVswitch Daemon</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>

@@ -283,6 +283,9 @@ module.exports = function (path, includeMenu) {
                     <Link to="/documents/user/ntp_cli"><i className="fa fa-angle-right"></i>NTP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/snmp_cli"><i className="fa fa-angle-right"></i>OpenSwitch SNMP Service Daemon</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/ospfv2_cli"><i className="fa fa-angle-right"></i>OSPF</Link>
                   </Box>
                 </Box>
