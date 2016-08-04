@@ -134,13 +134,16 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/rbachowtoguide"><i className="fa fa-angle-right"></i>RBAC</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/source_interface_design"><i className="fa fa-angle-right"></i>Source IP selection</Link>
+                    <Link to="documents/user/show-tech_dev_guide"><i className="fa fa-angle-right"></i>Show Tech</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/show-tech_dev_guide"><i className="fa fa-angle-right"></i>Show Tech</Link>
+                    <Link to="documents/user/how_to_support_a_mib"><i className="fa fa-angle-right"></i>SNMP</Link>
                   </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/source_interface_design"><i className="fa fa-angle-right"></i>Source IP selection</Link>
+                  </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/show_vlog_dev_guide"><i className="fa fa-angle-right"></i>Vlog</Link>
                   </Box>
