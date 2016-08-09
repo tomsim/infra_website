@@ -228,10 +228,10 @@ var Home = React.createClass({
           <Box direction="row">
             <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="/documents/user/boardMembers"><i className="fa fa-angle-right"></i>Board Members</Link>
+                  <a href="https://wiki.openswitch.net/governance:board-members" target="_blank"><i className="fa fa-angle-right"></i>Board Members</a>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/charter"><i className="fa fa-angle-right"></i>Project Charter</Link>
+                  <a href="https://wiki.openswitch.net/governance:charter" target="_blank"><i className="fa fa-angle-right"></i>Project Charter</a>
                 </Box>
             </Box>
           </Box>
