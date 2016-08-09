@@ -156,6 +156,9 @@ module.exports = function (path, includeMenu) {
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/mirror_user_guide"><i className="fa fa-angle-right"></i>Mirror</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/ntp_user_guide"><i className="fa fa-angle-right"></i>NTP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
@@ -278,6 +281,9 @@ module.exports = function (path, includeMenu) {
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/mgmt_intf_cli"><i className="fa fa-angle-right"></i>Management Interface</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/mirror_cli"><i className="fa fa-angle-right"></i>Mirror</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/ntp_cli"><i className="fa fa-angle-right"></i>NTP</Link>
