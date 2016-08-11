@@ -185,11 +185,11 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/sftp_user_guide"><i className="fa fa-angle-right"></i>SFTP</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/show_core-dump_user_guide"><i className="fa fa-angle-right"></i>Show Core</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/show_tech_user_guide"><i className="fa fa-angle-right"></i>Show Tech</Link>
                   </Box>
@@ -288,14 +288,14 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/ntp_cli"><i className="fa fa-angle-right"></i>NTP</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/snmp_cli"><i className="fa fa-angle-right"></i>OpenSwitch SNMP Service Daemon</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/ospfv2_cli"><i className="fa fa-angle-right"></i>OSPF</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/interface_cli"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
                   </Box>
@@ -320,14 +320,14 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/show_tech_cli"><i className="fa fa-angle-right"></i>Show Tech</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/static-routes_cli"><i className="fa fa-angle-right"></i>Static Routes</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/sub-interfaces_cli"><i className="fa fa-angle-right"></i>Sub Interfaces</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/system_cli"><i className="fa fa-angle-right"></i>System</Link>
                   </Box>

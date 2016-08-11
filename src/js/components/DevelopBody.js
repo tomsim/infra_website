@@ -376,11 +376,11 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-openvswitch/design"><i className="fa fa-angle-right"></i>OpenVswitch Daemon</Link>
                 </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-pmd/design"><i className="fa fa-angle-right"></i>Pluggable Module Daemon</Link>
                 </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-powerd/design"><i className="fa fa-angle-right"></i>Power Daemon</Link>
                 </Box>
@@ -408,11 +408,11 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-vsi/design"><i className="fa fa-angle-right"></i>Virtual Switch Image (Test Framework)</Link>
                 </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-vland/design"><i className="fa fa-angle-right"></i>VLAN Daemon</Link>
                 </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/dev/ops-webui/design"><i className="fa fa-angle-right"></i>Web UI</Link>
                 </Box>
