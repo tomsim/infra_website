@@ -27,6 +27,7 @@ var QuattroIcon = require('./icons/Quattro');
 var CaviumIcon = require('./icons/Cavium');
 var LinkedInIcon = require('./icons/Linkedin');
 var NephosIcon = require('./icons/Nephos');
+var TerralogicIcon = require('./icons/Terralogic');
 var ExtremeIcon = require('./icons/Extreme');
 var P4orgIcon = require('./icons/P4org');
 var SnapRouteIcon = require('./icons/SnapRoute');
@@ -178,6 +179,9 @@ var Home = React.createClass({
             </Tile>
             <Tile justify="center" align="center" pad="small">
               <SnapRouteIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
+              <TerralogicIcon />
             </Tile>
           </Tiles>
           <Headline small={true}>
