@@ -540,11 +540,14 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <span>VLANs</span>
                 </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/vlan_modes_ft"><i className="fa fa-angle-right"></i>VLAN</Link>
+                </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/show_version_detail_cli_feature_test"><i className="fa fa-angle-right"></i>Versioning</Link>
                 </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/show_vlog_test"><i className="fa fa-angle-right"></i>Vlog</Link>
                 </Box>
