@@ -159,6 +159,9 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/mirror_user_guide"><i className="fa fa-angle-right"></i>Mirror</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/mstp_user_guide"><i className="fa fa-angle-right"></i>MSTP</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/ntp_user_guide"><i className="fa fa-angle-right"></i>NTP</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
@@ -182,11 +185,11 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/sflow_user_guide"><i className="fa fa-angle-right"></i>Sflow</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/sftp_user_guide"><i className="fa fa-angle-right"></i>SFTP</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/show_core-dump_user_guide"><i className="fa fa-angle-right"></i>Show Core</Link>
                   </Box>
@@ -286,10 +289,13 @@ module.exports = function (path, includeMenu) {
                     <Link to="/documents/user/mirror_cli"><i className="fa fa-angle-right"></i>Mirror</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="/documents/user/ntp_cli"><i className="fa fa-angle-right"></i>NTP</Link>
+                    <Link to="/documents/user/mstp_cli"><i className="fa fa-angle-right"></i>MSTP</Link>
                   </Box>
                 </Box>
                 <Box direction="column" align="start" responsive={true}>
+                  <Box pad={{ horizontal: "small" }}>
+                    <Link to="/documents/user/ntp_cli"><i className="fa fa-angle-right"></i>NTP</Link>
+                  </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/snmp_cli"><i className="fa fa-angle-right"></i>OpenSwitch SNMP Service Daemon</Link>
                   </Box>
@@ -317,11 +323,11 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/show_core-dump_cli_guide"><i className="fa fa-angle-right"></i>Show Core</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/show_tech_cli"><i className="fa fa-angle-right"></i>Show Tech</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="/documents/user/static-routes_cli"><i className="fa fa-angle-right"></i>Static Routes</Link>
                   </Box>

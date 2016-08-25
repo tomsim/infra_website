@@ -248,13 +248,16 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/mgmt_intf_design"><i className="fa fa-angle-right"></i>Management Interface</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/ospfv2_design"><i className="fa fa-angle-right"></i>OSPF</Link>
+                  <Link to="documents/user/mstpd_design"><i className="fa fa-angle-right"></i>MSTP</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/ovsdb_improvements_design"><i className="fa fa-angle-right"></i>OVSDB Improvements</Link>
+                  <Link to="documents/user/ospfv2_design"><i className="fa fa-angle-right"></i>OSPF</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
+                <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/ovsdb_improvements_design"><i className="fa fa-angle-right"></i>OVSDB Improvements</Link>
+                </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/interface_design"><i className="fa fa-angle-right"></i>Phy Interfaces</Link>
                 </Box>
@@ -282,11 +285,11 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/sftp_design"><i className="fa fa-angle-right"></i>SFTP</Link>
                 </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/show_core-dump_design_doc"><i className="fa fa-angle-right"></i>Show Core</Link>
                 </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/show_tech_design"><i className="fa fa-angle-right"></i>Show Tech</Link>
                 </Box>
