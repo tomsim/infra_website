@@ -37,7 +37,7 @@ src/$(1):
 
 update-website-$(1): $(MARKDOWN_ROOT)/dev/$(1)
 	$(V) $(ECHO) Updating $(1)...
-	$(V) cd src/$(1) ; git pull || true
+	$(V) cd src/$(1) ; git pull origin master || true
 	$(V) if [ -f src/$(1)/DESIGN.md ] ; then \
 	  cp -R src/$(1)/DESIGN.md $(MARKDOWN_ROOT)/dev/$(1) ; \
 	else \
@@ -80,8 +80,8 @@ ops-website-dist:
 
 ops-website-update:
 	$(V)rm -Rf $(MARKDOWN_ROOT)/user $(MARKDOWN_ROOT)/dev
-	$(V)cd $(BUILD_ROOT)/src/ops; git pull || true
-	$(V)cd $(BUILD_ROOT)/src/ops-docs; git pull || true
-	$(V)cd $(BUILD_ROOT)/src/ops-website; git pull || true
+	$(V)cd $(BUILD_ROOT)/src/ops; git pull origin master || true
+	$(V)cd $(BUILD_ROOT)/src/ops-docs; git pull origin master || true
+	$(V)cd $(BUILD_ROOT)/src/ops-website; git pull origin master || true
 	$(V)$(MAKE) $(MARKDOWN_ROOT)/user $(MARKDOWN_ROOT)/dev
 	$(V)$(MAKE) $(foreach component,$(COMPONENTS),update-website-$(component))
