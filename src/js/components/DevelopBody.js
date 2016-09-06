@@ -538,13 +538,10 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/traceroute_ft_test"><i className="fa fa-angle-right"></i>Traceroute</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
-                  <span>VLANs</span>
+                  <Link to="documents/user/vlan_modes_ft"><i className="fa fa-angle-right"></i>VLANs</Link>
                 </Box>
               </Box>
               <Box direction="column" align="start" responsive={true}>
-                <Box pad={{ horizontal: "small" }}>
-                  <Link to="documents/user/vlan_modes_ft"><i className="fa fa-angle-right"></i>VLAN</Link>
-                </Box>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/show_version_detail_cli_feature_test"><i className="fa fa-angle-right"></i>Versioning</Link>
                 </Box>
