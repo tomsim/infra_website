@@ -174,6 +174,9 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/pluggable_modules_user_guide"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
+                    <Link to="documents/user/ofdpa_hybrid_functionality_guide.md"><i className="fa fa-angle-right"></i>OF-DPA OpenFlow Hybrid Switch</Link>
+                  </Box>
+                  <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/qos_user_guide"><i className="fa fa-angle-right"></i>Quality of Service</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
@@ -182,11 +185,11 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/rest_api_user_guide"><i className="fa fa-angle-right"></i>REST API</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/sflow_user_guide"><i className="fa fa-angle-right"></i>Sflow</Link>
                   </Box>
-                </Box>
-                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/sftp_user_guide"><i className="fa fa-angle-right"></i>SFTP</Link>
                   </Box>
@@ -214,6 +217,8 @@ module.exports = function (path, includeMenu) {
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/webui_user_guide"><i className="fa fa-angle-right"></i>Web UI</Link>
                   </Box>
+                </Box>
+                <Box direction="column" align="start" responsive={true}>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/autoprovision_user_guide"><i className="fa fa-angle-right"></i>Zero Touch</Link>
                   </Box>

@@ -271,6 +271,9 @@ module.exports = function (path, includeMenu) {
                   <Link to="documents/user/power_management_design"><i className="fa fa-angle-right"></i>Power Management</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
+                  <Link to="documents/user/ofdpa_hybrid_design"><i className="fa fa-angle-right"></i>OF-DPA OpenFlow Hybrid Switch</Link>
+                </Box>
+                <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/qos_design"><i className="fa fa-angle-right"></i>Quality of Service (QoS)</Link>
                 </Box>
                 <Box pad={{ horizontal: "small" }}>
@@ -282,11 +285,11 @@ module.exports = function (path, includeMenu) {
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/sflow_design"><i className="fa fa-angle-right"></i>Sflow</Link>
                 </Box>
+              </Box>
+              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/sftp_design"><i className="fa fa-angle-right"></i>SFTP</Link>
                 </Box>
-              </Box>
-              <Box direction="column" align="start" responsive={true}>
                 <Box pad={{ horizontal: "small" }}>
                   <Link to="documents/user/show_core-dump_design_doc"><i className="fa fa-angle-right"></i>Show Core</Link>
                 </Box>
