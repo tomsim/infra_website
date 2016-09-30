@@ -174,7 +174,7 @@ module.exports = function (path, includeMenu) {
                     <Link to="documents/user/pluggable_modules_user_guide"><i className="fa fa-angle-right"></i>Pluggable Modules</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
-                    <Link to="documents/user/ofdpa_hybrid_functionality_guide.md"><i className="fa fa-angle-right"></i>OF-DPA OpenFlow Hybrid Switch</Link>
+                    <Link to="documents/user/ofdpa_hybrid_functionality_guide"><i className="fa fa-angle-right"></i>OF-DPA OpenFlow Hybrid Switch</Link>
                   </Box>
                   <Box pad={{ horizontal: "small" }}>
                     <Link to="documents/user/qos_user_guide"><i className="fa fa-angle-right"></i>Quality of Service</Link>
