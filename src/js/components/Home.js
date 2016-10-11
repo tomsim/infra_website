@@ -32,6 +32,7 @@ var ExtremeIcon = require('./icons/Extreme');
 var P4orgIcon = require('./icons/P4org');
 var SnapRouteIcon = require('./icons/SnapRoute');
 var EdgeNetworkIcon = require('./icons/EdgeNetwork');
+var CentecIcon = require('./icons/Centec');
 
 var Header = require('./Header');
 var Footer = require('./Footer');
@@ -168,6 +169,9 @@ var Home = React.createClass({
           </Headline>
           <hr style={{minWidth: '544px'}}/>
           <Tiles fill={true} flush={false}>
+            <Tile justify="center" align="center" pad="small">
+             <CentecIcon />
+            </Tile>
             <Tile justify="center" align="center" pad="small">
              <EdgeNetworkIcon />
             </Tile>
