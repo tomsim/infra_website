@@ -33,6 +33,7 @@ var P4orgIcon = require('./icons/P4org');
 var SnapRouteIcon = require('./icons/SnapRoute');
 var EdgeNetworkIcon = require('./icons/EdgeNetwork');
 var CentecIcon = require('./icons/Centec');
+var DellIcon = require('./icons/Dell');
 
 var Header = require('./Header');
 var Footer = require('./Footer');
@@ -155,6 +156,9 @@ var Home = React.createClass({
               <CaviumIcon />
             </Tile>
             <Tile justify="center" align="center" pad="small">
+              <DellIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
               <ExtremeIcon />
             </Tile>
             <Tile justify="center" align="center" pad="small">
@@ -162,6 +166,9 @@ var Home = React.createClass({
             </Tile>
             <Tile justify="center" align="center" pad="small">
               <MellanoxIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
+              <SnapRouteIcon />
             </Tile>
           </Tiles>
           <Headline small={true}>
@@ -180,9 +187,6 @@ var Home = React.createClass({
             </Tile>
             <Tile justify="center" align="center" pad="small">
               <QuattroIcon />
-            </Tile>
-            <Tile justify="center" align="center" pad="small">
-              <SnapRouteIcon />
             </Tile>
             <Tile justify="center" align="center" pad="small">
               <TerralogicIcon />
