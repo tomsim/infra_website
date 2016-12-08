@@ -33,7 +33,6 @@ var Dell = React.createClass({
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    viewBox="0 0 300 60"
-   width="190 px"
    xml:space="preserve"
    id="svg2"
    version="1.1"><metadata
