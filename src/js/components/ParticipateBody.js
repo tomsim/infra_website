@@ -67,6 +67,7 @@ module.exports = function (path, includeMenu) {
                 <Link to="documents/user/participatehome"><i className="fa fa-angle-right"></i>Getting Started</Link>
                 <Link to="documents/dev/ops-release-process"><i className="fa fa-angle-right"></i>Release Management</Link>
                 <a href="http://governance.openswitch.net/" target="_blank"><i className="fa fa-angle-right"></i>Governance Documentation</a>
+                <a href="https://archive.openswitch.net/website/OpenSwitchProject-ParticipationAgreementandCharter_v5_2016.12.12.pdf" target="_blank"><i className="fa fa-angle-right"></i>Become a Member</a>
               </Box>
             </Box>
           </Box>
