@@ -57,7 +57,7 @@ module.exports = function (path, includeMenu) {
           <Box direction="column">
             <Headline>How to Participate</Headline>
             <p>
-              Learn how to join the community and become more involved.
+              Join the community and become more involved.
             </p>
             <b>More Information</b>
             <Box direction="row" align="start" responsive={true}>
