@@ -17,7 +17,6 @@ var ConsoleIcon = require('./icons/Console');
 var CommunityIcon = require('./icons/Community');
 var IntelIcon = require('./icons/Intel');
 var HPEIcon = require('./icons/HPE');
-var AristaIcon = require('./icons/Arista');
 var VMwareIcon = require('./icons/Vmware');
 var BroadcomIcon = require('./icons/Broadcom');
 var QosmosIcon = require('./icons/Qosmos');
@@ -106,13 +105,8 @@ var Home = React.createClass({
               <Headline strong={true}>Developers Welcome!</Headline>
               <p><strong>
                 Ready to help drive the future of Networking?</strong></p>
-              <p>OpenSwitch is a truly open and collaborative environment that helps developers innovate and produce modern and modular code. If you’re ready to be the innovator of the future (or maybe just want to tinker with the source code), get started today.
+              <p>OpenSwitch is a truly open and collaborative environment that helps developers innovate and produce modern and modular code. If you’re ready to be the innovator of the future (or maybe just want to tinker with the source code), get started today.  Take a look our documentation or Github site.
               </p>
-              <Menu direction="row">
-                <Link to="develop">
-                  <Button label="Get started Here" onClick={this._onClick} primary={true} />
-                </Link>
-              </Menu>
             </Box>
           </Box>
         </HomeSection>
@@ -219,9 +213,6 @@ var Home = React.createClass({
             </Tile>
             <Tile justify="center" align="center" pad="small">
               <VMwareIcon />
-            </Tile>
-            <Tile justify="center" align="center" pad="small">
-              <AristaIcon />
             </Tile>
             <Tile justify="center" align="center" pad="small">
               <QosmosIcon />
