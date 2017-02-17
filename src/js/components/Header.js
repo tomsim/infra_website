@@ -38,7 +38,8 @@ var Header = React.createClass({
         <Menu direction="row" responsive={false} media={this.props.menuMedia}>
           <Link to="use">{this.getGrommetIntlMessage('Use')}</Link>
           <Link to="participate">{this.getGrommetIntlMessage('Participate')}</Link>
-          <Link to="develop">{this.getGrommetIntlMessage('Develop')}</Link>
+          <a href="https://github.com/open-switch">Github</a>
+          <a href="https://github.com/open-switch/opx-docs/wiki">Docs</a>
         </Menu>
       </GrommetHeader>
       </div>
