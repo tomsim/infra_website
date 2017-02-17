@@ -2,8 +2,6 @@ var React = require('react');
 var Router = require('react-router');
 var Route = Router.Route;
 
-var Link = require('react-router').Link;
-
 var Article = require('grommet/components/Article');
 var Section = require('grommet/components/Section');
 var Box = require('grommet/components/Box');
@@ -65,8 +63,8 @@ module.exports = function (path, includeMenu) {
             OpenSwitch is also developing a Virtual Machine that is useful for testing and demo purposes.
             </p>
             <Box pad={{ horizontal: "small" }}>
-	      <a href="https://github.com/open-switch/opx-build">Learn how to build OPX Base</>
-	      <a href="https://github.com/open-switch/opx-docs/wiki">OPX Base Documentation</>
+	      <a href="https://github.com/open-switch/opx-build">Learn how to build OPX Base</a>
+	      <a href="https://github.com/open-switch/opx-docs/wiki">OPX Base Documentation</a>
             </Box>
           </Section>
           <Footer />
