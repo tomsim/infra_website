@@ -84,7 +84,7 @@ module.exports = function (path, includeMenu) {
                 <a href="http://lists.openswitch.net" target="_blank"><i className="fa fa-angle-right"></i>Mailing lists</a>
               </Box>
               <Box pad={{ horizontal: "small" }}>
-                <Link to="documents/dev/white-papers"><i className="fa fa-angle-right"></i>White Papers</Link>
+		<a href="https://github.com/open-switch/opx-docs/wiki">OpenSwitch Docs</a>
               </Box>
             </Box>
             <Box direction="column" align="start" responsive={true}>

@@ -50,9 +50,6 @@ module.exports = function (path, includeMenu) {
           textCentered={true} pad={{vertical: "none"}}>
           <Menu direction="row" align="end" responsive={false} >
             <p><i className="fa fa-caret-right"></i><a href="#installing" className="scroll">Installing</a></p>
-            <p><i className="fa fa-caret-right"></i><a href="#downloads" className="scroll">Downloads</a></p>
-            <p><i className="fa fa-caret-right"></i><a href="#userguides" className="scroll">User Guides</a></p>
-            <p><i className="fa fa-caret-right"></i><a href="#references" className="scroll">References</a></p>
           </Menu>
           </Section>
 
