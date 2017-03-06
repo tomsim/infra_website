@@ -31,6 +31,7 @@ var P4orgIcon = require('./icons/P4org');
 var SnapRouteIcon = require('./icons/SnapRoute');
 var EdgeNetworkIcon = require('./icons/EdgeNetwork');
 var DellIcon = require('./icons/Dell');
+var InnoviumIcon = require('./icons/Innovium');
 
 var Header = require('./Header');
 var Footer = require('./Footer');
@@ -176,6 +177,9 @@ var Home = React.createClass({
             </Tile>
             <Tile justify="center" align="center" pad="small">
               <QuattroIcon />
+            </Tile>
+            <Tile justify="center" align="center" pad="small">
+              <InnoviumIcon />
             </Tile>
           </Tiles>
           <Headline small={true}>
