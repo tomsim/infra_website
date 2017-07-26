@@ -67,6 +67,9 @@ var Home = React.createClass({
           <OpenSwitchLogo a11yTitle=""/>
           <Headline large={true}><b>OpenSwitch</b></Headline>
           <Headline small={true}>
+            This website has been deprecated and replaced. Please visit www.openswitch.net
+          </Headline>
+          <Headline small={true}>
             Community-Based, Open Source,
           </Headline>
           <Headline small={true}>
